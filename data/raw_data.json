@@ -1,0 +1,194 @@
+[
+  {
+    "Name": "Urania",
+    "Map": "https://maps.app.goo.gl/BgnZ8VBAJugrZ2pK6",
+    "Opens": "14:00",
+    "Closes": "23:00"
+  },
+  {
+    "Name": "Altes AKH",
+    "Map": "https://goo.gl/maps/vLFEPeaSVHzfksP77",
+    "Opens": "11:00",
+    "Closes": "23:00"
+  },
+  {
+    "Name": "Am Hof",
+    "Map": "https://goo.gl/maps/2cMY3oeEZbqstDtP6",
+    "Opens": "10:00",
+    "Closes": "21:00"
+  },
+  {
+    "Name": "Spittelberg",
+    "Map": "https://goo.gl/maps/M1cs1DnR1NJRnzPy5",
+    "Opens": "10:00",
+    "Closes": "21:30"
+  },
+  {
+    "Name": "Stephansplatz",
+    "Map": "https://goo.gl/maps/Bg3JX4wNoKwmnpv5A",
+    "Opens": "11:00",
+    "Closes": "21:00"
+  },
+  {
+    "Name": "Opera",
+    "Map": "https://goo.gl/maps/zRGFceVt4vgKmicm7",
+    "Opens": "12:00",
+    "Closes": "22:00"
+  },
+  {
+    "Name": "Türkenschanzpark",
+    "Map": "https://goo.gl/maps/SmpWwiEbWanCXuLUA",
+    "Opens": "12:00",
+    "Closes": "22:00"
+  },
+  {
+    "Name": "Maria-Theresien-Platz",
+    "Map": "https://goo.gl/maps/dLFGPAZB7E5UHQNt6",
+    "Opens": "11:00",
+    "Closes": "21:00"
+  },
+  {
+    "Name": "Blumengärten Hirschstetten",
+    "Map": "https://goo.gl/maps/UodxLTKcLArtyG9i8",
+    "Opens": "10:00",
+    "Closes": "22:00"
+  },
+  {
+    "Name": "Palais Liechtenstein",
+    "Map": "https://goo.gl/maps/qnUX4zmdazoCtY3x9",
+    "Opens": "11:00",
+    "Closes": "21:00"
+  },
+  {
+    "Name": "Belvedere",
+    "Map": "https://maps.app.goo.gl/uyTZiLbpsGLwvhH26",
+    "Opens": "10:00",
+    "Closes": "21:00"
+  },
+  {
+    "Name": "Karlsplatz",
+    "Map": "https://goo.gl/maps/9UAJTtsxSRAmrPuU7",
+    "Opens": "12:00",
+    "Closes": "20:00"
+  },
+  {
+    "Name": "Messe",
+    "Map": "https://goo.gl/maps/mgUHYBriHmwAFcK19",
+    "Opens": "14:00",
+    "Closes": "22:00"
+  },
+  {
+    "Name": "Altwiener Christkindlmarkt",
+    "Map": "https://goo.gl/maps/QbTxRmduaxttA3Tz5",
+    "Opens": "10:00",
+    "Closes": "21:00"
+  },
+  {
+    "Name": "Biobauern-Adventmarkt",
+    "Map": "https://goo.gl/maps/Fc8DGKbv3aMZjVec7",
+    "Opens": "10:00",
+    "Closes": "19:30"
+  },
+  {
+    "Name": "Rathaus",
+    "Map": "https://goo.gl/maps/Xq7g7TsExSszrhsB6",
+    "Opens": "10:00",
+    "Closes": "21:30"
+  },
+  {
+    "Name": "Schönbrunn",
+    "Map": "https://goo.gl/maps/KY6oixzsxM5PVjvb8",
+    "Opens": "10:00",
+    "Closes": "21:00"
+  },
+  {
+    "Name": "Prater / Riesenrad",
+    "Map": "https://goo.gl/maps/bJ2obKMdq2nZWiQE6",
+    "Opens": "11:00",
+    "Closes": "22:00"
+  },
+  {
+    "Name": "Mittelalterlicher Adventmarkt",
+    "Map": "https://goo.gl/maps/r2EJuj1KivV2HmYj9",
+    "Opens": "09:00",
+    "Closes": "22:00"
+  },
+  {
+    "Name": "Weihnachtsmarkt am Michaelerplatz",
+    "Map": "https://goo.gl/maps/vyGZaJK2gnvRvje98",
+    "Opens": "10:00",
+    "Closes": "20:00"
+  },
+  {
+    "Name": "Schloss Wilhelminenberg",
+    "Map": "https://goo.gl/maps/LYSYyQ6LfiwkFGXq8",
+    "Opens": "11:00",
+    "Closes": "20:00"
+  },
+  {
+    "Name": "Advent in der Stallburg",
+    "Map": "https://goo.gl/maps/tiqojzWBSU2VVfTw9",
+    "Opens": "11:00",
+    "Closes": "20:00"
+  },
+  {
+    "Name": "Adventmarkt Mariahilf",
+    "Map": "https://goo.gl/maps/KhmGod5UH9k7GFYp9",
+    "Opens": "09:00",
+    "Closes": "20:00"
+  },
+  {
+    "Name": "IKEA Westbahnhof",
+    "Map": "https://goo.gl/maps/fV8e9wMTG611ZJTZ6",
+    "Opens": "14:00",
+    "Closes": "20:00"
+  },
+  {
+    "Name": "Christkindlmarkt Floridsdorf (am Franz-Jonas-Platz)",
+    "Map": "https://goo.gl/maps/cRwood7CfKZVjyCe8",
+    "Opens": "09:00",
+    "Closes": "21:00"
+  },
+  {
+    "Name": "Adventmark Verkehrsmuseum Remise",
+    "Map": "https://goo.gl/maps/6PJ6FzGiNYF7LQun7",
+    "Opens": "14:00",
+    "Closes": "21:00"
+  },
+  {
+    "Name": "Weihnacht im Wald",
+    "Map": "https://goo.gl/maps/UaQ2izUcyZzfHr1GA",
+    "Opens": "16:00",
+    "Closes": "21:00"
+  },
+  {
+    "Name": "Adventmarkt Favoriten",
+    "Map": "https://goo.gl/maps/5a92CE7tc1PdRnVo6",
+    "Opens": "10:00",
+    "Closes": "20:30"
+  },
+  {
+    "Name": "Winterzauber im Böhmischen Prater",
+    "Map": "https://goo.gl/maps/u6Smhr98B1iztBrg8",
+    "Opens": "11:00",
+    "Closes": "21:00"
+  },
+  {
+    "Name": "Adventmarkt Meidling",
+    "Map": "https://goo.gl/maps/pVgbJNCYryCeyaRt8",
+    "Opens": "10:00",
+    "Closes": "20:30"
+  },
+  {
+    "Name": "Ottakringer Weihnachtszauber",
+    "Map": "https://goo.gl/maps/X2yJEAZA8HF1c5Y86",
+    "Opens": "11:00",
+    "Closes": "22:00"
+  },
+  {
+    "Name": "Adventmarkt im Schloss Neugebäude",
+    "Map": "https://goo.gl/maps/SVhtiYyTX69Fnqw97",
+    "Opens": "10:00",
+    "Closes": "20:00"
+  }
+]
