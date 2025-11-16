@@ -43,7 +43,7 @@ def calculate_travel_times(api_key, markets_data):
                     if directions:
                         travel_times[mode] = int(directions[0]['legs'][0]['duration']['value'])
                     else:
-                        travel_times[mode] = "Not available"
+                        travel_times[mode] = None
                 except googlemaps.exceptions.ApiError as e:
                     tqdm.write(f"API Error for {origin_name} to {destination_name} ({mode}): {e}")
                     travel_times[mode] = "API Error"

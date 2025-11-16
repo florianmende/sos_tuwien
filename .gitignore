@@ -209,3 +209,6 @@ __marimo__/
 
 # Poetry
 poetry.lock
+
+# Spade
+server.db

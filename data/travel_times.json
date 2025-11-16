@@ -2179,7 +2179,7 @@
         "15": {
             "driving": 0,
             "walking": 0,
-            "transit": "Not available"
+            "transit": null
         },
         "16": {
             "driving": 455,
@@ -2336,7 +2336,7 @@
         "14": {
             "driving": 0,
             "walking": 0,
-            "transit": "Not available"
+            "transit": null
         },
         "15": {
             "driving": 0,
