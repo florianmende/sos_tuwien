@@ -20,7 +20,7 @@ Travel times for the dataset were calculated at 11/08/2025 12:20.
 spade requires sqlite to run the XMPP server, run these commands to install it
 
 ```
-sudo apt install libsqlite3-dev`
+sudo apt install libsqlite3-dev
 pyenv install --force 3.11.10
 poetry env remove python3.11
 poetry install
