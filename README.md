@@ -2,7 +2,7 @@
 
 ## Problem
 
-The Christmas market problem is very similar to a generalization of the TSP problem, called [Orienteering Problemwith Time Windows](https://www.jstor.org/stable/2583018)
+The Christmas market problem is very similar to a generalization of the TSP problem, called [Orienteering Problem with Time Windows](https://www.jstor.org/stable/2583018)
 
 ## Data Preparation
 
@@ -17,7 +17,13 @@ Travel times for the dataset were calculated at 11/08/2025 12:20.
 
 ## Setup
 
-sudo apt install libsqlite3-dev
+spade requires sqlite to run the XMPP server, run these commands to install it
+
+```
+sudo apt install libsqlite3-dev`
 pyenv install --force 3.11.10
 poetry env remove python3.11
 poetry install
+```
+
+The run.sh script requires the XMPP server to be online, start it with run_xmpp_server.sh in a separate terminal
