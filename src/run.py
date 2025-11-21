@@ -176,13 +176,18 @@ async def run_ant_colony_optimization(markets, travel_times, service_time, days,
             ants.append(ant)
         
         ant_jids = [str(ant.jid) for ant in ants]
+        coordinator_jid = "coordinator@localhost"
         coordinator = CoordinatorAgent(
-            "coordinator@localhost",
+            coordinator_jid,
             "password123",
             pheromone_manager_jid=str(pheromone_mgr.jid),
             ant_jids=ant_jids,
             num_iterations=aco_params["num_iterations"]
         )
+        
+        # Update ants with coordinator JID
+        for ant in ants:
+            ant.coordinator_jid = coordinator_jid
         
         await pheromone_mgr.start(auto_register=True)
         for ant in ants:
