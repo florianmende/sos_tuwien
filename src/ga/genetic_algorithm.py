@@ -11,8 +11,9 @@ def evaluate_route(individual, markets, travel_times, service_time):
     if not individual or len(individual) == 0:
         return (0,)
     
-    # Convert 0-based indices to 1-based market IDs
-    market_sequence = [idx + 1 for idx in individual]
+    # Convert 0-based indices to valid market IDs
+    market_ids = [int(key) for key in markets.keys()]
+    market_sequence = [market_ids[idx] for idx in individual]
     
     feasible_route = []
     current_time = markets[str(market_sequence[0])]["opens_minutes"]
@@ -46,7 +47,9 @@ def get_feasible_route(individual, markets, travel_times, service_time):
     if not individual or len(individual) == 0:
         return []
     
-    market_sequence = [idx + 1 for idx in individual]
+    # Convert 0-based indices to valid market IDs
+    market_ids = [int(key) for key in markets.keys()]
+    market_sequence = [market_ids[idx] for idx in individual]
     
     feasible_route = []
     current_time = markets[str(market_sequence[0])]["opens_minutes"]
@@ -80,9 +83,11 @@ def run_ga(markets, travel_times, service_time=30,
     Returns:
         (best_route, best_fitness)
     """
-    # DEAP Setup
-    creator.create("FitnessMax", base.Fitness, weights=(1.0,))
-    creator.create("Individual", list, fitness=creator.FitnessMax)
+    # DEAP Setup (guard against re-creating classes when running GA multiple times)
+    if not hasattr(creator, "FitnessMax"):
+        creator.create("FitnessMax", base.Fitness, weights=(1.0,))
+    if not hasattr(creator, "Individual"):
+        creator.create("Individual", list, fitness=creator.FitnessMax)
     
     toolbox = base.Toolbox()
     

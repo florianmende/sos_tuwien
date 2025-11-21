@@ -1,7 +1,9 @@
+import asyncio
+import json
+
 from spade.agent import Agent
 from spade.behaviour import CyclicBehaviour
 from spade.template import Template
-import json
 
 
 class PheromoneManagerAgent(Agent):
@@ -10,11 +12,16 @@ class PheromoneManagerAgent(Agent):
     Maintains τ matrix and processes ant queries/deposits.
     """
     
-    def __init__(self, jid, password, num_locations, 
+    def __init__(self, jid, password, num_locations, markets,
                  initial_pheromone=1.0, decay=0.95):
         super().__init__(jid, password)
         self.num_locations = num_locations
         self.decay_coefficient = decay
+        self.markets = markets
+        
+        # map market ids to indices in the pheromone matrix
+        # needed because market ids are not necessarily sequential in the case of several days
+        self.market_to_index = {int(key): idx+1 for idx, key in enumerate(markets.keys())}
         
         self.pheromone = {}
         for i in range(1, num_locations + 1):
@@ -58,7 +65,10 @@ class PheromoneManagerAgent(Agent):
     class PheromoneQueryBehavior(CyclicBehaviour):
         """Responds to pheromone level queries from ants"""
         async def run(self):
-            msg = await self.receive(timeout=5)
+            try:
+                msg = await self.receive(timeout=5)
+            except asyncio.CancelledError:
+                return
             if msg:
                 data = json.loads(msg.body)
                 from_loc = data["from"]
@@ -81,7 +91,10 @@ class PheromoneManagerAgent(Agent):
     class PheromoneDepositBehavior(CyclicBehaviour):
         """Collects tour submissions from ants (no immediate update)"""
         async def run(self):
-            msg = await self.receive(timeout=5)
+            try:
+                msg = await self.receive(timeout=5)
+            except asyncio.CancelledError:
+                return
             if msg:
                 data = json.loads(msg.body)
                 tour = data["tour"]
@@ -96,7 +109,10 @@ class PheromoneManagerAgent(Agent):
     class IterationUpdateBehavior(CyclicBehaviour):
         """Updates pheromones after all ants complete iteration"""
         async def run(self):
-            msg = await self.receive(timeout=5)
+            try:
+                msg = await self.receive(timeout=10)
+            except asyncio.CancelledError:
+                return
             if msg:
                 self.agent.iteration += 1
                 
@@ -129,8 +145,10 @@ class PheromoneManagerAgent(Agent):
                         deposit_amount = reward * 2.0  # Boost for best solution
                         
                         for idx in range(len(self.agent.global_best_tour) - 1):
-                            from_loc = self.agent.global_best_tour[idx]
-                            to_loc = self.agent.global_best_tour[idx + 1]
+                            # map market ids to indices in the pheromone matrix
+                            from_loc = self.agent.market_to_index[self.agent.global_best_tour[idx]]
+                            to_loc = self.agent.market_to_index[self.agent.global_best_tour[idx + 1]]
+                            # update pheromone matrix
                             self.agent.pheromone[from_loc][to_loc] += deposit_amount
                 
                 # Clear tours for next iteration
@@ -145,7 +163,10 @@ class PheromoneManagerAgent(Agent):
     class BestSolutionBehavior(CyclicBehaviour):
         """Responds to best solution queries from coordinator"""
         async def run(self):
-            msg = await self.receive(timeout=5)
+            try:
+                msg = await self.receive(timeout=5)
+            except asyncio.CancelledError:
+                return
             if msg:
                 response = msg.make_reply()
                 if self.agent.best_solutions:

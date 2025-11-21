@@ -3,6 +3,7 @@ import json
 from spade.agent import Agent
 from spade.behaviour import PeriodicBehaviour
 from spade.message import Message
+from spade.template import Template
 
 
 class CoordinatorAgent(Agent):
@@ -56,8 +57,8 @@ class CoordinatorAgent(Agent):
             
             await self.send(msg)
             
-            response = await self.receive(timeout=2)
-            if response:
+            response = await self.receive(timeout=1)
+            if response and response.get_metadata("performative") == "best_solution_response":
                 data = json.loads(response.body)
                 num_visited = data.get("best_count", 0)
                 self.agent.best_solution = data

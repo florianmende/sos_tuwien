@@ -41,7 +41,7 @@ class AntAgent(Agent):
         def reset_tour(self):
             """Reset ant state for a new tour"""
             # Start at a random market
-            all_locations = list(range(1, len(self.agent.markets) + 1))
+            all_locations = [int(key) for key in self.agent.markets.keys()]
             start = random.choice(all_locations)
             
             self.agent.current_tour = [start]
