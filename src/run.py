@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
-from utils import load_market_data, evaluate_route_detailed
+from utils import load_market_data, evaluate_route_detailed, plot_route
 from ga import run_ga
 from aco import AntAgent, CoordinatorAgent, PheromoneManagerAgent
 
@@ -53,7 +53,7 @@ def run_genetic_algorithm(markets, travel_times, service_time, days):
             markets=markets,
             travel_times=travel_times,
             service_time=service_time,
-            population_size=100,
+            population_size=150,
             generations=300,
             verbose=True,
         )
@@ -143,9 +143,6 @@ async def run_ant_colony_optimization(markets, travel_times, service_time, days)
             best_route_all_days[day + 1] = best_route
             best_fitness_all_days[day + 1] = best_fitness
             
-            # if best_route:
-            #     evaluate_route_detailed(best_route, markets, travel_times, service_time=service_time)
-            
             markets = {key: value for key, value in markets.items() if int(key) not in best_route}
             
             print(f"Unvisited markets: {len(markets)}")
@@ -161,6 +158,7 @@ def main():
     parser.add_argument("--algorithm", choices=["aco", "ga", "all"], required=True)
     parser.add_argument("--days", type=int, default=1)
     parser.add_argument("--run_id", default=None, help="Optional identifier for this execution; defaults to timestamp")
+    parser.add_argument("--plot", action="store_true", help="Plot the routes")
     args = parser.parse_args()
     
     # Load data
@@ -183,11 +181,16 @@ def main():
         routes, fitnesses = run_genetic_algorithm(markets, travel_times, args.service_time, args.days)
         persist_results(output_dir, "ga", routes, fitnesses, run_id=run_id, service_time=args.service_time, days=args.days)
         
-    
+        if args.plot:
+            plot_route(routes, markets)
+            
     elif args.algorithm == "aco":
         routes, fitnesses = asyncio.run(run_ant_colony_optimization(markets, travel_times, args.service_time, args.days))
         persist_results(output_dir, "aco", routes, fitnesses, run_id=run_id, service_time=args.service_time, days=args.days)
-    
+        
+        if args.plot:
+            plot_route(routes, markets)
+            
     else:
         # Run GA
         ga_routes, ga_fitnesses = run_genetic_algorithm(markets, travel_times, args.service_time, args.days)
@@ -197,6 +200,10 @@ def main():
         aco_routes, aco_fitnesses = asyncio.run(run_ant_colony_optimization(markets, travel_times, args.service_time, args.days))
         persist_results(output_dir, "aco", aco_routes, aco_fitnesses, run_id=run_id, service_time=args.service_time, days=args.days)
         
+        if args.plot:
+            plot_route(ga_routes, markets)
+            plot_route(aco_routes, markets)
+
         # Compare
         print("\n" + "="*70)
         print("COMPARISON")
