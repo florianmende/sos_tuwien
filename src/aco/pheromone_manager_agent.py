@@ -72,17 +72,26 @@ class PheromoneManagerAgent(Agent):
                 return
             if msg:
                 data = json.loads(msg.body)
-                from_loc = data["from"]
-                to_loc = data["to"]
+                from_market_id = data["from"]
+                to_market_id = data["to"]
                 
-                pheromone_level = self.agent.pheromone.get(
-                    from_loc, {}
-                ).get(to_loc, 1.0)
+                # Map market IDs to indices in the pheromone matrix
+                try:
+                    from_loc = self.agent.market_to_index[from_market_id]
+                    to_loc = self.agent.market_to_index[to_market_id]
+                    
+                    pheromone_level = self.agent.pheromone.get(
+                        from_loc, {}
+                    ).get(to_loc, 1.0)
+                except KeyError:
+                    # If market ID not in mapping, return default pheromone value
+                    print(f"Market ID not in mapping: {from_market_id} -> {to_market_id}")
+                    pheromone_level = 1.0
                 
                 response = msg.make_reply()
                 response.body = json.dumps({
-                    "from": from_loc,
-                    "to": to_loc,
+                    "from": from_market_id,
+                    "to": to_market_id,
                     "pheromone": pheromone_level
                 })
                 response.set_metadata("performative", "pheromone_response")
