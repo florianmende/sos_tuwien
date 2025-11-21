@@ -18,6 +18,30 @@ def ensure_output_dir(run_id: Optional[str]):
     return target_dir, run_id
 
 
+def load_parameters(params_file: Optional[str]):
+    """
+    Load algorithm parameters from a JSON file.
+    
+    Args:
+        params_file: Path to JSON parameter file. If None, returns None.
+    
+    Returns:
+        Dictionary with 'ga' and/or 'aco' keys containing parameter dictionaries,
+        or None if params_file is None.
+    """
+    if params_file is None:
+        return None
+    
+    params_path = Path(params_file)
+    if not params_path.exists():
+        raise FileNotFoundError(f"Parameter file not found: {params_file}")
+    
+    with params_path.open("r", encoding="utf-8") as fp:
+        params = json.load(fp)
+    
+    return params
+
+
 def persist_results(output_dir: Path, algorithm: str, routes: dict, fitnesses: dict, *, run_id: str, service_time: int, days: int):
     serialised_routes = {str(day): route for day, route in routes.items()}
     serialised_fitnesses = {str(day): fitness for day, fitness in fitnesses.items()}
@@ -35,8 +59,17 @@ def persist_results(output_dir: Path, algorithm: str, routes: dict, fitnesses: d
     print(f"{algorithm.upper()} results saved to {output_path}")
 
 
-def run_genetic_algorithm(markets, travel_times, service_time, days):
-    """Run GA optimization."""
+def run_genetic_algorithm(markets, travel_times, service_time, days, params=None):
+    """
+    Run GA optimization.
+    
+    Args:
+        markets: Dictionary of market data
+        travel_times: Dictionary of travel times between markets
+        service_time: Service time per market in minutes
+        days: Number of days to optimize
+        params: Dictionary of GA parameters (see run_ga for details)
+    """
     print("\n" + "="*70)
     print("GENETIC ALGORITHM (DEAP)")
     print("="*70)
@@ -53,8 +86,7 @@ def run_genetic_algorithm(markets, travel_times, service_time, days):
             markets=markets,
             travel_times=travel_times,
             service_time=service_time,
-            population_size=150,
-            generations=300,
+            params=params,
             verbose=True,
         )
     
@@ -71,8 +103,40 @@ def run_genetic_algorithm(markets, travel_times, service_time, days):
     return best_route_all_days, best_fitness_all_days
 
 
-async def run_ant_colony_optimization(markets, travel_times, service_time, days):
-    """Run ACO optimization."""
+async def run_ant_colony_optimization(markets, travel_times, service_time, days, params=None):
+    """
+    Run ACO optimization.
+    
+    Args:
+        markets: Dictionary of market data
+        travel_times: Dictionary of travel times between markets
+        service_time: Service time per market in minutes
+        days: Number of days to optimize
+        params: Dictionary of ACO parameters. If None, uses defaults:
+            - num_ants: 20
+            - num_iterations: 5
+            - initial_pheromone: 1.0
+            - decay: 0.5
+            - alpha: 1.0 (pheromone weight)
+            - beta: 2.0 (heuristic weight)
+            - reward_multiplier: 2.0 (pheromone deposit multiplier)
+    """
+    # Default parameters
+    default_params = {
+        "num_ants": 20,
+        "num_iterations": 5,
+        "initial_pheromone": 1.0,
+        "decay": 0.5,
+        "alpha": 1.0,
+        "beta": 2.0,
+        "reward_multiplier": 2.0
+    }
+    
+    # Merge with provided parameters
+    if params is None:
+        params = {}
+    aco_params = {**default_params, **params}
+    
     print("\n" + "="*70)
     print("ANT COLONY OPTIMIZATION (SPADE)")
     print("="*70)
@@ -90,11 +154,12 @@ async def run_ant_colony_optimization(markets, travel_times, service_time, days)
             "password123",
             num_locations=len(markets),
             markets=markets,
-            initial_pheromone=1.0,
-            decay=0.5
+            initial_pheromone=aco_params["initial_pheromone"],
+            decay=aco_params["decay"],
+            reward_multiplier=aco_params["reward_multiplier"]
         )
         
-        num_ants = 20
+        num_ants = aco_params["num_ants"]
         ants = []
         for i in range(num_ants):
             ant = AntAgent(
@@ -104,7 +169,9 @@ async def run_ant_colony_optimization(markets, travel_times, service_time, days)
                 markets=markets,
                 travel_times=travel_times,
                 manager_jid=str(pheromone_mgr.jid),
-                service_time=service_time
+                service_time=service_time,
+                alpha=aco_params["alpha"],
+                beta=aco_params["beta"]
             )
             ants.append(ant)
         
@@ -114,7 +181,7 @@ async def run_ant_colony_optimization(markets, travel_times, service_time, days)
             "password123",
             pheromone_manager_jid=str(pheromone_mgr.jid),
             ant_jids=ant_jids,
-            num_iterations=5
+            num_iterations=aco_params["num_iterations"]
         )
         
         await pheromone_mgr.start(auto_register=True)
@@ -159,7 +226,13 @@ def main():
     parser.add_argument("--days", type=int, default=1)
     parser.add_argument("--run_id", default=None, help="Optional identifier for this execution; defaults to timestamp")
     parser.add_argument("--plot", action="store_true", help="Plot the routes")
+    parser.add_argument("--params", default=None, help="Path to JSON file containing algorithm parameters")
     args = parser.parse_args()
+    
+    # Load parameters if provided
+    all_params = load_parameters(args.params)
+    ga_params = all_params.get("ga") if all_params else None
+    aco_params = all_params.get("aco") if all_params else None
     
     # Load data
     markets, travel_times = load_market_data(
@@ -173,19 +246,21 @@ def main():
     print(f"{'='*70}")
     print(f"Markets: {len(markets)}")
     print(f"Service time: {args.service_time} minutes per market")
+    if args.params:
+        print(f"Parameters file: {args.params}")
     print(f"{'='*70}\n")
     
     output_dir, run_id = ensure_output_dir(args.run_id)
     
     if args.algorithm == "ga":
-        routes, fitnesses = run_genetic_algorithm(markets, travel_times, args.service_time, args.days)
+        routes, fitnesses = run_genetic_algorithm(markets, travel_times, args.service_time, args.days, params=ga_params)
         persist_results(output_dir, "ga", routes, fitnesses, run_id=run_id, service_time=args.service_time, days=args.days)
         
         if args.plot:
             plot_route(routes, markets)
             
     elif args.algorithm == "aco":
-        routes, fitnesses = asyncio.run(run_ant_colony_optimization(markets, travel_times, args.service_time, args.days))
+        routes, fitnesses = asyncio.run(run_ant_colony_optimization(markets, travel_times, args.service_time, args.days, params=aco_params))
         persist_results(output_dir, "aco", routes, fitnesses, run_id=run_id, service_time=args.service_time, days=args.days)
         
         if args.plot:
@@ -193,11 +268,11 @@ def main():
             
     else:
         # Run GA
-        ga_routes, ga_fitnesses = run_genetic_algorithm(markets, travel_times, args.service_time, args.days)
+        ga_routes, ga_fitnesses = run_genetic_algorithm(markets, travel_times, args.service_time, args.days, params=ga_params)
         persist_results(output_dir, "ga", ga_routes, ga_fitnesses, run_id=run_id, service_time=args.service_time, days=args.days)
         
         # Run ACO
-        aco_routes, aco_fitnesses = asyncio.run(run_ant_colony_optimization(markets, travel_times, args.service_time, args.days))
+        aco_routes, aco_fitnesses = asyncio.run(run_ant_colony_optimization(markets, travel_times, args.service_time, args.days, params=aco_params))
         persist_results(output_dir, "aco", aco_routes, aco_fitnesses, run_id=run_id, service_time=args.service_time, days=args.days)
         
         if args.plot:

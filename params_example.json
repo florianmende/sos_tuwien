@@ -1,0 +1,20 @@
+{
+  "ga": {
+    "population_size": 500,
+    "generations": 500,
+    "cxpb": 0.7,
+    "mutpb": 0.2,
+    "tournsize": 3,
+    "indpb": 0.1
+  },
+  "aco": {
+    "num_ants": 20,
+    "num_iterations": 5,
+    "initial_pheromone": 1.0,
+    "decay": 0.5,
+    "alpha": 1.0,
+    "beta": 2.0,
+    "reward_multiplier": 2.0
+  }
+}
+

@@ -1,12 +1,13 @@
 [project]
-name = "sos-tuwien"
+name = "sos_exercise_1"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Jan Widerhofer-Kaukal"},
+    {name = "Florian Mende"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.12"
 dependencies = [
     "googlemaps (>=4.10.0,<5.0.0)",
     "tqdm (>=4.67.1,<5.0.0)",
@@ -14,9 +15,12 @@ dependencies = [
     "spade (>=4.1.2,<5.0.0)",
     "numpy (>=2.3.4,<3.0.0)",
     "deap (>=1.4.3,<2.0.0)",
+    "matplotlib (>=3.9.2,<4.0.0)",
+    "plotly>=6.5.0",
+    "pandas>=2.3.3",
 ]
 
 
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
+
+
+

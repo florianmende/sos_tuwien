@@ -212,3 +212,15 @@ poetry.lock
 
 # Spade
 server.db
+
+# uv
+uv.lock
+
+# local
+todos.md
+
+# output
+out/
+
+# vscode
+.vscode/

@@ -1,4 +1,4 @@
-# sos_tuwien
+# Self-Organizing Systems Exercise 1
 
 ## Problem
 
@@ -15,7 +15,22 @@ Fetching the travel times from [Google Directions API](https://console.cloud.goo
 
 Travel times for the dataset were calculated at 11/08/2025 12:20.
 
-## Setup
+## How to run
+
+To run the project, you can use `uv`, `poetry` or `pip` directly. We recommend using `uv` or `poetry` for simplicity.
+
+With either of these installed, run the following commands to install the dependencies:
+
+```
+uv sync
+poetry sync
+```
+
+To run the project, use the following command:
+
+```
+uv run python src/run.py
+```
 
 spade requires sqlite to run the XMPP server, run these commands to install it
 
@@ -27,3 +42,26 @@ poetry install
 ```
 
 The run.sh script requires the XMPP server to be online, start it with run_xmpp_server.sh in a separate terminal
+
+## Docker
+
+The project includes a Docker setup that automatically installs dependencies, starts the XMPP server, and runs the application.
+
+```bash
+# Build the image (use --platform for ARM64 Macs)
+docker build --platform linux/amd64 -t sos-tuwien .
+
+# Run with default settings
+docker run --rm -v $(pwd)/out:/app/out sos-tuwien
+
+# Run with custom arguments
+docker run --rm -v $(pwd)/out:/app/out sos-tuwien --algorithm aco --days 2 --plot
+```
+
+**Note:** If you're on an ARM64 Mac (Apple Silicon), use `--platform linux/amd64` when building to ensure compatibility with all dependencies.
+
+The Docker setup automatically:
+- Installs all dependencies using `uv`
+- Starts the XMPP server for SPADE
+- Runs the application
+- Persists results to the `out/` directory

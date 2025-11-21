@@ -75,14 +75,41 @@ def get_feasible_route(individual, markets, travel_times, service_time):
     return feasible_route
 
 
-def run_ga(markets, travel_times, service_time=30,
-           population_size=100, generations=300, verbose=True):
+def run_ga(markets, travel_times, service_time=30, params=None, verbose=True):
     """
     Run genetic algorithm for market route optimization.
+    
+    Args:
+        markets: Dictionary of market data
+        travel_times: Dictionary of travel times between markets
+        service_time: Service time per market in minutes
+        params: Dictionary of GA parameters. If None, uses defaults:
+            - population_size: 100
+            - generations: 300
+            - cxpb: 0.7 (crossover probability)
+            - mutpb: 0.2 (mutation probability)
+            - tournsize: 3 (tournament size)
+            - indpb: 0.1 (mutation index probability)
+        verbose: Whether to print progress
     
     Returns:
         (best_route, best_fitness)
     """
+    # Default parameters
+    default_params = {
+        "population_size": 100,
+        "generations": 300,
+        "cxpb": 0.7,
+        "mutpb": 0.2,
+        "tournsize": 3,
+        "indpb": 0.1
+    }
+    
+    # Merge with provided parameters
+    if params is None:
+        params = {}
+    ga_params = {**default_params, **params}
+    
     # DEAP Setup (guard against re-creating classes when running GA multiple times)
     if not hasattr(creator, "FitnessMax"):
         creator.create("FitnessMax", base.Fitness, weights=(1.0,))
@@ -98,8 +125,8 @@ def run_ga(markets, travel_times, service_time=30,
     toolbox.register("individual", tools.initIterate, creator.Individual, toolbox.indices)
     toolbox.register("population", tools.initRepeat, list, toolbox.individual)
     toolbox.register("mate", tools.cxOrdered)
-    toolbox.register("mutate", tools.mutShuffleIndexes, indpb=0.1)
-    toolbox.register("select", tools.selTournament, tournsize=3)
+    toolbox.register("mutate", tools.mutShuffleIndexes, indpb=ga_params["indpb"])
+    toolbox.register("select", tools.selTournament, tournsize=ga_params["tournsize"])
     toolbox.register(
         "evaluate",
         evaluate_route,
@@ -109,7 +136,7 @@ def run_ga(markets, travel_times, service_time=30,
     )
     
     # Create initial population
-    population = toolbox.population(n=population_size)
+    population = toolbox.population(n=ga_params["population_size"])
     hof = tools.HallOfFame(1)
     
     stats = tools.Statistics(lambda ind: ind.fitness.values)
@@ -122,9 +149,9 @@ def run_ga(markets, travel_times, service_time=30,
     population, logbook = algorithms.eaSimple(
         population,
         toolbox,
-        cxpb=0.7,
-        mutpb=0.2,
-        ngen=generations,
+        cxpb=ga_params["cxpb"],
+        mutpb=ga_params["mutpb"],
+        ngen=ga_params["generations"],
         stats=stats,
         halloffame=hof,
         verbose=verbose

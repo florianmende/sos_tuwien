@@ -13,11 +13,12 @@ class PheromoneManagerAgent(Agent):
     """
     
     def __init__(self, jid, password, num_locations, markets,
-                 initial_pheromone=1.0, decay=0.95):
+                 initial_pheromone=1.0, decay=0.95, reward_multiplier=2.0):
         super().__init__(jid, password)
         self.num_locations = num_locations
         self.decay_coefficient = decay
         self.markets = markets
+        self.reward_multiplier = reward_multiplier
         
         # map market ids to indices in the pheromone matrix
         # needed because market ids are not necessarily sequential in the case of several days
@@ -142,7 +143,7 @@ class PheromoneManagerAgent(Agent):
                     # Reinforce ONLY the global best solution (elitism)
                     if self.agent.global_best_tour:
                         reward = self.agent.global_best_count / self.agent.num_locations
-                        deposit_amount = reward * 2.0  # Boost for best solution
+                        deposit_amount = reward * self.agent.reward_multiplier
                         
                         for idx in range(len(self.agent.global_best_tour) - 1):
                             # map market ids to indices in the pheromone matrix

@@ -13,7 +13,7 @@ class AntAgent(Agent):
     """
     
     def __init__(self, jid, password, ant_id, markets, travel_times, 
-                 manager_jid, service_time=30):
+                 manager_jid, service_time=30, alpha=1.0, beta=2.0):
         super().__init__(jid, password)
         self.ant_id = ant_id
         self.markets = markets
@@ -21,8 +21,8 @@ class AntAgent(Agent):
         self.manager_jid = manager_jid
         self.service_time = service_time
         
-        self.alpha = 1.0
-        self.beta = 2.0
+        self.alpha = alpha
+        self.beta = beta
         
         self.current_tour = []
         self.current_time = 0
