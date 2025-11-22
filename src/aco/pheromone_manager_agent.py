@@ -1,5 +1,7 @@
 import asyncio
 import json
+from pathlib import Path
+from typing import Optional
 
 from spade.agent import Agent
 from spade.behaviour import CyclicBehaviour
@@ -13,16 +15,21 @@ class PheromoneManagerAgent(Agent):
     """
     
     def __init__(self, jid, password, num_locations, markets,
-                 initial_pheromone=1.0, decay=0.95, reward_multiplier=2.0):
+                 initial_pheromone=1.0, decay=0.95, reward_multiplier=2.0,
+                 output_dir: Optional[Path] = None, day: int = 1):
         super().__init__(jid, password)
         self.num_locations = num_locations
         self.decay_coefficient = decay
         self.markets = markets
         self.reward_multiplier = reward_multiplier
+        self.output_dir = output_dir
+        self.day = day
         
         # map market ids to indices in the pheromone matrix
         # needed because market ids are not necessarily sequential in the case of several days
         self.market_to_index = {int(key): idx+1 for idx, key in enumerate(markets.keys())}
+        # Reverse mapping: index (1-based) to market_id
+        self.index_to_market = {idx: market_id for market_id, idx in self.market_to_index.items()}
         
         self.pheromone = {}
         for i in range(1, num_locations + 1):
@@ -35,6 +42,66 @@ class PheromoneManagerAgent(Agent):
         self.iteration_tours = []  # Collect tours from all ants in iteration
         self.global_best_tour = None
         self.global_best_count = 0
+        self.pheromone_history = []  # Store pheromone matrices for each iteration
+    
+    def serialize_pheromone_matrix(self):
+        """
+        Serialize pheromone matrix to a format suitable for plotting.
+        Returns a dictionary mapping (from_market_id, to_market_id) -> pheromone_value
+        """
+        matrix = {}
+        for from_idx in range(1, self.num_locations + 1):
+            from_market_id = self.index_to_market[from_idx]
+            for to_idx in range(1, self.num_locations + 1):
+                to_market_id = self.index_to_market[to_idx]
+                matrix[f"{from_market_id}_{to_market_id}"] = self.pheromone[from_idx][to_idx]
+        return matrix
+    
+    def save_pheromone_matrix(self):
+        """Save current pheromone matrix to history and optionally to file"""
+        # Store in history
+        matrix_data = {
+            "iteration": self.iteration,
+            "matrix": self.serialize_pheromone_matrix(),
+            "global_best_count": self.global_best_count,
+            "global_best_tour": self.global_best_tour
+        }
+        self.pheromone_history.append(matrix_data)
+        
+        # Save to file if output_dir is provided
+        if self.output_dir:
+            output_file = self.output_dir / f"pheromone_matrices_day{self.day}.json"
+            
+            # Load existing data or create new
+            if output_file.exists():
+                with output_file.open("r", encoding="utf-8") as f:
+                    all_data = json.load(f)
+            else:
+                all_data = {
+                    "day": self.day,
+                    "num_locations": self.num_locations,
+                    "markets": {str(k): int(k) for k in self.markets.keys()},
+                    "market_to_index": {str(k): int(v) for k, v in self.market_to_index.items()},
+                    "index_to_market": {int(k): int(v) for k, v in self.index_to_market.items()},
+                    "iterations": []
+                }
+            
+            # Update or add this iteration's data
+            # Find if this iteration already exists and update it
+            existing_iter = None
+            for i, iter_data in enumerate(all_data["iterations"]):
+                if iter_data["iteration"] == self.iteration:
+                    existing_iter = i
+                    break
+            
+            if existing_iter is not None:
+                all_data["iterations"][existing_iter] = matrix_data
+            else:
+                all_data["iterations"].append(matrix_data)
+            
+            # Save back to file
+            with output_file.open("w", encoding="utf-8") as f:
+                json.dump(all_data, f, indent=2)
     
     async def setup(self):
         print(f"[PheromoneManager] Starting at {self.jid}")
@@ -200,6 +267,9 @@ class PheromoneManagerAgent(Agent):
                     tour for tour in self.agent.iteration_tours
                     if tour.get("iteration_id") != self.agent.iteration
                 ]
+                
+                # Save pheromone matrix for this iteration
+                self.agent.save_pheromone_matrix()
                 
                 # Send acknowledgment with iteration ID
                 response = msg.make_reply()

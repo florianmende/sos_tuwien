@@ -103,7 +103,7 @@ def run_genetic_algorithm(markets, travel_times, service_time, days, params=None
     return best_route_all_days, best_fitness_all_days
 
 
-async def run_ant_colony_optimization(markets, travel_times, service_time, days, params=None):
+async def run_ant_colony_optimization(markets, travel_times, service_time, days, params=None, output_dir=None):
     """
     Run ACO optimization.
     
@@ -156,7 +156,9 @@ async def run_ant_colony_optimization(markets, travel_times, service_time, days,
             markets=markets,
             initial_pheromone=aco_params["initial_pheromone"],
             decay=aco_params["decay"],
-            reward_multiplier=aco_params["reward_multiplier"]
+            reward_multiplier=aco_params["reward_multiplier"],
+            output_dir=output_dir,
+            day=day + 1
         )
         
         num_ants = aco_params["num_ants"]
@@ -265,7 +267,7 @@ def main():
             plot_route(routes, markets)
             
     elif args.algorithm == "aco":
-        routes, fitnesses = asyncio.run(run_ant_colony_optimization(markets, travel_times, args.service_time, args.days, params=aco_params))
+        routes, fitnesses = asyncio.run(run_ant_colony_optimization(markets, travel_times, args.service_time, args.days, params=aco_params, output_dir=output_dir))
         persist_results(output_dir, "aco", routes, fitnesses, run_id=run_id, service_time=args.service_time, days=args.days)
         
         if args.plot:
@@ -277,7 +279,7 @@ def main():
         persist_results(output_dir, "ga", ga_routes, ga_fitnesses, run_id=run_id, service_time=args.service_time, days=args.days)
         
         # Run ACO
-        aco_routes, aco_fitnesses = asyncio.run(run_ant_colony_optimization(markets, travel_times, args.service_time, args.days, params=aco_params))
+        aco_routes, aco_fitnesses = asyncio.run(run_ant_colony_optimization(markets, travel_times, args.service_time, args.days, params=aco_params, output_dir=output_dir))
         persist_results(output_dir, "aco", aco_routes, aco_fitnesses, run_id=run_id, service_time=args.service_time, days=args.days)
         
         if args.plot:

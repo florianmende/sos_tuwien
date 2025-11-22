@@ -79,9 +79,14 @@ class AntAgent(Agent):
             
             self.agent.current_tour = [start]
             
-            # Initialize time to the LATER of: start_time or market opening
+            # Always start at the opening time of the first market
+            # (ants arrive exactly when the market opens)
             market = self.agent.markets[str(start)]
-            self.agent.current_time = market["opens_minutes"]
+            arrival_time = market["opens_minutes"]
+            
+            # After service at first market, departure time
+            departure_time = arrival_time + self.agent.service_time
+            self.agent.current_time = departure_time  # Set to departure time for consistency
             
             self.agent.current_location = start
             
@@ -114,12 +119,22 @@ class AntAgent(Agent):
             arrival_time = self.agent.current_time + travel_time
             market = self.agent.markets[str(next_location)]
             open_time = market["opens_minutes"]
+            close_time = market["closes_minutes"]
             
             # Wait if arrive before opening
             if arrival_time < open_time:
                 arrival_time = open_time
             
+            # Ensure we can complete service before market closes
             departure_time = arrival_time + self.agent.service_time
+            if departure_time > close_time:
+                # Can't complete service before closing, skip this market
+                # This shouldn't happen if select_next_market() is correct, but add safety check
+                self.tour_complete = True
+                await self.deposit_tour()
+                await self.notify_tour_complete()
+                return
+            
             self.agent.current_tour.append(next_location)
             self.agent.current_time = departure_time
             self.agent.current_location = next_location
@@ -136,7 +151,9 @@ class AntAgent(Agent):
                 travel_time = self.agent.travel_times[
                     self.agent.current_location
                 ][next_city]
-                arrival_time = self.agent.current_time + self.agent.service_time + travel_time
+                # current_time represents departure time from current location
+                # So arrival at next market = departure + travel_time
+                arrival_time = self.agent.current_time + travel_time
                 
                 market = self.agent.markets[str(next_city)]
                 open_time = market["opens_minutes"]
@@ -146,8 +163,10 @@ class AntAgent(Agent):
                 if arrival_time < open_time:
                     arrival_time = open_time
                 
-                # Skip if we'd arrive after closing
-                if arrival_time > close_time:
+                # Skip if we can't complete service before market closes
+                # Need at least service_time available: arrival + service_time <= close_time
+                departure_time = arrival_time + self.agent.service_time
+                if departure_time > close_time:
                     continue
                 
                 feasible_cities.append(next_city)
