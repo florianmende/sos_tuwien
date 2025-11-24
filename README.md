@@ -12,8 +12,9 @@ Fetching the travel times from [Google Directions API](https://console.cloud.goo
 
 - [MQ](https://www.google.com/url?sa=E&q=https%3A%2F%2Fg.page%2Fweihnachtsquartier%3Fshare) is not the google maps link and location changed to Urania -> updated the entry to [Urania](https://maps.app.goo.gl/BgnZ8VBAJugrZ2pK6)
 - [Belvedere](https://g.page/belvederemuseum?share) is not the google maps link -> updated the entry to [Belvedere](https://maps.app.goo.gl/uyTZiLbpsGLwvhH26)
+- [Messe](https://goo.gl/maps/mgUHYBriHmwAFcK19) has incorrect coordinates in Google Maps -> updated the entry to [Messe](https://maps.app.goo.gl/hHcfrFMv2z2L8DMV8)
 
-Travel times for the dataset were calculated at 11/08/2025 12:20.
+Travel times for the dataset were calculated at 24/08/2025 19:12.
 
 ## How to run
 
@@ -61,6 +62,7 @@ docker run --rm -v $(pwd)/out:/app/out sos-tuwien --algorithm aco --days 2 --plo
 **Note:** If you're on an ARM64 Mac (Apple Silicon), use `--platform linux/amd64` when building to ensure compatibility with all dependencies.
 
 The Docker setup automatically:
+
 - Installs all dependencies using `uv`
 - Starts the XMPP server for SPADE
 - Runs the application

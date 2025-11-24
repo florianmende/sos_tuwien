@@ -6,166 +6,166 @@
             "transit": 0
         },
         "2": {
-            "driving": 763,
+            "driving": 764,
             "walking": 2553,
-            "transit": 1469
+            "transit": 1377
         },
         "3": {
-            "driving": 590,
+            "driving": 492,
             "walking": 1141,
             "transit": 850
         },
         "4": {
-            "driving": 765,
+            "driving": 764,
             "walking": 2375,
-            "transit": 1305
+            "transit": 1482
         },
         "5": {
-            "driving": 271,
+            "driving": 270,
             "walking": 793,
             "transit": 554
         },
         "6": {
-            "driving": 445,
+            "driving": 443,
             "walking": 1163,
-            "transit": 868
+            "transit": 894
         },
         "7": {
-            "driving": 1360,
+            "driving": 1420,
             "walking": 6785,
-            "transit": 2923
+            "transit": 3259
         },
         "8": {
-            "driving": 492,
+            "driving": 542,
             "walking": 1912,
-            "transit": 940
+            "transit": 1048
         },
         "9": {
             "driving": 1175,
-            "walking": 7860,
-            "transit": 2015
+            "walking": 7866,
+            "transit": 2135
         },
         "10": {
-            "driving": 769,
+            "driving": 713,
             "walking": 2585,
             "transit": 1327
         },
         "11": {
-            "driving": 480,
+            "driving": 481,
             "walking": 2267,
-            "transit": 1346
+            "transit": 1674
         },
         "12": {
-            "driving": 651,
+            "driving": 703,
             "walking": 1737,
-            "transit": 859
+            "transit": 919
         },
         "13": {
-            "driving": 1156,
+            "driving": 1181,
             "walking": 4756,
             "transit": 1794
         },
         "14": {
-            "driving": 615,
+            "driving": 613,
             "walking": 1235,
             "transit": 913
         },
         "15": {
-            "driving": 615,
+            "driving": 613,
             "walking": 1235,
             "transit": 913
         },
         "16": {
-            "driving": 506,
+            "driving": 505,
             "walking": 1790,
-            "transit": 1019
+            "transit": 959
         },
         "17": {
-            "driving": 1446,
+            "driving": 1450,
             "walking": 6863,
             "transit": 2120
         },
         "18": {
-            "driving": 329,
+            "driving": 328,
             "walking": 1201,
             "transit": 689
         },
         "19": {
-            "driving": 806,
+            "driving": 685,
             "walking": 3055,
             "transit": 1605
         },
         "20": {
-            "driving": 609,
+            "driving": 563,
             "walking": 1171,
             "transit": 862
         },
         "21": {
-            "driving": 1655,
+            "driving": 1582,
             "walking": 7405,
-            "transit": 2572
+            "transit": 2752
         },
         "22": {
-            "driving": 459,
+            "driving": 458,
             "walking": 1314,
             "transit": 978
         },
         "23": {
-            "driving": 893,
+            "driving": 975,
             "walking": 2860,
             "transit": 1206
         },
         "24": {
-            "driving": 976,
+            "driving": 1025,
             "walking": 3802,
             "transit": 1205
         },
         "25": {
-            "driving": 1028,
-            "walking": 5153,
-            "transit": 1624
+            "driving": 992,
+            "walking": 5155,
+            "transit": 1334
         },
         "26": {
-            "driving": 451,
+            "driving": 421,
             "walking": 2478,
             "transit": 1183
         },
         "27": {
-            "driving": 395,
+            "driving": 346,
             "walking": 1791,
-            "transit": 975
+            "transit": 915
         },
         "28": {
-            "driving": 896,
+            "driving": 808,
             "walking": 3518,
             "transit": 972
         },
         "29": {
-            "driving": 1164,
-            "walking": 5336,
-            "transit": 2445
+            "driving": 1159,
+            "walking": 5337,
+            "transit": 2385
         },
         "30": {
-            "driving": 965,
-            "walking": 4942,
-            "transit": 1402
+            "driving": 1017,
+            "walking": 4946,
+            "transit": 1462
         },
         "31": {
-            "driving": 1004,
+            "driving": 1000,
             "walking": 3986,
             "transit": 1959
         },
         "32": {
-            "driving": 1128,
+            "driving": 1121,
             "walking": 7168,
-            "transit": 2610
+            "transit": 2670
         }
     },
     "2": {
         "1": {
-            "driving": 669,
+            "driving": 659,
             "walking": 2427,
-            "transit": 1416
+            "transit": 1356
         },
         "2": {
             "driving": 0,
@@ -173,164 +173,164 @@
             "transit": 0
         },
         "3": {
-            "driving": 477,
+            "driving": 470,
             "walking": 1420,
             "transit": 770
         },
         "4": {
-            "driving": 613,
+            "driving": 609,
             "walking": 1419,
             "transit": 1060
         },
         "5": {
-            "driving": 940,
+            "driving": 929,
             "walking": 1916,
-            "transit": 1350
+            "transit": 1230
         },
         "6": {
-            "driving": 791,
+            "driving": 721,
             "walking": 2053,
-            "transit": 1559
+            "transit": 1439
         },
         "7": {
-            "driving": 931,
+            "driving": 945,
             "walking": 4654,
             "transit": 2450
         },
         "8": {
-            "driving": 618,
+            "driving": 619,
             "walking": 1270,
             "transit": 845
         },
         "9": {
-            "driving": 1921,
-            "walking": 9918,
-            "transit": 3193
+            "driving": 1662,
+            "walking": 9924,
+            "transit": 3360
         },
         "10": {
-            "driving": 404,
+            "driving": 397,
             "walking": 795,
             "transit": 574
         },
         "11": {
-            "driving": 814,
+            "driving": 816,
             "walking": 3463,
             "transit": 1802
         },
         "12": {
-            "driving": 803,
+            "driving": 810,
             "walking": 2331,
             "transit": 1507
         },
         "13": {
-            "driving": 805,
+            "driving": 807,
             "walking": 3431,
-            "transit": 1959
+            "transit": 1578
         },
         "14": {
-            "driving": 537,
+            "driving": 538,
             "walking": 1319,
             "transit": 686
         },
         "15": {
-            "driving": 537,
+            "driving": 538,
             "walking": 1319,
             "transit": 686
         },
         "16": {
-            "driving": 411,
+            "driving": 412,
             "walking": 973,
             "transit": 777
         },
         "17": {
-            "driving": 1339,
-            "walking": 5613,
-            "transit": 3398
+            "driving": 1343,
+            "walking": 5611,
+            "transit": 2925
         },
         "18": {
-            "driving": 981,
+            "driving": 987,
             "walking": 3329,
             "transit": 1759
         },
         "19": {
-            "driving": 1140,
+            "driving": 1123,
             "walking": 4291,
             "transit": 2399
         },
         "20": {
             "driving": 531,
             "walking": 1647,
-            "transit": 996
+            "transit": 876
         },
         "21": {
-            "driving": 1119,
+            "driving": 1118,
             "walking": 5032,
-            "transit": 2578
+            "transit": 2278
         },
         "22": {
-            "driving": 620,
+            "driving": 545,
             "walking": 1650,
-            "transit": 1112
+            "transit": 992
         },
         "23": {
-            "driving": 660,
+            "driving": 656,
             "walking": 1831,
             "transit": 1107
         },
         "24": {
-            "driving": 704,
+            "driving": 705,
             "walking": 2744,
             "transit": 1460
         },
         "25": {
-            "driving": 1059,
-            "walking": 5266,
+            "driving": 1046,
+            "walking": 5268,
             "transit": 1649
         },
         "26": {
-            "driving": 1119,
-            "walking": 4419,
-            "transit": 2792
+            "driving": 1080,
+            "walking": 4415,
+            "transit": 2370
         },
         "27": {
-            "driving": 1060,
+            "driving": 1005,
             "walking": 4051,
-            "transit": 2089
+            "transit": 1969
         },
         "28": {
-            "driving": 1230,
+            "driving": 1104,
             "walking": 4141,
             "transit": 2648
         },
         "29": {
-            "driving": 1498,
-            "walking": 6328,
-            "transit": 3595
+            "driving": 1494,
+            "walking": 6329,
+            "transit": 3534
         },
         "30": {
-            "driving": 934,
+            "driving": 938,
             "walking": 4157,
             "transit": 1610
         },
         "31": {
-            "driving": 653,
+            "driving": 655,
             "walking": 1794,
-            "transit": 811
+            "transit": 751
         },
         "32": {
-            "driving": 1901,
+            "driving": 1780,
             "walking": 8808,
-            "transit": 3665
+            "transit": 3545
         }
     },
     "3": {
         "1": {
-            "driving": 389,
+            "driving": 391,
             "walking": 1098,
             "transit": 883
         },
         "2": {
-            "driving": 685,
+            "driving": 676,
             "walking": 1479,
             "transit": 807
         },
@@ -340,156 +340,156 @@
             "transit": 0
         },
         "4": {
-            "driving": 880,
+            "driving": 735,
             "walking": 1426,
             "transit": 874
         },
         "5": {
-            "driving": 660,
+            "driving": 661,
             "walking": 519,
-            "transit": 519
+            "transit": 587
         },
         "6": {
-            "driving": 834,
+            "driving": 280,
             "walking": 791,
-            "transit": 421
+            "transit": 361
         },
         "7": {
-            "driving": 1402,
+            "driving": 1344,
             "walking": 5798,
-            "transit": 2689
+            "transit": 2509
         },
         "8": {
-            "driving": 881,
+            "driving": 462,
             "walking": 992,
-            "transit": 509
+            "transit": 606
         },
         "9": {
-            "driving": 1563,
-            "walking": 8790,
-            "transit": 2494
+            "driving": 1566,
+            "walking": 8796,
+            "transit": 2734
         },
         "10": {
-            "driving": 691,
+            "driving": 620,
             "walking": 1598,
             "transit": 930
         },
         "11": {
-            "driving": 869,
+            "driving": 676,
             "walking": 2386,
-            "transit": 1438
+            "transit": 1279
         },
         "12": {
-            "driving": 1040,
+            "driving": 625,
             "walking": 1538,
-            "transit": 1143
+            "transit": 974
         },
         "13": {
-            "driving": 1254,
+            "driving": 1152,
             "walking": 3975,
             "transit": 1363
         },
         "14": {
-            "driving": 417,
+            "driving": 419,
             "walking": 163,
             "transit": 163
         },
         "15": {
-            "driving": 417,
+            "driving": 419,
             "walking": 163,
             "transit": 163
         },
         "16": {
-            "driving": 678,
+            "driving": 476,
             "walking": 718,
             "transit": 718
         },
         "17": {
-            "driving": 1786,
+            "driving": 1369,
             "walking": 6049,
-            "transit": 2723
+            "transit": 2663
         },
         "18": {
-            "driving": 717,
+            "driving": 719,
             "walking": 2158,
             "transit": 1046
         },
         "19": {
-            "driving": 1195,
+            "driving": 983,
             "walking": 3214,
-            "transit": 2035
+            "transit": 1876
         },
         "20": {
-            "driving": 130,
+            "driving": 129,
             "walking": 384,
             "transit": 233
         },
         "21": {
-            "driving": 1648,
+            "driving": 1553,
             "walking": 6333,
-            "transit": 2141
+            "transit": 2201
         },
         "22": {
-            "driving": 848,
+            "driving": 144,
             "walking": 500,
             "transit": 349
         },
         "23": {
-            "driving": 1008,
+            "driving": 858,
             "walking": 2038,
             "transit": 775
         },
         "24": {
-            "driving": 1182,
+            "driving": 944,
             "walking": 2988,
             "transit": 774
         },
         "25": {
-            "driving": 1090,
-            "walking": 5352,
-            "transit": 1838
+            "driving": 1084,
+            "walking": 5354,
+            "transit": 1774
         },
         "26": {
-            "driving": 839,
-            "walking": 2998,
+            "driving": 812,
+            "walking": 2994,
             "transit": 1112
         },
         "27": {
-            "driving": 783,
+            "driving": 737,
             "walking": 2652,
             "transit": 1753
         },
         "28": {
-            "driving": 1285,
+            "driving": 919,
             "walking": 3348,
             "transit": 1230
         },
         "29": {
-            "driving": 1553,
-            "walking": 5352,
-            "transit": 3032
+            "driving": 1324,
+            "walking": 5353,
+            "transit": 2643
         },
         "30": {
-            "driving": 1354,
+            "driving": 936,
             "walking": 4395,
             "transit": 1549
         },
         "31": {
-            "driving": 1102,
+            "driving": 971,
             "walking": 2914,
-            "transit": 1316
+            "transit": 1256
         },
         "32": {
-            "driving": 1516,
+            "driving": 1512,
             "walking": 7582,
-            "transit": 2539
+            "transit": 2599
         }
     },
     "4": {
         "1": {
-            "driving": 630,
+            "driving": 631,
             "walking": 2211,
-            "transit": 1490
+            "transit": 1239
         },
         "2": {
             "driving": 690,
@@ -497,7 +497,7 @@
             "transit": 885
         },
         "3": {
-            "driving": 463,
+            "driving": 466,
             "walking": 1314,
             "transit": 830
         },
@@ -507,34 +507,34 @@
             "transit": 0
         },
         "5": {
-            "driving": 726,
+            "driving": 724,
             "walking": 1541,
             "transit": 801
         },
         "6": {
-            "driving": 546,
+            "driving": 541,
             "walking": 1412,
-            "transit": 1058
+            "transit": 1088
         },
         "7": {
-            "driving": 1245,
+            "driving": 1235,
             "walking": 5901,
-            "transit": 3498
+            "transit": 3253
         },
         "8": {
-            "driving": 373,
+            "driving": 372,
             "walking": 395,
             "transit": 395
         },
         "9": {
-            "driving": 1728,
-            "walking": 9967,
-            "transit": 3032
+            "driving": 1731,
+            "walking": 9973,
+            "transit": 3004
         },
         "10": {
-            "driving": 746,
+            "driving": 745,
             "walking": 2153,
-            "transit": 1549
+            "transit": 1493
         },
         "11": {
             "driving": 569,
@@ -542,129 +542,129 @@
             "transit": 1403
         },
         "12": {
-            "driving": 558,
+            "driving": 563,
             "walking": 1362,
-            "transit": 1108
+            "transit": 1122
         },
         "13": {
-            "driving": 749,
+            "driving": 743,
             "walking": 2535,
-            "transit": 1173
+            "transit": 1113
         },
         "14": {
-            "driving": 404,
+            "driving": 406,
             "walking": 1211,
-            "transit": 891
+            "transit": 848
         },
         "15": {
-            "driving": 404,
+            "driving": 406,
             "walking": 1211,
-            "transit": 891
+            "transit": 848
         },
         "16": {
-            "driving": 295,
+            "driving": 298,
             "walking": 1007,
-            "transit": 692
+            "transit": 632
         },
         "17": {
-            "driving": 1267,
-            "walking": 4637,
-            "transit": 2809
+            "driving": 1273,
+            "walking": 4635,
+            "transit": 2842
         },
         "18": {
-            "driving": 958,
+            "driving": 959,
             "walking": 3335,
-            "transit": 1175
+            "transit": 1115
         },
         "19": {
-            "driving": 895,
+            "driving": 876,
             "walking": 3377,
             "transit": 2000
         },
         "20": {
-            "driving": 398,
+            "driving": 399,
             "walking": 1090,
-            "transit": 854
+            "transit": 808
         },
         "21": {
-            "driving": 1228,
+            "driving": 1173,
             "walking": 5659,
-            "transit": 2352
+            "transit": 2322
         },
         "22": {
-            "driving": 375,
+            "driving": 374,
             "walking": 970,
-            "transit": 768
+            "transit": 708
         },
         "23": {
-            "driving": 486,
+            "driving": 478,
             "walking": 692,
             "transit": 692
         },
         "24": {
-            "driving": 651,
+            "driving": 644,
             "walking": 1680,
             "transit": 895
         },
         "25": {
-            "driving": 1272,
-            "walking": 6366,
-            "transit": 2194
+            "driving": 1290,
+            "walking": 6368,
+            "transit": 1843
         },
         "26": {
-            "driving": 1036,
+            "driving": 995,
             "walking": 3845,
             "transit": 1353
         },
         "27": {
-            "driving": 1039,
+            "driving": 977,
             "walking": 3767,
-            "transit": 2163
+            "transit": 2103
         },
         "28": {
-            "driving": 985,
+            "driving": 857,
             "walking": 3016,
-            "transit": 1620
+            "transit": 1500
         },
         "29": {
-            "driving": 1253,
-            "walking": 5321,
-            "transit": 3196
+            "driving": 1247,
+            "walking": 5319,
+            "transit": 3203
         },
         "30": {
-            "driving": 835,
+            "driving": 840,
             "walking": 3087,
             "transit": 1670
         },
         "31": {
-            "driving": 597,
+            "driving": 591,
             "walking": 2300,
-            "transit": 1151
+            "transit": 1271
         },
         "32": {
-            "driving": 1656,
+            "driving": 1634,
             "walking": 7897,
-            "transit": 2780
+            "transit": 2900
         }
     },
     "5": {
         "1": {
-            "driving": 703,
+            "driving": 696,
             "walking": 771,
             "transit": 447
         },
         "2": {
-            "driving": 1048,
+            "driving": 1043,
             "walking": 1975,
-            "transit": 1553
+            "transit": 1313
         },
         "3": {
-            "driving": 753,
+            "driving": 749,
             "walking": 519,
             "transit": 518
         },
         "4": {
-            "driving": 844,
+            "driving": 840,
             "walking": 1668,
             "transit": 893
         },
@@ -674,164 +674,164 @@
             "transit": 0
         },
         "6": {
-            "driving": 524,
+            "driving": 519,
             "walking": 408,
             "transit": 407
         },
         "7": {
-            "driving": 1718,
+            "driving": 1754,
             "walking": 6296,
-            "transit": 3075
+            "transit": 2835
         },
         "8": {
-            "driving": 571,
+            "driving": 618,
             "walking": 1205,
             "transit": 528
         },
         "9": {
-            "driving": 1737,
-            "walking": 8554,
+            "driving": 1682,
+            "walking": 8560,
             "transit": 2058
         },
         "10": {
-            "driving": 1054,
+            "driving": 1051,
             "walking": 2096,
-            "transit": 1436
+            "transit": 1376
         },
         "11": {
-            "driving": 559,
+            "driving": 557,
             "walking": 2003,
-            "transit": 1196
+            "transit": 1256
         },
         "12": {
-            "driving": 730,
+            "driving": 779,
             "walking": 1155,
             "transit": 794
         },
         "13": {
-            "driving": 1235,
+            "driving": 1257,
             "walking": 4049,
             "transit": 1382
         },
         "14": {
-            "driving": 694,
+            "driving": 689,
             "walking": 657,
             "transit": 592
         },
         "15": {
-            "driving": 694,
+            "driving": 689,
             "walking": 657,
             "transit": 592
         },
         "16": {
-            "driving": 585,
+            "driving": 581,
             "walking": 1214,
             "transit": 975
         },
         "17": {
-            "driving": 1476,
+            "driving": 1526,
             "walking": 6101,
             "transit": 2467
         },
         "18": {
-            "driving": 842,
+            "driving": 835,
             "walking": 1944,
             "transit": 732
         },
         "19": {
-            "driving": 885,
+            "driving": 864,
             "walking": 2831,
-            "transit": 1673
+            "transit": 1853
         },
         "20": {
-            "driving": 688,
+            "driving": 639,
             "walking": 472,
             "transit": 471
         },
         "21": {
-            "driving": 1714,
+            "driving": 1658,
             "walking": 6850,
-            "transit": 2160
+            "transit": 2220
         },
         "22": {
-            "driving": 538,
+            "driving": 534,
             "walking": 607,
             "transit": 607
         },
         "23": {
-            "driving": 972,
+            "driving": 963,
             "walking": 2223,
             "transit": 794
         },
         "24": {
-            "driving": 1055,
+            "driving": 1101,
             "walking": 3040,
             "transit": 793
         },
         "25": {
-            "driving": 1541,
-            "walking": 5554,
+            "driving": 1539,
+            "walking": 5556,
             "transit": 1377
         },
         "26": {
-            "driving": 905,
-            "walking": 2566,
+            "driving": 904,
+            "walking": 2562,
             "transit": 891
         },
         "27": {
-            "driving": 908,
+            "driving": 853,
             "walking": 2222,
-            "transit": 1427
+            "transit": 1367
         },
         "28": {
-            "driving": 975,
+            "driving": 884,
             "walking": 2965,
             "transit": 794
         },
         "29": {
-            "driving": 1243,
-            "walking": 4969,
-            "transit": 2447
+            "driving": 1235,
+            "walking": 4970,
+            "transit": 2267
         },
         "30": {
-            "driving": 1044,
-            "walking": 4194,
+            "driving": 1093,
+            "walking": 4198,
             "transit": 1568
         },
         "31": {
-            "driving": 1083,
+            "driving": 1076,
             "walking": 3431,
-            "transit": 1752
+            "transit": 2033
         },
         "32": {
-            "driving": 1646,
+            "driving": 1622,
             "walking": 7147,
-            "transit": 2318
+            "transit": 2378
         }
     },
     "6": {
         "1": {
-            "driving": 676,
+            "driving": 677,
             "walking": 1125,
             "transit": 690
         },
         "2": {
-            "driving": 804,
+            "driving": 806,
             "walking": 2093,
-            "transit": 1274
+            "transit": 1334
         },
         "3": {
-            "driving": 509,
+            "driving": 512,
             "walking": 775,
             "transit": 529
         },
         "4": {
-            "driving": 600,
+            "driving": 603,
             "walking": 1528,
-            "transit": 1068
+            "transit": 1128
         },
         "5": {
-            "driving": 687,
+            "driving": 699,
             "walking": 392,
             "transit": 392
         },
@@ -841,166 +841,166 @@
             "transit": 0
         },
         "7": {
-            "driving": 1474,
+            "driving": 1517,
             "walking": 6423,
-            "transit": 3396
+            "transit": 3036
         },
         "8": {
-            "driving": 327,
+            "driving": 330,
             "walking": 1067,
-            "transit": 585
+            "transit": 645
         },
         "9": {
-            "driving": 1665,
-            "walking": 8908,
+            "driving": 1706,
+            "walking": 8914,
             "transit": 2301
         },
         "10": {
-            "driving": 810,
+            "driving": 814,
             "walking": 2223,
-            "transit": 1517
+            "transit": 1457
         },
         "11": {
-            "driving": 513,
+            "driving": 544,
             "walking": 1640,
-            "transit": 833
+            "transit": 893
         },
         "12": {
-            "driving": 482,
+            "driving": 493,
             "walking": 792,
             "transit": 546
         },
         "13": {
-            "driving": 991,
+            "driving": 1020,
             "walking": 3887,
             "transit": 1625
         },
         "14": {
-            "driving": 450,
+            "driving": 452,
             "walking": 760,
             "transit": 628
         },
         "15": {
-            "driving": 450,
+            "driving": 452,
             "walking": 760,
             "transit": 628
         },
         "16": {
-            "driving": 341,
+            "driving": 344,
             "walking": 1288,
             "transit": 777
         },
         "17": {
-            "driving": 1228,
+            "driving": 1237,
             "walking": 5715,
-            "transit": 2150
+            "transit": 2090
         },
         "18": {
-            "driving": 934,
+            "driving": 943,
             "walking": 2298,
             "transit": 975
         },
         "19": {
-            "driving": 839,
+            "driving": 851,
             "walking": 2468,
-            "transit": 1430
+            "transit": 1490
         },
         "20": {
-            "driving": 181,
+            "driving": 178,
             "walking": 405,
             "transit": 273
         },
         "21": {
-            "driving": 1470,
+            "driving": 1421,
             "walking": 6878,
-            "transit": 2643
+            "transit": 2463
         },
         "22": {
-            "driving": 294,
+            "driving": 212,
             "walking": 521,
             "transit": 408
         },
         "23": {
-            "driving": 728,
+            "driving": 726,
             "walking": 1837,
             "transit": 1037
         },
         "24": {
-            "driving": 807,
+            "driving": 812,
             "walking": 2654,
             "transit": 1036
         },
         "25": {
-            "driving": 1318,
-            "walking": 5908,
+            "driving": 1336,
+            "walking": 5910,
             "transit": 1620
         },
         "26": {
-            "driving": 941,
+            "driving": 970,
             "walking": 2715,
             "transit": 1134
         },
         "27": {
-            "driving": 1000,
+            "driving": 961,
             "walking": 2453,
-            "transit": 2012
+            "transit": 1682
         },
         "28": {
-            "driving": 929,
+            "driving": 787,
             "walking": 2602,
             "transit": 872
         },
         "29": {
-            "driving": 1197,
-            "walking": 4606,
-            "transit": 2626
+            "driving": 1222,
+            "walking": 4607,
+            "transit": 2285
         },
         "30": {
-            "driving": 796,
-            "walking": 3831,
+            "driving": 804,
+            "walking": 3835,
             "transit": 1432
         },
         "31": {
             "driving": 839,
             "walking": 3385,
-            "transit": 1522
+            "transit": 1582
         },
         "32": {
-            "driving": 1600,
+            "driving": 1609,
             "walking": 6888,
             "transit": 2756
         }
     },
     "7": {
         "1": {
-            "driving": 1405,
-            "walking": 5968,
-            "transit": 2902
+            "driving": 1258,
+            "walking": 5969,
+            "transit": 3398
         },
         "2": {
-            "driving": 907,
+            "driving": 913,
             "walking": 3928,
             "transit": 2166
         },
         "3": {
-            "driving": 1213,
-            "walking": 5017,
+            "driving": 1275,
+            "walking": 5018,
             "transit": 2752
         },
         "4": {
-            "driving": 1233,
+            "driving": 1237,
             "walking": 5236,
-            "transit": 3524
+            "transit": 3150
         },
         "5": {
-            "driving": 1676,
-            "walking": 5515,
-            "transit": 3272
+            "driving": 1607,
+            "walking": 5512,
+            "transit": 3212
         },
         "6": {
-            "driving": 1584,
-            "walking": 5655,
-            "transit": 3327
+            "driving": 1526,
+            "walking": 5656,
+            "transit": 3421
         },
         "7": {
             "driving": 0,
@@ -1008,166 +1008,166 @@
             "transit": 0
         },
         "8": {
-            "driving": 1411,
+            "driving": 1508,
             "walking": 5202,
-            "transit": 2940
+            "transit": 2914
         },
         "9": {
-            "driving": 2271,
-            "walking": 12824,
-            "transit": 4333
+            "driving": 2026,
+            "walking": 12870,
+            "transit": 5115
         },
         "10": {
-            "driving": 847,
-            "walking": 3530,
-            "transit": 2114
+            "driving": 911,
+            "walking": 3531,
+            "transit": 2252
         },
         "11": {
-            "driving": 1607,
-            "walking": 7276,
-            "transit": 3570
+            "driving": 1705,
+            "walking": 7277,
+            "transit": 3784
         },
         "12": {
-            "driving": 1596,
+            "driving": 1699,
             "walking": 6263,
-            "transit": 3275
+            "transit": 3549
         },
         "13": {
-            "driving": 910,
-            "walking": 4563,
-            "transit": 2655
+            "driving": 916,
+            "walking": 4562,
+            "transit": 2055
         },
         "14": {
-            "driving": 1332,
-            "walking": 4933,
+            "driving": 1396,
+            "walking": 4934,
             "transit": 2668
         },
         "15": {
-            "driving": 1332,
-            "walking": 4933,
+            "driving": 1396,
+            "walking": 4934,
             "transit": 2668
         },
         "16": {
-            "driving": 1235,
+            "driving": 1268,
             "walking": 4905,
             "transit": 2759
         },
         "17": {
-            "driving": 1386,
+            "driving": 1390,
             "walking": 6336,
-            "transit": 3824
+            "transit": 3849
         },
         "18": {
-            "driving": 1760,
+            "driving": 1586,
             "walking": 6610,
-            "transit": 2973
+            "transit": 3498
         },
         "19": {
-            "driving": 1878,
-            "walking": 8104,
-            "transit": 3879
+            "driving": 1870,
+            "walking": 8105,
+            "transit": 4381
         },
         "20": {
-            "driving": 1314,
-            "walking": 5249,
-            "transit": 2986
+            "driving": 1375,
+            "walking": 5250,
+            "transit": 2858
         },
         "21": {
-            "driving": 579,
+            "driving": 584,
             "walking": 2989,
-            "transit": 2969
+            "transit": 2475
         },
         "22": {
-            "driving": 1413,
-            "walking": 5365,
-            "transit": 3102
+            "driving": 1390,
+            "walking": 5366,
+            "transit": 2974
         },
         "23": {
-            "driving": 1285,
+            "driving": 1289,
             "walking": 5513,
             "transit": 3197
         },
         "24": {
-            "driving": 1150,
+            "driving": 1153,
             "walking": 5618,
-            "transit": 3278
+            "transit": 2984
         },
         "25": {
-            "driving": 1409,
-            "walking": 7299,
-            "transit": 2632
+            "driving": 1410,
+            "walking": 7301,
+            "transit": 3316
         },
         "26": {
-            "driving": 1855,
-            "walking": 8016,
-            "transit": 4126
+            "driving": 1679,
+            "walking": 8013,
+            "transit": 4100
         },
         "27": {
-            "driving": 1799,
-            "walking": 7615,
+            "driving": 1604,
+            "walking": 7616,
             "transit": 4011
         },
         "28": {
-            "driving": 1866,
+            "driving": 1657,
             "walking": 8073,
-            "transit": 4001
+            "transit": 4123
         },
         "29": {
-            "driving": 2236,
-            "walking": 10242,
-            "transit": 5796
+            "driving": 2173,
+            "walking": 10244,
+            "transit": 5516
         },
         "30": {
-            "driving": 1380,
+            "driving": 1386,
             "walking": 6611,
-            "transit": 3545
+            "transit": 2885
         },
         "31": {
-            "driving": 737,
+            "driving": 740,
             "walking": 3267,
-            "transit": 2107
+            "transit": 1987
         },
         "32": {
-            "driving": 2646,
-            "walking": 12524,
-            "transit": 5587
+            "driving": 2379,
+            "walking": 12525,
+            "transit": 5467
         }
     },
     "8": {
         "1": {
-            "driving": 508,
+            "driving": 509,
             "walking": 1818,
             "transit": 915
         },
         "2": {
-            "driving": 644,
+            "driving": 638,
             "walking": 1287,
-            "transit": 959
+            "transit": 854
         },
         "3": {
-            "driving": 341,
+            "driving": 344,
             "walking": 949,
             "transit": 506
         },
         "4": {
-            "driving": 312,
+            "driving": 310,
             "walking": 464,
             "transit": 464
         },
         "5": {
-            "driving": 710,
+            "driving": 779,
             "walking": 1148,
             "transit": 477
         },
         "6": {
-            "driving": 530,
+            "driving": 428,
             "walking": 1021,
             "transit": 647
         },
         "7": {
-            "driving": 1199,
+            "driving": 1190,
             "walking": 5947,
-            "transit": 3081
+            "transit": 2781
         },
         "8": {
             "driving": 0,
@@ -1175,165 +1175,165 @@
             "transit": 0
         },
         "9": {
-            "driving": 1712,
-            "walking": 9574,
-            "transit": 2953
+            "driving": 1684,
+            "walking": 9580,
+            "transit": 2653
         },
         "10": {
-            "driving": 642,
+            "driving": 646,
             "walking": 2089,
             "transit": 1142
         },
         "11": {
-            "driving": 553,
+            "driving": 554,
             "walking": 2208,
-            "transit": 1038
+            "transit": 1098
         },
         "12": {
-            "driving": 542,
+            "driving": 548,
             "walking": 1076,
             "transit": 711
         },
         "13": {
-            "driving": 703,
+            "driving": 698,
             "walking": 3013,
-            "transit": 1309
+            "transit": 1249
         },
         "14": {
-            "driving": 282,
+            "driving": 284,
             "walking": 846,
             "transit": 524
         },
         "15": {
-            "driving": 282,
+            "driving": 284,
             "walking": 846,
             "transit": 524
         },
         "16": {
-            "driving": 173,
+            "driving": 176,
             "walking": 647,
-            "transit": 495
+            "transit": 435
         },
         "17": {
-            "driving": 1240,
-            "walking": 5042,
-            "transit": 2278
+            "driving": 1237,
+            "walking": 5040,
+            "transit": 2218
         },
         "18": {
-            "driving": 836,
+            "driving": 837,
             "walking": 2942,
-            "transit": 764
+            "transit": 704
         },
         "19": {
-            "driving": 879,
+            "driving": 861,
             "walking": 3036,
-            "transit": 1635
+            "transit": 1695
         },
         "20": {
-            "driving": 276,
+            "driving": 277,
             "walking": 697,
             "transit": 484
         },
         "21": {
-            "driving": 1147,
+            "driving": 1128,
             "walking": 5814,
             "transit": 1938
         },
         "22": {
-            "driving": 359,
+            "driving": 291,
             "walking": 577,
             "transit": 577
         },
         "23": {
-            "driving": 439,
+            "driving": 434,
             "walking": 1076,
             "transit": 572
         },
         "24": {
-            "driving": 605,
+            "driving": 599,
             "walking": 2086,
             "transit": 571
         },
         "25": {
-            "driving": 1150,
-            "walking": 6001,
+            "driving": 1168,
+            "walking": 6003,
             "transit": 1492
         },
         "26": {
-            "driving": 981,
+            "driving": 930,
             "walking": 3450,
             "transit": 1029
         },
         "27": {
-            "driving": 902,
+            "driving": 855,
             "walking": 3374,
             "transit": 1798
         },
         "28": {
-            "driving": 969,
+            "driving": 842,
             "walking": 2886,
-            "transit": 1209
+            "transit": 1269
         },
         "29": {
-            "driving": 1237,
-            "walking": 5073,
-            "transit": 2949
+            "driving": 1232,
+            "walking": 5074,
+            "transit": 2828
         },
         "30": {
-            "driving": 835,
+            "driving": 833,
             "walking": 3493,
-            "transit": 1346
+            "transit": 1406
         },
         "31": {
-            "driving": 551,
+            "driving": 546,
             "walking": 2455,
-            "transit": 1069
+            "transit": 1127
         },
         "32": {
-            "driving": 1640,
+            "driving": 1619,
             "walking": 7569,
-            "transit": 2456
+            "transit": 2901
         }
     },
     "9": {
         "1": {
-            "driving": 1464,
-            "walking": 7903,
-            "transit": 2353
+            "driving": 1398,
+            "walking": 7906,
+            "transit": 2233
         },
         "2": {
-            "driving": 1616,
-            "walking": 10061,
-            "transit": 2962
+            "driving": 1672,
+            "walking": 10064,
+            "transit": 3382
         },
         "3": {
-            "driving": 1657,
-            "walking": 8881,
-            "transit": 2731
+            "driving": 1628,
+            "walking": 8884,
+            "transit": 2611
         },
         "4": {
-            "driving": 2215,
-            "walking": 10184,
+            "driving": 2007,
+            "walking": 10187,
             "transit": 2966
         },
         "5": {
-            "driving": 1552,
-            "walking": 8638,
-            "transit": 2301
+            "driving": 1486,
+            "walking": 8641,
+            "transit": 2181
         },
         "6": {
-            "driving": 1726,
-            "walking": 9008,
-            "transit": 2615
+            "driving": 1745,
+            "walking": 9011,
+            "transit": 2495
         },
         "7": {
-            "driving": 1949,
-            "walking": 13683,
-            "transit": 4471
+            "driving": 2061,
+            "walking": 13664,
+            "transit": 4771
         },
         "8": {
-            "driving": 1773,
-            "walking": 9721,
+            "driving": 1698,
+            "walking": 9724,
             "transit": 2483
         },
         "9": {
@@ -1342,166 +1342,166 @@
             "transit": 0
         },
         "10": {
-            "driving": 1474,
-            "walking": 9749,
-            "transit": 2823
+            "driving": 1531,
+            "walking": 9752,
+            "transit": 2883
         },
         "11": {
-            "driving": 1132,
-            "walking": 9874,
-            "transit": 2737
+            "driving": 1179,
+            "walking": 9863,
+            "transit": 3352
         },
         "12": {
-            "driving": 1728,
-            "walking": 9492,
-            "transit": 2719
+            "driving": 1545,
+            "walking": 9495,
+            "transit": 2599
         },
         "13": {
-            "driving": 2027,
-            "walking": 12565,
+            "driving": 2112,
+            "walking": 12568,
             "transit": 3607
         },
         "14": {
-            "driving": 1776,
-            "walking": 8975,
+            "driving": 1880,
+            "walking": 8978,
             "transit": 2635
         },
         "15": {
-            "driving": 1776,
-            "walking": 8975,
+            "driving": 1880,
+            "walking": 8978,
             "transit": 2635
         },
         "16": {
-            "driving": 1787,
-            "walking": 9530,
+            "driving": 1772,
+            "walking": 9533,
             "transit": 2798
         },
         "17": {
-            "driving": 2476,
-            "walking": 14672,
-            "transit": 4448
+            "driving": 2106,
+            "walking": 14675,
+            "transit": 4148
         },
         "18": {
-            "driving": 1229,
-            "walking": 6946,
-            "transit": 2237
+            "driving": 1275,
+            "walking": 6950,
+            "transit": 2177
         },
         "19": {
-            "driving": 1393,
-            "walking": 9536,
-            "transit": 2933
+            "driving": 1172,
+            "walking": 9526,
+            "transit": 3589
         },
         "20": {
-            "driving": 1758,
-            "walking": 8980,
-            "transit": 2684
+            "driving": 1728,
+            "walking": 8983,
+            "transit": 2564
         },
         "21": {
-            "driving": 2345,
-            "walking": 14939,
+            "driving": 2397,
+            "walking": 14942,
             "transit": 4445
         },
         "22": {
-            "driving": 1740,
-            "walking": 9123,
-            "transit": 2819
+            "driving": 1725,
+            "walking": 9126,
+            "transit": 2699
         },
         "23": {
-            "driving": 2343,
-            "walking": 10669,
+            "driving": 2131,
+            "walking": 10672,
             "transit": 3019
         },
         "24": {
-            "driving": 2063,
-            "walking": 11611,
-            "transit": 3018
+            "driving": 1863,
+            "walking": 11614,
+            "transit": 3320
         },
         "25": {
-            "driving": 1216,
-            "walking": 5906,
+            "driving": 1267,
+            "walking": 5902,
             "transit": 1777
         },
         "26": {
-            "driving": 1160,
-            "walking": 7620,
-            "transit": 2675
+            "driving": 970,
+            "walking": 7609,
+            "transit": 3056
         },
         "27": {
-            "driving": 1392,
-            "walking": 7819,
-            "transit": 3113
+            "driving": 1119,
+            "walking": 7824,
+            "transit": 3207
         },
         "28": {
-            "driving": 1334,
-            "walking": 10526,
-            "transit": 2719
+            "driving": 1382,
+            "walking": 10516,
+            "transit": 2599
         },
         "29": {
-            "driving": 1479,
-            "walking": 11010,
-            "transit": 3942
+            "driving": 1520,
+            "walking": 11017,
+            "transit": 4072
         },
         "30": {
-            "driving": 1730,
-            "walking": 12748,
-            "transit": 3553
+            "driving": 1772,
+            "walking": 12755,
+            "transit": 3613
         },
         "31": {
-            "driving": 1875,
-            "walking": 11701,
-            "transit": 3531
+            "driving": 1931,
+            "walking": 11704,
+            "transit": 3677
         },
         "32": {
-            "driving": 1846,
-            "walking": 11268,
-            "transit": 2902
+            "driving": 1632,
+            "walking": 11276,
+            "transit": 2962
         }
     },
     "10": {
         "1": {
-            "driving": 615,
-            "walking": 2544,
-            "transit": 1525
+            "driving": 613,
+            "walking": 2547,
+            "transit": 1617
         },
         "2": {
-            "driving": 253,
+            "driving": 252,
             "walking": 843,
             "transit": 476
         },
         "3": {
-            "driving": 492,
+            "driving": 487,
             "walking": 1586,
-            "transit": 967
+            "transit": 971
         },
         "4": {
-            "driving": 828,
+            "driving": 819,
             "walking": 2269,
-            "transit": 1725
+            "transit": 1579
         },
         "5": {
-            "driving": 886,
-            "walking": 2084,
-            "transit": 1491
+            "driving": 883,
+            "walking": 2080,
+            "transit": 1431
         },
         "6": {
-            "driving": 1006,
+            "driving": 738,
             "walking": 2224,
-            "transit": 1580
+            "transit": 1640
         },
         "7": {
-            "driving": 835,
+            "driving": 830,
             "walking": 4302,
-            "transit": 2126
+            "transit": 1946
         },
         "8": {
-            "driving": 833,
+            "driving": 815,
             "walking": 2120,
-            "transit": 1013
+            "transit": 1133
         },
         "9": {
-            "driving": 1775,
-            "walking": 9654,
-            "transit": 3096
+            "driving": 1495,
+            "walking": 9660,
+            "transit": 2976
         },
         "10": {
             "driving": 0,
@@ -1509,69 +1509,69 @@
             "transit": 0
         },
         "11": {
-            "driving": 1029,
+            "driving": 1012,
             "walking": 3845,
-            "transit": 1823
+            "transit": 1879
         },
         "12": {
-            "driving": 1018,
+            "driving": 1006,
             "walking": 2973,
             "transit": 1528
         },
         "13": {
-            "driving": 855,
+            "driving": 858,
             "walking": 4106,
-            "transit": 1799
+            "transit": 1739
         },
         "14": {
-            "driving": 611,
+            "driving": 608,
             "walking": 1502,
-            "transit": 883
+            "transit": 887
         },
         "15": {
-            "driving": 611,
+            "driving": 608,
             "walking": 1502,
-            "transit": 883
+            "transit": 887
         },
         "16": {
-            "driving": 626,
+            "driving": 635,
             "walking": 1534,
-            "transit": 974
+            "transit": 978
         },
         "17": {
-            "driving": 1390,
-            "walking": 6370,
-            "transit": 2781
+            "driving": 1394,
+            "walking": 6368,
+            "transit": 2721
         },
         "18": {
-            "driving": 944,
+            "driving": 940,
             "walking": 3143,
             "transit": 1550
         },
         "19": {
-            "driving": 1355,
+            "driving": 1297,
             "walking": 4673,
-            "transit": 2420
+            "transit": 2476
         },
         "20": {
-            "driving": 593,
+            "driving": 587,
             "walking": 1818,
-            "transit": 1201
+            "transit": 1077
         },
         "21": {
-            "driving": 1173,
+            "driving": 1204,
             "walking": 5564,
-            "transit": 2598
+            "transit": 2658
         },
         "22": {
-            "driving": 835,
+            "driving": 602,
             "walking": 1934,
-            "transit": 1317
+            "transit": 1193
         },
         "23": {
-            "driving": 875,
+            "driving": 866,
             "walking": 2681,
-            "transit": 1685
+            "transit": 1745
         },
         "24": {
             "driving": 755,
@@ -1579,96 +1579,96 @@
             "transit": 1173
         },
         "25": {
-            "driving": 913,
-            "walking": 4608,
+            "driving": 879,
+            "walking": 4610,
             "transit": 1205
         },
         "26": {
-            "driving": 1134,
-            "walking": 4585,
-            "transit": 2583
+            "driving": 1033,
+            "walking": 4581,
+            "transit": 2349
         },
         "27": {
-            "driving": 1078,
+            "driving": 958,
             "walking": 4184,
-            "transit": 2206
+            "transit": 2230
         },
         "28": {
-            "driving": 1433,
+            "driving": 1259,
             "walking": 4783,
-            "transit": 2712
+            "transit": 2342
         },
         "29": {
-            "driving": 1713,
-            "walking": 6811,
-            "transit": 3616
+            "driving": 1775,
+            "walking": 6812,
+            "transit": 3611
         },
         "30": {
-            "driving": 984,
+            "driving": 989,
             "walking": 4974,
-            "transit": 1466
+            "transit": 1406
         },
         "31": {
-            "driving": 703,
+            "driving": 706,
             "walking": 2430,
-            "transit": 1503
+            "transit": 1517
         },
         "32": {
-            "driving": 1743,
+            "driving": 1733,
             "walking": 9093,
-            "transit": 3806
+            "transit": 3746
         }
     },
     "11": {
         "1": {
-            "driving": 620,
+            "driving": 617,
             "walking": 2130,
-            "transit": 1443
+            "transit": 1258
         },
         "2": {
-            "driving": 1052,
+            "driving": 1146,
             "walking": 3399,
-            "transit": 1621
+            "transit": 1681
         },
         "3": {
-            "driving": 757,
+            "driving": 852,
             "walking": 2262,
-            "transit": 1427
+            "transit": 1487
         },
         "4": {
-            "driving": 830,
+            "driving": 827,
             "walking": 2554,
-            "transit": 1452
+            "transit": 1512
         },
         "5": {
-            "driving": 572,
+            "driving": 571,
             "walking": 1879,
-            "transit": 1372
+            "transit": 1271
         },
         "6": {
-            "driving": 568,
+            "driving": 565,
             "walking": 1532,
-            "transit": 864
+            "transit": 924
         },
         "7": {
-            "driving": 1750,
+            "driving": 1707,
             "walking": 7938,
-            "transit": 3375
+            "transit": 3949
         },
         "8": {
-            "driving": 519,
+            "driving": 518,
             "walking": 2141,
-            "transit": 1018
+            "transit": 1078
         },
         "9": {
-            "driving": 1240,
-            "walking": 9701,
-            "transit": 3054
+            "driving": 1250,
+            "walking": 9689,
+            "transit": 2764
         },
         "10": {
-            "driving": 1058,
+            "driving": 1154,
             "walking": 3738,
-            "transit": 1804
+            "transit": 1864
         },
         "11": {
             "driving": 0,
@@ -1676,166 +1676,166 @@
             "transit": 0
         },
         "12": {
-            "driving": 367,
+            "driving": 375,
             "walking": 1121,
-            "transit": 667
+            "transit": 727
         },
         "13": {
-            "driving": 1199,
+            "driving": 1244,
             "walking": 4905,
-            "transit": 2258
+            "transit": 2618
         },
         "14": {
-            "driving": 698,
+            "driving": 792,
             "walking": 2275,
-            "transit": 1343
+            "transit": 1403
         },
         "15": {
-            "driving": 698,
+            "driving": 792,
             "walking": 2275,
-            "transit": 1343
+            "transit": 1403
         },
         "16": {
-            "driving": 589,
+            "driving": 684,
             "walking": 2584,
-            "transit": 1184
+            "transit": 1244
         },
         "17": {
-            "driving": 1218,
+            "driving": 1233,
             "walking": 5954,
-            "transit": 2902
+            "transit": 2940
         },
         "18": {
-            "driving": 759,
+            "driving": 756,
             "walking": 2871,
             "transit": 1227
         },
         "19": {
-            "driving": 325,
+            "driving": 306,
             "walking": 932,
-            "transit": 932
+            "transit": 869
         },
         "20": {
-            "driving": 692,
+            "driving": 685,
             "walking": 1920,
-            "transit": 1288
+            "transit": 1348
         },
         "21": {
-            "driving": 1700,
+            "driving": 1645,
             "walking": 7926,
-            "transit": 3417
+            "transit": 3357
         },
         "22": {
-            "driving": 542,
+            "driving": 586,
             "walking": 2036,
-            "transit": 1168
+            "transit": 1228
         },
         "23": {
-            "driving": 957,
+            "driving": 951,
             "walking": 2754,
-            "transit": 1649
+            "transit": 1709
         },
         "24": {
-            "driving": 815,
+            "driving": 808,
             "walking": 3571,
             "transit": 1704
         },
         "25": {
-            "driving": 1325,
-            "walking": 7141,
+            "driving": 1293,
+            "walking": 7143,
             "transit": 1606
         },
         "26": {
-            "driving": 766,
+            "driving": 641,
             "walking": 2070,
             "transit": 1153
         },
         "27": {
-            "driving": 825,
+            "driving": 774,
             "walking": 2380,
-            "transit": 2065
+            "transit": 1971
         },
         "28": {
-            "driving": 415,
+            "driving": 326,
             "walking": 1410,
             "transit": 927
         },
         "29": {
-            "driving": 683,
-            "walking": 3071,
-            "transit": 2065
+            "driving": 677,
+            "walking": 3072,
+            "transit": 2004
         },
         "30": {
-            "driving": 726,
+            "driving": 717,
             "walking": 3788,
             "transit": 1737
         },
         "31": {
-            "driving": 1069,
+            "driving": 1063,
             "walking": 4567,
             "transit": 2190
         },
         "32": {
-            "driving": 1093,
+            "driving": 1080,
             "walking": 5793,
             "transit": 2491
         }
     },
     "12": {
         "1": {
-            "driving": 745,
+            "driving": 778,
             "walking": 1692,
-            "transit": 830
+            "transit": 845
         },
         "2": {
-            "driving": 963,
+            "driving": 999,
             "walking": 2389,
-            "transit": 1584
+            "transit": 1524
         },
         "3": {
-            "driving": 668,
+            "driving": 705,
             "walking": 1538,
-            "transit": 1204
+            "transit": 1270
         },
         "4": {
-            "driving": 700,
+            "driving": 735,
             "walking": 1478,
-            "transit": 1102
+            "transit": 1269
         },
         "5": {
-            "driving": 637,
+            "driving": 673,
             "walking": 1155,
             "transit": 774
         },
         "6": {
-            "driving": 435,
+            "driving": 469,
             "walking": 808,
             "transit": 598
         },
         "7": {
-            "driving": 1582,
+            "driving": 1615,
             "walking": 7049,
-            "transit": 3706
+            "transit": 3792
         },
         "8": {
-            "driving": 389,
+            "driving": 426,
             "walking": 1131,
-            "transit": 619
+            "transit": 679
         },
         "9": {
-            "driving": 1639,
-            "walking": 9426,
-            "transit": 2456
+            "driving": 1680,
+            "walking": 9432,
+            "transit": 2696
         },
         "10": {
-            "driving": 969,
+            "driving": 1007,
             "walking": 2992,
-            "transit": 1753
+            "transit": 1707
         },
         "11": {
-            "driving": 480,
+            "driving": 518,
             "walking": 1244,
-            "transit": 779
+            "transit": 839
         },
         "12": {
             "driving": 0,
@@ -1843,166 +1843,166 @@
             "transit": 0
         },
         "13": {
-            "driving": 1091,
+            "driving": 1152,
             "walking": 3819,
-            "transit": 2221
+            "transit": 2041
         },
         "14": {
-            "driving": 609,
+            "driving": 645,
             "walking": 1529,
-            "transit": 1057
+            "transit": 1117
         },
         "15": {
-            "driving": 609,
+            "driving": 645,
             "walking": 1529,
-            "transit": 1057
+            "transit": 1117
         },
         "16": {
-            "driving": 500,
-            "walking": 1715,
-            "transit": 907
+            "driving": 537,
+            "walking": 1716,
+            "transit": 967
         },
         "17": {
-            "driving": 1289,
-            "walking": 5537,
-            "transit": 2066
+            "driving": 1334,
+            "walking": 5536,
+            "transit": 2006
         },
         "18": {
-            "driving": 884,
+            "driving": 917,
             "walking": 2767,
-            "transit": 1130
+            "transit": 1190
         },
         "19": {
-            "driving": 806,
+            "driving": 825,
             "walking": 2072,
-            "transit": 1376
+            "transit": 1436
         },
         "20": {
-            "driving": 557,
+            "driving": 589,
             "walking": 1174,
-            "transit": 964
+            "transit": 871
         },
         "21": {
-            "driving": 1570,
+            "driving": 1553,
             "walking": 6916,
-            "transit": 2774
+            "transit": 3200
         },
         "22": {
-            "driving": 453,
+            "driving": 490,
             "walking": 1290,
-            "transit": 891
+            "transit": 951
         },
         "23": {
-            "driving": 827,
+            "driving": 859,
             "walking": 1674,
-            "transit": 1648
+            "transit": 1562
         },
         "24": {
-            "driving": 868,
+            "driving": 909,
             "walking": 2491,
-            "transit": 1825
+            "transit": 1551
         },
         "25": {
-            "driving": 1477,
-            "walking": 6671,
-            "transit": 1775
+            "driving": 1621,
+            "walking": 6673,
+            "transit": 1930
         },
         "26": {
-            "driving": 947,
+            "driving": 944,
             "walking": 2618,
-            "transit": 1514
+            "transit": 1589
         },
         "27": {
-            "driving": 950,
+            "driving": 935,
             "walking": 2667,
             "transit": 1566
         },
         "28": {
-            "driving": 831,
+            "driving": 709,
             "walking": 1866,
             "transit": 831
         },
         "29": {
-            "driving": 1164,
-            "walking": 4057,
-            "transit": 2572
+            "driving": 1196,
+            "walking": 4058,
+            "transit": 2701
         },
         "30": {
-            "driving": 892,
-            "walking": 3299,
+            "driving": 901,
+            "walking": 3303,
             "transit": 1348
         },
         "31": {
-            "driving": 939,
+            "driving": 971,
             "walking": 3557,
-            "transit": 1871
+            "transit": 1931
         },
         "32": {
-            "driving": 1567,
+            "driving": 1583,
             "walking": 6622,
             "transit": 2757
         }
     },
     "13": {
         "1": {
-            "driving": 1161,
+            "driving": 1182,
             "walking": 4389,
             "transit": 1763
         },
         "2": {
-            "driving": 729,
+            "driving": 742,
             "walking": 3117,
-            "transit": 2043
+            "transit": 1803
         },
         "3": {
-            "driving": 985,
+            "driving": 999,
             "walking": 3615,
             "transit": 1354
         },
         "4": {
-            "driving": 692,
+            "driving": 699,
             "walking": 2288,
             "transit": 1046
         },
         "5": {
-            "driving": 1263,
+            "driving": 1269,
             "walking": 3719,
             "transit": 1325
         },
         "6": {
-            "driving": 1083,
+            "driving": 1086,
             "walking": 3563,
             "transit": 1612
         },
         "7": {
-            "driving": 1005,
+            "driving": 995,
             "walking": 4915,
-            "transit": 2045
+            "transit": 2525
         },
         "8": {
-            "driving": 910,
+            "driving": 917,
             "walking": 2696,
             "transit": 1270
         },
         "9": {
-            "driving": 2088,
-            "walking": 12145,
-            "transit": 3584
+            "driving": 2096,
+            "walking": 12151,
+            "transit": 3404
         },
         "10": {
-            "driving": 784,
-            "walking": 3744,
-            "transit": 1895
+            "driving": 796,
+            "walking": 3745,
+            "transit": 1775
         },
         "11": {
-            "driving": 1106,
+            "driving": 1114,
             "walking": 4659,
-            "transit": 2592
+            "transit": 2172
         },
         "12": {
-            "driving": 1095,
+            "driving": 1108,
             "walking": 3456,
-            "transit": 2297
+            "transit": 1937
         },
         "13": {
             "driving": 0,
@@ -2010,111 +2010,111 @@
             "transit": 0
         },
         "14": {
-            "driving": 938,
+            "driving": 944,
             "walking": 3512,
             "transit": 1372
         },
         "15": {
-            "driving": 938,
+            "driving": 944,
             "walking": 3512,
             "transit": 1372
         },
         "16": {
-            "driving": 829,
+            "driving": 836,
             "walking": 3131,
             "transit": 1534
         },
         "17": {
-            "driving": 739,
-            "walking": 2562,
-            "transit": 1813
+            "driving": 740,
+            "walking": 2560,
+            "transit": 1873
         },
         "18": {
-            "driving": 1492,
+            "driving": 1510,
             "walking": 5513,
-            "transit": 2246
+            "transit": 2306
         },
         "19": {
-            "driving": 1266,
+            "driving": 1262,
             "walking": 5487,
-            "transit": 2484
+            "transit": 2724
         },
         "20": {
-            "driving": 932,
+            "driving": 937,
             "walking": 3268,
             "transit": 1332
         },
         "21": {
-            "driving": 856,
+            "driving": 857,
             "walking": 4151,
-            "transit": 1751
+            "transit": 1893
         },
         "22": {
-            "driving": 912,
+            "driving": 919,
             "walking": 3148,
-            "transit": 1610
+            "transit": 1450
         },
         "23": {
-            "driving": 744,
+            "driving": 750,
             "walking": 2081,
             "transit": 1064
         },
         "24": {
-            "driving": 539,
+            "driving": 545,
             "walking": 1456,
             "transit": 939
         },
         "25": {
-            "driving": 1595,
-            "walking": 8362,
-            "transit": 2364
+            "driving": 1445,
+            "walking": 8366,
+            "transit": 2244
         },
         "26": {
-            "driving": 1534,
+            "driving": 1487,
             "walking": 6043,
             "transit": 1877
         },
         "27": {
-            "driving": 1567,
+            "driving": 1528,
             "walking": 5921,
             "transit": 2467
         },
         "28": {
-            "driving": 1254,
+            "driving": 1049,
             "walking": 4789,
             "transit": 2200
         },
         "29": {
-            "driving": 1624,
+            "driving": 1565,
             "walking": 6966,
-            "transit": 3378
+            "transit": 3558
         },
         "30": {
-            "driving": 631,
-            "walking": 2260,
+            "driving": 633,
+            "walking": 2259,
             "transit": 1164
         },
         "31": {
-            "driving": 492,
+            "driving": 487,
             "walking": 1522,
             "transit": 1079
         },
         "32": {
-            "driving": 2034,
+            "driving": 2029,
             "walking": 10030,
-            "transit": 3304
+            "transit": 3364
         }
     },
     "14": {
         "1": {
-            "driving": 407,
+            "driving": 422,
             "walking": 1181,
-            "transit": 985
+            "transit": 1045
         },
         "2": {
-            "driving": 533,
+            "driving": 537,
             "walking": 1361,
-            "transit": 712
+            "transit": 652
         },
         "3": {
             "driving": 62,
@@ -2122,52 +2122,52 @@
             "transit": 151
         },
         "4": {
-            "driving": 657,
+            "driving": 654,
             "walking": 1324,
-            "transit": 1045
+            "transit": 884
         },
         "5": {
-            "driving": 678,
+            "driving": 692,
             "walking": 646,
             "transit": 588
         },
         "6": {
-            "driving": 809,
+            "driving": 313,
             "walking": 762,
-            "transit": 473
+            "transit": 653
         },
         "7": {
-            "driving": 1252,
+            "driving": 1263,
             "walking": 5703,
-            "transit": 2594
+            "transit": 2920
         },
         "8": {
-            "driving": 636,
+            "driving": 495,
             "walking": 890,
             "transit": 511
         },
         "9": {
-            "driving": 1791,
-            "walking": 8873,
-            "transit": 2621
+            "driving": 1597,
+            "walking": 8879,
+            "transit": 2840
         },
         "10": {
-            "driving": 541,
+            "driving": 545,
             "walking": 1503,
             "transit": 835
         },
         "11": {
-            "driving": 832,
+            "driving": 709,
             "walking": 2383,
-            "transit": 1263
+            "transit": 1343
         },
         "12": {
-            "driving": 821,
+            "driving": 658,
             "walking": 1511,
             "transit": 1048
         },
         "13": {
-            "driving": 1031,
+            "driving": 1059,
             "walking": 3873,
             "transit": 1373
         },
@@ -2182,99 +2182,99 @@
             "transit": null
         },
         "16": {
-            "driving": 455,
+            "driving": 454,
             "walking": 599,
             "transit": 600
         },
         "17": {
-            "driving": 1530,
-            "walking": 5902,
-            "transit": 2815
+            "driving": 1402,
+            "walking": 5900,
+            "transit": 2731
         },
         "18": {
-            "driving": 735,
+            "driving": 750,
             "walking": 2241,
             "transit": 951
         },
         "19": {
-            "driving": 1158,
+            "driving": 1016,
             "walking": 3211,
-            "transit": 1860
+            "transit": 1940
         },
         "20": {
-            "driving": 163,
+            "driving": 162,
             "walking": 356,
             "transit": 234
         },
         "21": {
-            "driving": 1389,
+            "driving": 1395,
             "walking": 6214,
-            "transit": 2391
+            "transit": 2211
         },
         "22": {
-            "driving": 638,
-            "walking": 474,
+            "driving": 177,
+            "walking": 470,
             "transit": 350
         },
         "23": {
-            "driving": 785,
+            "driving": 778,
             "walking": 1936,
             "transit": 785
         },
         "24": {
-            "driving": 933,
+            "driving": 931,
             "walking": 2958,
             "transit": 784
         },
         "25": {
             "driving": 1049,
-            "walking": 5386,
+            "walking": 5388,
             "transit": 1679
         },
         "26": {
-            "driving": 1060,
-            "walking": 3146,
+            "driving": 874,
+            "walking": 3142,
             "transit": 1122
         },
         "27": {
-            "driving": 801,
+            "driving": 768,
             "walking": 2800,
             "transit": 1658
         },
         "28": {
-            "driving": 1248,
+            "driving": 952,
             "walking": 3321,
             "transit": 1357
         },
         "29": {
-            "driving": 1516,
-            "walking": 5349,
-            "transit": 3056
+            "driving": 1387,
+            "walking": 5350,
+            "transit": 2972
         },
         "30": {
-            "driving": 1098,
+            "driving": 969,
             "walking": 4365,
             "transit": 1559
         },
         "31": {
-            "driving": 879,
+            "driving": 878,
             "walking": 2795,
-            "transit": 1221
+            "transit": 1161
         },
         "32": {
-            "driving": 1737,
+            "driving": 1543,
             "walking": 7631,
-            "transit": 2549
+            "transit": 2609
         }
     },
     "15": {
         "1": {
-            "driving": 407,
+            "driving": 422,
             "walking": 1181,
-            "transit": 985
+            "transit": 1045
         },
         "2": {
-            "driving": 535,
+            "driving": 552,
             "walking": 1361,
             "transit": 712
         },
@@ -2284,52 +2284,52 @@
             "transit": 151
         },
         "4": {
-            "driving": 657,
+            "driving": 654,
             "walking": 1324,
-            "transit": 1045
+            "transit": 884
         },
         "5": {
-            "driving": 678,
+            "driving": 692,
             "walking": 646,
             "transit": 588
         },
         "6": {
-            "driving": 809,
+            "driving": 313,
             "walking": 762,
-            "transit": 473
+            "transit": 653
         },
         "7": {
-            "driving": 1252,
+            "driving": 1263,
             "walking": 5703,
-            "transit": 2594
+            "transit": 2414
         },
         "8": {
-            "driving": 636,
+            "driving": 495,
             "walking": 890,
             "transit": 511
         },
         "9": {
-            "driving": 1791,
-            "walking": 8873,
-            "transit": 2621
+            "driving": 1597,
+            "walking": 8879,
+            "transit": 2840
         },
         "10": {
-            "driving": 541,
+            "driving": 560,
             "walking": 1503,
             "transit": 835
         },
         "11": {
-            "driving": 832,
+            "driving": 709,
             "walking": 2383,
-            "transit": 1263
+            "transit": 1343
         },
         "12": {
-            "driving": 821,
+            "driving": 658,
             "walking": 1511,
             "transit": 1048
         },
         "13": {
-            "driving": 1031,
+            "driving": 1059,
             "walking": 3873,
             "transit": 1373
         },
@@ -2344,126 +2344,126 @@
             "transit": 0
         },
         "16": {
-            "driving": 455,
+            "driving": 454,
             "walking": 599,
             "transit": 600
         },
         "17": {
-            "driving": 1530,
-            "walking": 5902,
-            "transit": 2815
+            "driving": 1402,
+            "walking": 5900,
+            "transit": 2731
         },
         "18": {
-            "driving": 735,
+            "driving": 750,
             "walking": 2241,
             "transit": 951
         },
         "19": {
-            "driving": 1158,
+            "driving": 1016,
             "walking": 3211,
-            "transit": 1860
+            "transit": 1940
         },
         "20": {
-            "driving": 163,
+            "driving": 162,
             "walking": 356,
-            "transit": 234
+            "transit": 356
         },
         "21": {
-            "driving": 1390,
+            "driving": 1395,
             "walking": 6214,
-            "transit": 2391
+            "transit": 2211
         },
         "22": {
-            "driving": 638,
-            "walking": 474,
-            "transit": 350
+            "driving": 177,
+            "walking": 470,
+            "transit": 470
         },
         "23": {
-            "driving": 785,
+            "driving": 778,
             "walking": 1936,
             "transit": 785
         },
         "24": {
-            "driving": 933,
+            "driving": 964,
             "walking": 2958,
             "transit": 784
         },
         "25": {
             "driving": 1049,
-            "walking": 5386,
+            "walking": 5388,
             "transit": 1679
         },
         "26": {
-            "driving": 1060,
-            "walking": 3146,
+            "driving": 843,
+            "walking": 3142,
             "transit": 1122
         },
         "27": {
-            "driving": 801,
+            "driving": 768,
             "walking": 2800,
             "transit": 1658
         },
         "28": {
-            "driving": 1248,
+            "driving": 952,
             "walking": 3321,
             "transit": 1357
         },
         "29": {
-            "driving": 1516,
-            "walking": 5349,
-            "transit": 3056
+            "driving": 1387,
+            "walking": 5350,
+            "transit": 2972
         },
         "30": {
-            "driving": 1098,
+            "driving": 969,
             "walking": 4365,
             "transit": 1559
         },
         "31": {
-            "driving": 879,
+            "driving": 878,
             "walking": 2795,
-            "transit": 1221
+            "transit": 1161
         },
         "32": {
-            "driving": 1737,
+            "driving": 1543,
             "walking": 7631,
-            "transit": 2549
+            "transit": 2609
         }
     },
     "16": {
         "1": {
-            "driving": 555,
+            "driving": 565,
             "walking": 1710,
             "transit": 1126
         },
         "2": {
-            "driving": 466,
+            "driving": 475,
             "walking": 990,
-            "transit": 714
+            "transit": 774
         },
         "3": {
-            "driving": 379,
+            "driving": 382,
             "walking": 681,
             "transit": 681
         },
         "4": {
-            "driving": 590,
+            "driving": 589,
             "walking": 1093,
             "transit": 820
         },
         "5": {
-            "driving": 826,
+            "driving": 835,
             "walking": 1177,
             "transit": 930
         },
         "6": {
-            "driving": 742,
+            "driving": 633,
             "walking": 1231,
             "transit": 792
         },
         "7": {
-            "driving": 1134,
+            "driving": 1241,
             "walking": 5650,
-            "transit": 2656
+            "transit": 2476
         },
         "8": {
             "driving": 569,
@@ -2471,37 +2471,37 @@
             "transit": 430
         },
         "9": {
-            "driving": 1938,
-            "walking": 9402,
-            "transit": 2908
+            "driving": 1740,
+            "walking": 9408,
+            "transit": 2903
         },
         "10": {
-            "driving": 532,
+            "driving": 539,
             "walking": 1505,
             "transit": 897
         },
         "11": {
-            "driving": 765,
+            "driving": 766,
             "walking": 2668,
-            "transit": 975
+            "transit": 1035
         },
         "12": {
-            "driving": 754,
-            "walking": 1675,
+            "driving": 760,
+            "walking": 1674,
             "transit": 740
         },
         "13": {
-            "driving": 964,
+            "driving": 994,
             "walking": 3457,
             "transit": 1592
         },
         "14": {
-            "driving": 498,
+            "driving": 503,
             "walking": 573,
             "transit": 574
         },
         "15": {
-            "driving": 498,
+            "driving": 503,
             "walking": 573,
             "transit": 574
         },
@@ -2511,166 +2511,166 @@
             "transit": 0
         },
         "17": {
-            "driving": 1463,
-            "walking": 5599,
-            "transit": 2683
+            "driving": 1470,
+            "walking": 5597,
+            "transit": 2743
         },
         "18": {
-            "driving": 895,
+            "driving": 893,
             "walking": 2770,
             "transit": 1014
         },
         "19": {
-            "driving": 1091,
+            "driving": 1073,
             "walking": 3496,
-            "transit": 1572
+            "transit": 1632
         },
         "20": {
-            "driving": 480,
+            "driving": 482,
             "walking": 825,
             "transit": 678
         },
         "21": {
-            "driving": 1322,
+            "driving": 1330,
             "walking": 5820,
-            "transit": 2351
+            "transit": 2411
         },
         "22": {
-            "driving": 571,
+            "driving": 497,
             "walking": 768,
             "transit": 747
         },
         "23": {
-            "driving": 718,
+            "driving": 713,
             "walking": 1637,
             "transit": 1025
         },
         "24": {
-            "driving": 866,
+            "driving": 899,
             "walking": 2674,
             "transit": 1024
         },
         "25": {
-            "driving": 1137,
-            "walking": 5526,
+            "driving": 1138,
+            "walking": 5528,
             "transit": 1742
         },
         "26": {
-            "driving": 1207,
-            "walking": 3677,
+            "driving": 1017,
+            "walking": 3673,
             "transit": 1482
         },
         "27": {
-            "driving": 961,
+            "driving": 911,
             "walking": 3331,
-            "transit": 1799
+            "transit": 1739
         },
         "28": {
-            "driving": 1181,
-            "walking": 3485,
+            "driving": 1054,
+            "walking": 3484,
             "transit": 1494
         },
         "29": {
-            "driving": 1449,
-            "walking": 5634,
-            "transit": 2768
+            "driving": 1444,
+            "walking": 5604,
+            "transit": 2767
         },
         "30": {
-            "driving": 1031,
+            "driving": 1037,
             "walking": 4081,
             "transit": 1799
         },
         "31": {
-            "driving": 812,
+            "driving": 813,
             "walking": 2401,
-            "transit": 1283
+            "transit": 1309
         },
         "32": {
-            "driving": 1852,
+            "driving": 1686,
             "walking": 7926,
             "transit": 2898
         }
     },
     "17": {
         "1": {
-            "driving": 1333,
+            "driving": 1423,
             "walking": 6709,
             "transit": 2134
         },
         "2": {
-            "driving": 979,
-            "walking": 5568,
+            "driving": 982,
+            "walking": 5566,
             "transit": 3199
         },
         "3": {
-            "driving": 1236,
+            "driving": 1240,
             "walking": 5929,
-            "transit": 2731
+            "transit": 2715
         },
         "4": {
-            "driving": 942,
-            "walking": 4664,
-            "transit": 2768
+            "driving": 940,
+            "walking": 4666,
+            "transit": 2828
         },
         "5": {
-            "driving": 1225,
+            "driving": 1232,
             "walking": 5982,
-            "transit": 2522
+            "transit": 2446
         },
         "6": {
-            "driving": 1045,
+            "driving": 1049,
             "walking": 5612,
-            "transit": 2106
+            "transit": 2166
         },
         "7": {
-            "driving": 1342,
+            "driving": 1221,
             "walking": 6870,
-            "transit": 3837
+            "transit": 3580
         },
         "8": {
-            "driving": 935,
-            "walking": 4998,
-            "transit": 2292
+            "driving": 943,
+            "walking": 5000,
+            "transit": 2412
         },
         "9": {
-            "driving": 1868,
-            "walking": 14556,
-            "transit": 4045
+            "driving": 1851,
+            "walking": 14562,
+            "transit": 4225
         },
         "10": {
-            "driving": 1034,
-            "walking": 6272,
+            "driving": 1037,
+            "walking": 6271,
             "transit": 2585
         },
         "11": {
-            "driving": 981,
+            "driving": 969,
             "walking": 5892,
-            "transit": 2862
+            "transit": 2922
         },
         "12": {
-            "driving": 1017,
-            "walking": 5356,
-            "transit": 2037
+            "driving": 955,
+            "walking": 5405,
+            "transit": 2097
         },
         "13": {
-            "driving": 452,
-            "walking": 2827,
-            "transit": 2147
+            "driving": 447,
+            "walking": 2825,
+            "transit": 2033
         },
         "14": {
-            "driving": 1188,
-            "walking": 5915,
-            "transit": 2834
+            "driving": 1217,
+            "walking": 5911,
+            "transit": 2733
         },
         "15": {
-            "driving": 1188,
-            "walking": 5915,
-            "transit": 2834
+            "driving": 1217,
+            "walking": 5911,
+            "transit": 2733
         },
         "16": {
-            "driving": 1079,
-            "walking": 5548,
-            "transit": 2893
+            "driving": 1109,
+            "walking": 5546,
+            "transit": 2814
         },
         "17": {
             "driving": 0,
@@ -2678,166 +2678,166 @@
             "transit": 0
         },
         "18": {
-            "driving": 1472,
+            "driving": 1476,
             "walking": 7897,
-            "transit": 2685
+            "transit": 2745
         },
         "19": {
-            "driving": 1039,
+            "driving": 1017,
             "walking": 6242,
-            "transit": 3253
+            "transit": 3111
         },
         "20": {
-            "driving": 1182,
+            "driving": 1210,
             "walking": 5588,
-            "transit": 2505
+            "transit": 2532
         },
         "21": {
-            "driving": 989,
+            "driving": 991,
             "walking": 5857,
-            "transit": 3326
+            "transit": 2966
         },
         "22": {
-            "driving": 1054,
+            "driving": 1062,
             "walking": 5468,
-            "transit": 2588
+            "transit": 2648
         },
         "23": {
-            "driving": 1008,
-            "walking": 4118,
-            "transit": 2355
+            "driving": 991,
+            "walking": 4116,
+            "transit": 2535
         },
         "24": {
-            "driving": 649,
+            "driving": 646,
             "walking": 3296,
             "transit": 1916
         },
         "25": {
-            "driving": 1846,
-            "walking": 10890,
-            "transit": 3054
+            "driving": 1685,
+            "walking": 10892,
+            "transit": 3124
         },
         "26": {
-            "driving": 1247,
-            "walking": 7882,
-            "transit": 2758
+            "driving": 1242,
+            "walking": 7931,
+            "transit": 2938
         },
         "27": {
-            "driving": 1398,
-            "walking": 7931,
-            "transit": 3235
+            "driving": 1391,
+            "walking": 7980,
+            "transit": 3355
         },
         "28": {
-            "driving": 1027,
+            "driving": 804,
             "walking": 5340,
-            "transit": 2481
+            "transit": 2721
         },
         "29": {
-            "driving": 1397,
-            "walking": 7143,
-            "transit": 3888
+            "driving": 1320,
+            "walking": 7142,
+            "transit": 4188
         },
         "30": {
-            "driving": 285,
+            "driving": 288,
             "walking": 2202,
-            "transit": 1632
+            "transit": 1692
         },
         "31": {
-            "driving": 715,
-            "walking": 4180,
-            "transit": 3273
+            "driving": 713,
+            "walking": 4178,
+            "transit": 3039
         },
         "32": {
-            "driving": 1807,
-            "walking": 10391,
-            "transit": 4185
+            "driving": 1706,
+            "walking": 10390,
+            "transit": 4365
         }
     },
     "18": {
         "1": {
-            "driving": 627,
+            "driving": 631,
             "walking": 1224,
             "transit": 849
         },
         "2": {
-            "driving": 1127,
+            "driving": 1133,
             "walking": 3453,
-            "transit": 1678
+            "transit": 1618
         },
         "3": {
-            "driving": 954,
+            "driving": 861,
             "walking": 2234,
             "transit": 947
         },
         "4": {
-            "driving": 1209,
+            "driving": 1213,
             "walking": 3537,
             "transit": 1194
         },
         "5": {
-            "driving": 715,
+            "driving": 719,
             "walking": 2007,
             "transit": 797
         },
         "6": {
-            "driving": 889,
+            "driving": 892,
             "walking": 2377,
             "transit": 1111
         },
         "7": {
-            "driving": 1749,
+            "driving": 1788,
             "walking": 7457,
-            "transit": 2692
+            "transit": 3132
         },
         "8": {
-            "driving": 936,
+            "driving": 991,
             "walking": 3074,
             "transit": 711
         },
         "9": {
-            "driving": 1376,
-            "walking": 6932,
+            "driving": 1249,
+            "walking": 6938,
             "transit": 2059
         },
         "10": {
-            "driving": 1133,
+            "driving": 1082,
             "walking": 3218,
-            "transit": 1536
+            "transit": 1476
         },
         "11": {
-            "driving": 924,
+            "driving": 930,
             "walking": 3049,
             "transit": 1213
         },
         "12": {
-            "driving": 1095,
+            "driving": 1152,
             "walking": 2813,
             "transit": 1215
         },
         "13": {
-            "driving": 1600,
+            "driving": 1630,
             "walking": 5918,
-            "transit": 2307
+            "transit": 2103
         },
         "14": {
-            "driving": 1122,
+            "driving": 1062,
             "walking": 2328,
             "transit": 863
         },
         "15": {
-            "driving": 1122,
+            "driving": 1062,
             "walking": 2328,
             "transit": 863
         },
         "16": {
-            "driving": 950,
+            "driving": 954,
             "walking": 2883,
             "transit": 1026
         },
         "17": {
-            "driving": 1841,
+            "driving": 1899,
             "walking": 8081,
-            "transit": 2809
+            "transit": 2749
         },
         "18": {
             "driving": 0,
@@ -2845,72 +2845,72 @@
             "transit": 0
         },
         "19": {
-            "driving": 1141,
+            "driving": 995,
             "walking": 3603,
             "transit": 1450
         },
         "20": {
-            "driving": 1104,
+            "driving": 961,
             "walking": 2333,
             "transit": 1180
         },
         "21": {
-            "driving": 2085,
+            "driving": 2125,
             "walking": 8331,
-            "transit": 2881
+            "transit": 3061
         },
         "22": {
-            "driving": 903,
+            "driving": 907,
             "walking": 2476,
-            "transit": 1359
+            "transit": 1315
         },
         "23": {
-            "driving": 1337,
+            "driving": 1336,
             "walking": 4203,
             "transit": 1515
         },
         "24": {
-            "driving": 1420,
+            "driving": 1474,
             "walking": 5020,
             "transit": 1514
         },
         "25": {
-            "driving": 928,
-            "walking": 4636,
+            "driving": 938,
+            "walking": 4638,
             "transit": 983
         },
         "26": {
-            "driving": 884,
+            "driving": 762,
             "walking": 2428,
-            "transit": 1388
+            "transit": 1328
         },
         "27": {
-            "driving": 555,
+            "driving": 580,
             "walking": 1256,
             "transit": 1011
         },
         "28": {
-            "driving": 1340,
-            "walking": 4399,
+            "driving": 1205,
+            "walking": 4395,
             "transit": 1215
         },
         "29": {
-            "driving": 1436,
-            "walking": 5991,
-            "transit": 2688
+            "driving": 1343,
+            "walking": 5992,
+            "transit": 2628
         },
         "30": {
-            "driving": 1409,
-            "walking": 6069,
+            "driving": 1466,
+            "walking": 6073,
             "transit": 2091
         },
         "31": {
-            "driving": 1448,
+            "driving": 1449,
             "walking": 5093,
-            "transit": 1759
+            "transit": 1699
         },
         "32": {
-            "driving": 1561,
+            "driving": 1431,
             "walking": 7479,
             "transit": 2944
         }
@@ -2919,92 +2919,92 @@
         "1": {
             "driving": 877,
             "walking": 2876,
-            "transit": 1532
+            "transit": 1472
         },
         "2": {
-            "driving": 1332,
+            "driving": 1338,
             "walking": 4209,
-            "transit": 2667
+            "transit": 2370
         },
         "3": {
-            "driving": 1014,
+            "driving": 1061,
             "walking": 3072,
             "transit": 1996
         },
         "4": {
             "driving": 1087,
             "walking": 3364,
-            "transit": 2305
+            "transit": 2021
         },
         "5": {
-            "driving": 829,
+            "driving": 831,
             "walking": 2689,
-            "transit": 1688
+            "transit": 1723
         },
         "6": {
-            "driving": 785,
+            "driving": 825,
             "walking": 2342,
             "transit": 1433
         },
         "7": {
-            "driving": 1882,
+            "driving": 1891,
             "walking": 8748,
-            "transit": 3595
+            "transit": 3895
         },
         "8": {
-            "driving": 776,
+            "driving": 778,
             "walking": 2951,
             "transit": 1587
         },
         "9": {
-            "driving": 1069,
-            "walking": 9352,
-            "transit": 2895
+            "driving": 1070,
+            "walking": 9340,
+            "transit": 3587
         },
         "10": {
-            "driving": 1315,
+            "driving": 1393,
             "walking": 4548,
-            "transit": 2699
+            "transit": 2373
         },
         "11": {
-            "driving": 256,
+            "driving": 259,
             "walking": 915,
             "transit": 915
         },
         "12": {
-            "driving": 612,
+            "driving": 625,
             "walking": 1931,
             "transit": 1236
         },
         "13": {
-            "driving": 1331,
+            "driving": 1334,
             "walking": 5715,
-            "transit": 2682
+            "transit": 2802
         },
         "14": {
-            "driving": 955,
+            "driving": 960,
             "walking": 3085,
             "transit": 1912
         },
         "15": {
-            "driving": 955,
+            "driving": 1001,
             "walking": 3085,
             "transit": 1912
         },
         "16": {
-            "driving": 846,
+            "driving": 852,
             "walking": 3394,
             "transit": 1753
         },
         "17": {
-            "driving": 1350,
-            "walking": 6292,
-            "transit": 3064
+            "driving": 1369,
+            "walking": 6291,
+            "transit": 3124
         },
         "18": {
-            "driving": 773,
+            "driving": 771,
             "walking": 3381,
-            "transit": 1447
+            "transit": 1607
         },
         "19": {
             "driving": 0,
@@ -3012,166 +3012,166 @@
             "transit": 0
         },
         "20": {
-            "driving": 949,
+            "driving": 994,
             "walking": 2730,
-            "transit": 1935
+            "transit": 1857
         },
         "21": {
-            "driving": 1878,
+            "driving": 1829,
             "walking": 8736,
-            "transit": 3841
+            "transit": 3484
         },
         "22": {
-            "driving": 799,
+            "driving": 846,
             "walking": 2846,
             "transit": 1737
         },
         "23": {
-            "driving": 1214,
+            "driving": 1211,
             "walking": 3498,
-            "transit": 2012
+            "transit": 2072
         },
         "24": {
-            "driving": 947,
+            "driving": 944,
             "walking": 4275,
             "transit": 1866
         },
         "25": {
-            "driving": 1115,
-            "walking": 7785,
+            "driving": 1113,
+            "walking": 7787,
             "transit": 1826
         },
         "26": {
-            "driving": 455,
+            "driving": 461,
             "walking": 1912,
             "transit": 1482
         },
         "27": {
-            "driving": 606,
-            "walking": 2720,
-            "transit": 2126
+            "driving": 610,
+            "walking": 2719,
+            "transit": 2066
         },
         "28": {
-            "driving": 319,
+            "driving": 378,
             "walking": 1099,
             "transit": 865
         },
         "29": {
-            "driving": 589,
-            "walking": 2435,
-            "transit": 2086
+            "driving": 588,
+            "walking": 2436,
+            "transit": 2084
         },
         "30": {
-            "driving": 855,
-            "walking": 4175,
-            "transit": 2349
+            "driving": 853,
+            "walking": 4174,
+            "transit": 1897
         },
         "31": {
             "driving": 1247,
             "walking": 5377,
-            "transit": 3253
+            "transit": 2711
         },
         "32": {
-            "driving": 999,
+            "driving": 991,
             "walking": 5157,
-            "transit": 2655
+            "transit": 2514
         }
     },
     "20": {
         "1": {
-            "driving": 685,
+            "driving": 680,
             "walking": 1123,
             "transit": 904
         },
         "2": {
-            "driving": 813,
+            "driving": 809,
             "walking": 1688,
             "transit": 970
         },
         "3": {
-            "driving": 518,
+            "driving": 515,
             "walking": 371,
             "transit": 371
         },
         "4": {
-            "driving": 609,
+            "driving": 606,
             "walking": 1206,
-            "transit": 995
+            "transit": 843
         },
         "5": {
-            "driving": 696,
+            "driving": 702,
             "walking": 461,
             "transit": 449
         },
         "6": {
-            "driving": 154,
+            "driving": 151,
             "walking": 406,
-            "transit": 406
+            "transit": 257
         },
         "7": {
-            "driving": 1483,
+            "driving": 1520,
             "walking": 6018,
-            "transit": 2912
+            "transit": 2732
         },
         "8": {
-            "driving": 336,
+            "driving": 333,
             "walking": 743,
             "transit": 478
         },
         "9": {
-            "driving": 1674,
-            "walking": 8879,
+            "driving": 1709,
+            "walking": 8885,
             "transit": 2436
         },
         "10": {
-            "driving": 819,
+            "driving": 817,
             "walking": 1818,
             "transit": 1153
         },
         "11": {
-            "driving": 522,
+            "driving": 547,
             "walking": 2027,
-            "transit": 1102
+            "transit": 1162
         },
         "12": {
-            "driving": 491,
+            "driving": 496,
             "walking": 1155,
-            "transit": 867
+            "transit": 870
         },
         "13": {
-            "driving": 1000,
+            "driving": 1023,
             "walking": 3587,
             "transit": 1332
         },
         "14": {
-            "driving": 459,
+            "driving": 455,
             "walking": 355,
             "transit": 356
         },
         "15": {
-            "driving": 459,
+            "driving": 455,
             "walking": 355,
             "transit": 356
         },
         "16": {
-            "driving": 350,
+            "driving": 347,
             "walking": 883,
             "transit": 883
         },
         "17": {
-            "driving": 1205,
+            "driving": 1240,
             "walking": 5694,
-            "transit": 2643
+            "transit": 2403
         },
         "18": {
-            "driving": 943,
+            "driving": 946,
             "walking": 2247,
-            "transit": 1110
+            "transit": 1170
         },
         "19": {
-            "driving": 848,
+            "driving": 854,
             "walking": 2855,
-            "transit": 1699
+            "transit": 1759
         },
         "20": {
             "driving": 0,
@@ -3179,9 +3179,9 @@
             "transit": 0
         },
         "21": {
-            "driving": 1479,
+            "driving": 1424,
             "walking": 6399,
-            "transit": 2350
+            "transit": 2170
         },
         "22": {
             "driving": 34,
@@ -3189,154 +3189,154 @@
             "transit": 145
         },
         "23": {
-            "driving": 737,
+            "driving": 729,
             "walking": 1691,
             "transit": 744
         },
         "24": {
-            "driving": 816,
+            "driving": 815,
             "walking": 2633,
             "transit": 743
         },
         "25": {
-            "driving": 1327,
-            "walking": 5665,
-            "transit": 1747
+            "driving": 1339,
+            "walking": 5667,
+            "transit": 1807
         },
         "26": {
-            "driving": 950,
-            "walking": 3025,
+            "driving": 973,
+            "walking": 3021,
             "transit": 1081
         },
         "27": {
-            "driving": 955,
+            "driving": 964,
             "walking": 2679,
-            "transit": 2035
+            "transit": 1671
         },
         "28": {
-            "driving": 938,
+            "driving": 790,
             "walking": 2965,
             "transit": 1172
         },
         "29": {
-            "driving": 1206,
-            "walking": 4993,
-            "transit": 2645
+            "driving": 1225,
+            "walking": 4994,
+            "transit": 2585
         },
         "30": {
-            "driving": 805,
+            "driving": 807,
             "walking": 4040,
             "transit": 1518
         },
         "31": {
-            "driving": 848,
+            "driving": 842,
             "walking": 2980,
-            "transit": 1667
+            "transit": 1479
         },
         "32": {
-            "driving": 1609,
+            "driving": 1612,
             "walking": 7275,
-            "transit": 2508
+            "transit": 2568
         }
     },
     "21": {
         "1": {
-            "driving": 1578,
+            "driving": 1572,
             "walking": 6540,
-            "transit": 2880
+            "transit": 3000
         },
         "2": {
-            "driving": 1106,
+            "driving": 1147,
             "walking": 4267,
-            "transit": 1956
+            "transit": 2016
         },
         "3": {
-            "driving": 1390,
+            "driving": 1389,
             "walking": 5511,
             "transit": 2407
         },
         "4": {
-            "driving": 1299,
+            "driving": 1282,
             "walking": 4946,
-            "transit": 2280
+            "transit": 2100
         },
         "5": {
-            "driving": 1849,
+            "driving": 1842,
             "walking": 6028,
             "transit": 2378
         },
         "6": {
-            "driving": 1644,
+            "driving": 1613,
             "walking": 6047,
-            "transit": 2671
+            "transit": 2731
         },
         "7": {
-            "driving": 765,
+            "driving": 768,
             "walking": 2852,
-            "transit": 2852
+            "transit": 3039
         },
         "8": {
-            "driving": 1471,
+            "driving": 1497,
             "walking": 5030,
-            "transit": 2207
+            "transit": 2252
         },
         "9": {
-            "driving": 2796,
-            "walking": 14028,
-            "transit": 4637
+            "driving": 2466,
+            "walking": 14034,
+            "transit": 4577
         },
         "10": {
-            "driving": 1201,
-            "walking": 4748,
+            "driving": 1202,
+            "walking": 4749,
             "transit": 2706
         },
         "11": {
-            "driving": 1667,
+            "driving": 1694,
             "walking": 7208,
-            "transit": 3274
+            "transit": 3154
         },
         "12": {
-            "driving": 1656,
+            "driving": 1688,
             "walking": 6076,
-            "transit": 2907
+            "transit": 2966
         },
         "13": {
-            "driving": 887,
+            "driving": 873,
             "walking": 3701,
             "transit": 2245
         },
         "14": {
-            "driving": 1444,
+            "driving": 1469,
             "walking": 5403,
             "transit": 2425
         },
         "15": {
-            "driving": 1444,
+            "driving": 1469,
             "walking": 5403,
             "transit": 2425
         },
         "16": {
-            "driving": 1335,
+            "driving": 1361,
             "walking": 5039,
-            "transit": 2251
+            "transit": 2311
         },
         "17": {
-            "driving": 1124,
+            "driving": 1051,
             "walking": 5038,
             "transit": 3219
         },
         "18": {
-            "driving": 1933,
+            "driving": 1900,
             "walking": 7439,
-            "transit": 3228
+            "transit": 3071
         },
         "19": {
-            "driving": 1993,
+            "driving": 1946,
             "walking": 8036,
-            "transit": 3583
+            "transit": 4006
         },
         "20": {
-            "driving": 1438,
+            "driving": 1462,
             "walking": 5589,
             "transit": 2385
         },
@@ -3346,156 +3346,156 @@
             "transit": 0
         },
         "22": {
-            "driving": 1473,
+            "driving": 1476,
             "walking": 5532,
             "transit": 2503
         },
         "23": {
-            "driving": 1351,
+            "driving": 1345,
             "walking": 5158,
             "transit": 2233
         },
         "24": {
-            "driving": 1257,
+            "driving": 1229,
             "walking": 5006,
             "transit": 1992
         },
         "25": {
-            "driving": 1907,
-            "walking": 9130,
-            "transit": 3046
+            "driving": 1850,
+            "walking": 9132,
+            "transit": 3346
         },
         "26": {
-            "driving": 2095,
+            "driving": 2018,
             "walking": 8480,
             "transit": 2930
         },
         "27": {
-            "driving": 1972,
+            "driving": 1918,
             "walking": 8161,
-            "transit": 3520
+            "transit": 3741
         },
         "28": {
-            "driving": 1952,
+            "driving": 1733,
             "walking": 7886,
-            "transit": 3253
+            "transit": 3133
         },
         "29": {
-            "driving": 2351,
-            "walking": 10073,
-            "transit": 4850
+            "driving": 2249,
+            "walking": 10074,
+            "transit": 4489
         },
         "30": {
-            "driving": 1359,
-            "walking": 5865,
-            "transit": 2827
+            "driving": 1378,
+            "walking": 5864,
+            "transit": 2767
         },
         "31": {
-            "driving": 686,
+            "driving": 682,
             "walking": 2858,
-            "transit": 1391
+            "transit": 1511
         },
         "32": {
-            "driving": 2732,
+            "driving": 2713,
             "walking": 12556,
-            "transit": 4357
+            "transit": 4537
         }
     },
     "22": {
         "1": {
             "driving": 529,
             "walking": 1241,
-            "transit": 935
+            "transit": 1014
         },
         "2": {
-            "driving": 657,
+            "driving": 658,
             "walking": 1674,
             "transit": 1059
         },
         "3": {
-            "driving": 362,
+            "driving": 364,
             "walking": 461,
             "transit": 461
         },
         "4": {
-            "driving": 453,
+            "driving": 455,
             "walking": 1061,
-            "transit": 886
+            "transit": 934
         },
         "5": {
-            "driving": 735,
+            "driving": 738,
             "walking": 571,
-            "transit": 572
+            "transit": 559
         },
         "6": {
-            "driving": 555,
+            "driving": 182,
             "walking": 497,
             "transit": 497
         },
         "7": {
-            "driving": 1327,
+            "driving": 1369,
             "walking": 6108,
-            "transit": 2881
+            "transit": 2821
         },
         "8": {
-            "driving": 251,
+            "driving": 255,
             "walking": 598,
             "transit": 598
         },
         "9": {
-            "driving": 1900,
-            "walking": 8997,
+            "driving": 1704,
+            "walking": 9003,
             "transit": 2546
         },
         "10": {
-            "driving": 663,
+            "driving": 666,
             "walking": 1908,
             "transit": 1242
         },
         "11": {
-            "driving": 578,
+            "driving": 583,
             "walking": 2118,
-            "transit": 1037
+            "transit": 1097
         },
         "12": {
-            "driving": 567,
+            "driving": 577,
             "walking": 1246,
             "transit": 802
         },
         "13": {
-            "driving": 844,
+            "driving": 872,
             "walking": 3442,
-            "transit": 1658
+            "transit": 1423
         },
         "14": {
-            "driving": 303,
-            "walking": 443,
-            "transit": 443
+            "driving": 304,
+            "walking": 447,
+            "transit": 447
         },
         "15": {
-            "driving": 303,
-            "walking": 443,
-            "transit": 443
+            "driving": 304,
+            "walking": 447,
+            "transit": 447
         },
         "16": {
-            "driving": 194,
+            "driving": 196,
             "walking": 801,
             "transit": 801
         },
         "17": {
-            "driving": 1276,
+            "driving": 1287,
             "walking": 5549,
-            "transit": 2604
+            "transit": 2544
         },
         "18": {
             "driving": 857,
             "walking": 2365,
-            "transit": 1220
+            "transit": 1354
         },
         "19": {
-            "driving": 904,
+            "driving": 890,
             "walking": 2946,
-            "transit": 1634
+            "transit": 1694
         },
         "20": {
             "driving": 30,
@@ -3503,9 +3503,9 @@
             "transit": 120
         },
         "21": {
-            "driving": 1323,
+            "driving": 1273,
             "walking": 6317,
-            "transit": 2441
+            "transit": 2261
         },
         "22": {
             "driving": 0,
@@ -3513,164 +3513,164 @@
             "transit": 0
         },
         "23": {
-            "driving": 581,
+            "driving": 578,
             "walking": 1546,
             "transit": 835
         },
         "24": {
-            "driving": 747,
+            "driving": 744,
             "walking": 2488,
             "transit": 834
         },
         "25": {
-            "driving": 1275,
-            "walking": 5755,
-            "transit": 1838
+            "driving": 1188,
+            "walking": 5757,
+            "transit": 1898
         },
         "26": {
-            "driving": 1006,
-            "walking": 3143,
+            "driving": 981,
+            "walking": 3139,
             "transit": 1172
         },
         "27": {
-            "driving": 923,
+            "driving": 875,
             "walking": 2797,
-            "transit": 1970
+            "transit": 1910
         },
         "28": {
-            "driving": 994,
+            "driving": 821,
             "walking": 3056,
             "transit": 1282
         },
         "29": {
-            "driving": 1262,
-            "walking": 5084,
-            "transit": 2830
+            "driving": 1261,
+            "walking": 5085,
+            "transit": 2829
         },
         "30": {
-            "driving": 844,
+            "driving": 854,
             "walking": 3895,
             "transit": 1609
         },
         "31": {
-            "driving": 692,
+            "driving": 691,
             "walking": 2898,
             "transit": 1422
         },
         "32": {
-            "driving": 1665,
+            "driving": 1648,
             "walking": 7366,
             "transit": 2960
         }
     },
     "23": {
         "1": {
-            "driving": 987,
+            "driving": 992,
             "walking": 2779,
             "transit": 1170
         },
         "2": {
-            "driving": 671,
+            "driving": 677,
             "walking": 1735,
             "transit": 1118
         },
         "3": {
-            "driving": 820,
+            "driving": 827,
             "walking": 1886,
             "transit": 761
         },
         "4": {
-            "driving": 512,
+            "driving": 490,
             "walking": 654,
             "transit": 654
         },
         "5": {
-            "driving": 1083,
+            "driving": 1085,
             "walking": 2052,
             "transit": 732
         },
         "6": {
-            "driving": 903,
+            "driving": 902,
             "walking": 1682,
             "transit": 1019
         },
         "7": {
-            "driving": 1221,
-            "walking": 6137,
-            "transit": 3323
+            "driving": 1230,
+            "walking": 6141,
+            "transit": 2879
         },
         "8": {
-            "driving": 666,
+            "driving": 670,
             "walking": 967,
             "transit": 561
         },
         "9": {
-            "driving": 1941,
-            "walking": 10626,
-            "transit": 2991
+            "driving": 1940,
+            "walking": 10632,
+            "transit": 2871
         },
         "10": {
-            "driving": 727,
+            "driving": 732,
             "walking": 2537,
-            "transit": 1722
+            "transit": 1719
         },
         "11": {
-            "driving": 926,
+            "driving": 930,
             "walking": 2715,
             "transit": 1672
         },
         "12": {
-            "driving": 915,
+            "driving": 924,
             "walking": 1512,
-            "transit": 1563
+            "transit": 1333
         },
         "13": {
-            "driving": 670,
+            "driving": 673,
             "walking": 2289,
-            "transit": 1156
+            "transit": 1096
         },
         "14": {
-            "driving": 761,
+            "driving": 767,
             "walking": 1783,
             "transit": 779
         },
         "15": {
-            "driving": 761,
+            "driving": 767,
             "walking": 1783,
             "transit": 779
         },
         "16": {
-            "driving": 652,
+            "driving": 659,
             "walking": 1521,
             "transit": 1008
         },
         "17": {
-            "driving": 1017,
-            "walking": 4053,
-            "transit": 2366
+            "driving": 1019,
+            "walking": 4051,
+            "transit": 2306
         },
         "18": {
-            "driving": 1315,
+            "driving": 1320,
             "walking": 3967,
-            "transit": 1582
+            "transit": 1462
         },
         "19": {
-            "driving": 1119,
+            "driving": 1106,
             "walking": 3461,
-            "transit": 1937
+            "transit": 2219
         },
         "20": {
-            "driving": 755,
+            "driving": 760,
             "walking": 1658,
             "transit": 739
         },
         "21": {
-            "driving": 1182,
+            "driving": 1168,
             "walking": 5841,
-            "transit": 1953
+            "transit": 2013
         },
         "22": {
-            "driving": 732,
+            "driving": 735,
             "walking": 1538,
             "transit": 857
         },
@@ -3680,125 +3680,125 @@
             "transit": 0
         },
         "24": {
-            "driving": 392,
-            "walking": 1061,
+            "driving": 389,
+            "walking": 1057,
             "transit": 586
         },
         "25": {
-            "driving": 1538,
-            "walking": 6938,
-            "transit": 2122
+            "driving": 1380,
+            "walking": 6940,
+            "transit": 2010
         },
         "26": {
-            "driving": 1354,
+            "driving": 1331,
             "walking": 4162,
             "transit": 1284
         },
         "27": {
-            "driving": 1395,
+            "driving": 1338,
             "walking": 4040,
             "transit": 1874
         },
         "28": {
-            "driving": 1107,
+            "driving": 893,
             "walking": 2834,
-            "transit": 1758
+            "transit": 1818
         },
         "29": {
-            "driving": 1477,
-            "walking": 5146,
-            "transit": 3442
+            "driving": 1409,
+            "walking": 5147,
+            "transit": 3136
         },
         "30": {
-            "driving": 621,
+            "driving": 623,
             "walking": 2468,
-            "transit": 1361
+            "transit": 1363
         },
         "31": {
             "driving": 586,
-            "walking": 2484,
+            "walking": 2488,
             "transit": 1444
         },
         "32": {
-            "driving": 1887,
+            "driving": 1873,
             "walking": 8091,
-            "transit": 2711
+            "transit": 2831
         }
     },
     "24": {
         "1": {
-            "driving": 1231,
+            "driving": 1245,
             "walking": 3569,
             "transit": 1200
         },
         "2": {
-            "driving": 798,
+            "driving": 804,
             "walking": 2616,
-            "transit": 1334
+            "transit": 1455
         },
         "3": {
-            "driving": 1055,
+            "driving": 1062,
             "walking": 2789,
             "transit": 791
         },
         "4": {
-            "driving": 761,
+            "driving": 762,
             "walking": 1614,
             "transit": 956
         },
         "5": {
-            "driving": 1265,
+            "driving": 1271,
             "walking": 2842,
             "transit": 762
         },
         "6": {
-            "driving": 1062,
+            "driving": 1088,
             "walking": 2472,
             "transit": 1049
         },
         "7": {
-            "driving": 1348,
+            "driving": 1357,
             "walking": 6153,
-            "transit": 2925
+            "transit": 3062
         },
         "8": {
-            "driving": 862,
+            "driving": 863,
             "walking": 2023,
             "transit": 591
         },
         "9": {
-            "driving": 1878,
-            "walking": 11416,
-            "transit": 3021
+            "driving": 1865,
+            "walking": 11422,
+            "transit": 2901
         },
         "10": {
-            "driving": 854,
-            "walking": 3386,
+            "driving": 859,
+            "walking": 3387,
             "transit": 1135
         },
         "11": {
-            "driving": 988,
+            "driving": 983,
             "walking": 3505,
-            "transit": 1658
+            "transit": 1757
         },
         "12": {
-            "driving": 962,
+            "driving": 1028,
             "walking": 2302,
-            "transit": 1363
+            "transit": 1303
         },
         "13": {
-            "driving": 687,
+            "driving": 716,
             "walking": 1623,
             "transit": 965
         },
         "14": {
-            "driving": 1008,
-            "walking": 2775,
+            "driving": 1007,
+            "walking": 2771,
             "transit": 809
         },
         "15": {
-            "driving": 1008,
-            "walking": 2775,
+            "driving": 1007,
+            "walking": 2771,
             "transit": 809
         },
         "16": {
@@ -3807,37 +3807,37 @@
             "transit": 1038
         },
         "17": {
-            "driving": 957,
+            "driving": 954,
             "walking": 3217,
-            "transit": 1619
+            "transit": 1785
         },
         "18": {
-            "driving": 1489,
+            "driving": 1515,
             "walking": 4757,
-            "transit": 1612
+            "transit": 1492
         },
         "19": {
-            "driving": 1046,
+            "driving": 1023,
             "walking": 4227,
-            "transit": 1899
+            "transit": 1849
         },
         "20": {
-            "driving": 1002,
+            "driving": 1000,
             "walking": 2448,
             "transit": 769
         },
         "21": {
-            "driving": 1346,
+            "driving": 1332,
             "walking": 5625,
             "transit": 1743
         },
         "22": {
-            "driving": 981,
+            "driving": 982,
             "walking": 2328,
             "transit": 887
         },
         "23": {
-            "driving": 746,
+            "driving": 742,
             "walking": 1035,
             "transit": 617
         },
@@ -3847,165 +3847,165 @@
             "transit": 0
         },
         "25": {
-            "driving": 1665,
-            "walking": 8004,
+            "driving": 1507,
+            "walking": 8008,
             "transit": 1604
         },
         "26": {
-            "driving": 1257,
+            "driving": 1256,
             "walking": 4952,
             "transit": 1314
         },
         "27": {
-            "driving": 1408,
+            "driving": 1405,
             "walking": 4830,
             "transit": 1904
         },
         "28": {
-            "driving": 1034,
+            "driving": 818,
             "walking": 3422,
             "transit": 1637
         },
         "29": {
-            "driving": 1404,
+            "driving": 1334,
             "walking": 5624,
-            "transit": 2793
+            "transit": 2853
         },
         "30": {
-            "driving": 557,
+            "driving": 548,
             "walking": 1710,
-            "transit": 905
+            "transit": 845
         },
         "31": {
             "driving": 713,
             "walking": 2321,
-            "transit": 1308
+            "transit": 1248
         },
         "32": {
-            "driving": 1814,
-            "walking": 8745,
-            "transit": 2741
+            "driving": 1798,
+            "walking": 8744,
+            "transit": 2801
         }
     },
     "25": {
         "1": {
-            "driving": 911,
-            "walking": 5172,
-            "transit": 1624
+            "driving": 912,
+            "walking": 5170,
+            "transit": 1504
         },
         "2": {
-            "driving": 1088,
-            "walking": 5391,
+            "driving": 1086,
+            "walking": 5389,
             "transit": 1614
         },
         "3": {
-            "driving": 1034,
-            "walking": 5415,
-            "transit": 1727
+            "driving": 1013,
+            "walking": 5413,
+            "transit": 1607
         },
         "4": {
-            "driving": 1482,
-            "walking": 6550,
-            "transit": 1958
+            "driving": 1479,
+            "walking": 6548,
+            "transit": 2078
         },
         "5": {
             "driving": 1182,
-            "walking": 5614,
+            "walking": 5612,
             "transit": 1382
         },
         "6": {
-            "driving": 1356,
-            "walking": 5984,
+            "driving": 1263,
+            "walking": 5982,
             "transit": 1696
         },
         "7": {
-            "driving": 1421,
-            "walking": 8129,
-            "transit": 2412
+            "driving": 1474,
+            "walking": 8127,
+            "transit": 2892
         },
         "8": {
-            "driving": 1403,
-            "walking": 6116,
-            "transit": 1491
+            "driving": 1454,
+            "walking": 6114,
+            "transit": 1371
         },
         "9": {
-            "driving": 1409,
+            "driving": 1159,
             "walking": 5882,
-            "transit": 1706
+            "transit": 1646
         },
         "10": {
-            "driving": 947,
-            "walking": 4685,
+            "driving": 944,
+            "walking": 4683,
             "transit": 1115
         },
         "11": {
-            "driving": 1391,
-            "walking": 7295,
+            "driving": 1030,
+            "walking": 7293,
             "transit": 1593
         },
         "12": {
-            "driving": 1562,
-            "walking": 6731,
-            "transit": 2079
+            "driving": 1396,
+            "walking": 6729,
+            "transit": 1800
         },
         "13": {
-            "driving": 1500,
-            "walking": 8784,
-            "transit": 2058
+            "driving": 1525,
+            "walking": 8781,
+            "transit": 1998
         },
         "14": {
-            "driving": 1153,
-            "walking": 5458,
-            "transit": 1643
+            "driving": 1159,
+            "walking": 5456,
+            "transit": 1523
         },
         "15": {
-            "driving": 1153,
-            "walking": 5458,
-            "transit": 1643
+            "driving": 1159,
+            "walking": 5456,
+            "transit": 1523
         },
         "16": {
-            "driving": 1225,
-            "walking": 5625,
-            "transit": 2143
+            "driving": 1229,
+            "walking": 5623,
+            "transit": 1686
         },
         "17": {
-            "driving": 2031,
-            "walking": 11048,
-            "transit": 3100
+            "driving": 2032,
+            "walking": 11043,
+            "transit": 2980
         },
         "18": {
-            "driving": 863,
-            "walking": 4602,
+            "driving": 856,
+            "walking": 4600,
             "transit": 924
         },
         "19": {
-            "driving": 1608,
-            "walking": 7974,
+            "driving": 1023,
+            "walking": 7972,
             "transit": 1830
         },
         "20": {
-            "driving": 1135,
-            "walking": 5738,
-            "transit": 1892
+            "driving": 1112,
+            "walking": 5736,
+            "transit": 1772
         },
         "21": {
-            "driving": 1818,
-            "walking": 10117,
-            "transit": 2926
+            "driving": 1811,
+            "walking": 10115,
+            "transit": 2746
         },
         "22": {
-            "driving": 1370,
-            "walking": 5854,
-            "transit": 2010
+            "driving": 1127,
+            "walking": 5852,
+            "transit": 1890
         },
         "23": {
-            "driving": 1534,
-            "walking": 7162,
-            "transit": 2053
+            "driving": 1530,
+            "walking": 7160,
+            "transit": 1980
         },
         "24": {
-            "driving": 1396,
-            "walking": 8233,
+            "driving": 1394,
+            "walking": 8230,
             "transit": 1552
         },
         "25": {
@@ -4014,54 +4014,54 @@
             "transit": 0
         },
         "26": {
-            "driving": 1222,
-            "walking": 6903,
+            "driving": 820,
+            "walking": 6908,
             "transit": 1972
         },
         "27": {
-            "driving": 1022,
-            "walking": 5770,
-            "transit": 1894
+            "driving": 1039,
+            "walking": 5768,
+            "transit": 1834
         },
         "28": {
-            "driving": 1790,
-            "walking": 8541,
+            "driving": 1232,
+            "walking": 8539,
             "transit": 1952
         },
         "29": {
-            "driving": 1935,
-            "walking": 10359,
-            "transit": 3284
+            "driving": 1370,
+            "walking": 10358,
+            "transit": 3343
         },
         "30": {
-            "driving": 1629,
-            "walking": 9652,
+            "driving": 1627,
+            "walking": 9649,
             "transit": 1845
         },
         "31": {
-            "driving": 1348,
-            "walking": 7108,
-            "transit": 1882
+            "driving": 1345,
+            "walking": 7105,
+            "transit": 2002
         },
         "32": {
-            "driving": 2089,
-            "walking": 11941,
+            "driving": 1483,
+            "walking": 11939,
             "transit": 3264
         }
     },
     "26": {
         "1": {
-            "driving": 687,
+            "driving": 704,
             "walking": 2539,
             "transit": 1185
         },
         "2": {
-            "driving": 1212,
+            "driving": 1213,
             "walking": 4537,
-            "transit": 2511
+            "transit": 2032
         },
         "3": {
-            "driving": 1096,
+            "driving": 941,
             "walking": 3052,
             "transit": 1136
         },
@@ -4071,69 +4071,69 @@
             "transit": 1421
         },
         "5": {
-            "driving": 783,
+            "driving": 791,
             "walking": 2620,
             "transit": 867
         },
         "6": {
-            "driving": 867,
+            "driving": 906,
             "walking": 2793,
             "transit": 1154
         },
         "7": {
-            "driving": 1764,
+            "driving": 1820,
             "walking": 8855,
-            "transit": 3914
+            "transit": 3674
         },
         "8": {
-            "driving": 857,
+            "driving": 859,
             "walking": 3565,
             "transit": 1056
         },
         "9": {
-            "driving": 985,
-            "walking": 7631,
-            "transit": 2743
+            "driving": 984,
+            "walking": 7619,
+            "transit": 2683
         },
         "10": {
-            "driving": 1218,
+            "driving": 1162,
             "walking": 4655,
-            "transit": 2446
+            "transit": 2386
         },
         "11": {
-            "driving": 498,
+            "driving": 501,
             "walking": 2226,
             "transit": 1300
         },
         "12": {
-            "driving": 853,
-            "walking": 2679,
-            "transit": 1622
+            "driving": 929,
+            "walking": 2663,
+            "transit": 1682
         },
         "13": {
-            "driving": 1559,
+            "driving": 1585,
             "walking": 6384,
             "transit": 1910
         },
         "14": {
-            "driving": 1037,
+            "driving": 1082,
             "walking": 3211,
             "transit": 1154
         },
         "15": {
-            "driving": 1037,
+            "driving": 1082,
             "walking": 3211,
             "transit": 1154
         },
         "16": {
-            "driving": 928,
+            "driving": 974,
             "walking": 3768,
             "transit": 1503
         },
         "17": {
-            "driving": 1423,
-            "walking": 8121,
-            "transit": 3388
+            "driving": 1428,
+            "walking": 8120,
+            "transit": 3328
         },
         "18": {
             "driving": 593,
@@ -4141,39 +4141,39 @@
             "transit": 1292
         },
         "19": {
-            "driving": 571,
-            "walking": 2107,
+            "driving": 557,
+            "walking": 2108,
             "transit": 1481
         },
         "20": {
-            "driving": 1031,
+            "driving": 1026,
             "walking": 3091,
             "transit": 1114
         },
         "21": {
-            "driving": 2058,
+            "driving": 1986,
             "walking": 9379,
-            "transit": 2688
+            "transit": 2868
         },
         "22": {
-            "driving": 881,
+            "driving": 927,
             "walking": 3234,
             "transit": 1232
         },
         "23": {
-            "driving": 1295,
+            "driving": 1292,
             "walking": 4385,
             "transit": 1322
         },
         "24": {
-            "driving": 1188,
+            "driving": 1248,
             "walking": 5202,
             "transit": 1321
         },
         "25": {
-            "driving": 1031,
-            "walking": 6919,
-            "transit": 1965
+            "driving": 1026,
+            "walking": 6924,
+            "transit": 1845
         },
         "26": {
             "driving": 0,
@@ -4181,166 +4181,166 @@
             "transit": 0
         },
         "27": {
-            "driving": 426,
+            "driving": 432,
             "walking": 1501,
             "transit": 1022
         },
         "28": {
-            "driving": 753,
-            "walking": 3097,
-            "transit": 1622
+            "driving": 766,
+            "walking": 3098,
+            "transit": 1682
         },
         "29": {
-            "driving": 904,
-            "walking": 4321,
-            "transit": 2619
+            "driving": 913,
+            "walking": 4312,
+            "transit": 2609
         },
         "30": {
-            "driving": 1099,
-            "walking": 5883,
-            "transit": 2096
+            "driving": 1157,
+            "walking": 5887,
+            "transit": 2216
         },
         "31": {
-            "driving": 1488,
+            "driving": 1404,
             "walking": 5964,
-            "transit": 2433
+            "transit": 2220
         },
         "32": {
-            "driving": 938,
+            "driving": 930,
             "walking": 5305,
-            "transit": 2126
+            "transit": 2186
         }
     },
     "27": {
         "1": {
-            "driving": 629,
+            "driving": 559,
             "walking": 1812,
-            "transit": 997
+            "transit": 937
         },
         "2": {
-            "driving": 1053,
+            "driving": 1061,
             "walking": 4193,
-            "transit": 2492
+            "transit": 2072
         },
         "3": {
-            "driving": 880,
+            "driving": 789,
             "walking": 2728,
-            "transit": 1765
+            "transit": 1851
         },
         "4": {
-            "driving": 1135,
+            "driving": 1141,
             "walking": 3971,
-            "transit": 2059
+            "transit": 2337
         },
         "5": {
-            "driving": 727,
+            "driving": 647,
             "walking": 2298,
-            "transit": 1505
+            "transit": 1498
         },
         "6": {
-            "driving": 901,
+            "driving": 820,
             "walking": 2545,
-            "transit": 1711
+            "transit": 2160
         },
         "7": {
-            "driving": 1770,
+            "driving": 1717,
             "walking": 8470,
-            "transit": 4194
+            "transit": 4074
         },
         "8": {
-            "driving": 992,
+            "driving": 919,
             "walking": 3508,
-            "transit": 1694
+            "transit": 1903
         },
         "9": {
-            "driving": 1207,
-            "walking": 7829,
-            "transit": 3134
+            "driving": 1215,
+            "walking": 7832,
+            "transit": 3166
         },
         "10": {
-            "driving": 1059,
+            "driving": 1010,
             "walking": 4270,
-            "transit": 2435
+            "transit": 2255
         },
         "11": {
-            "driving": 720,
+            "driving": 732,
             "walking": 2560,
-            "transit": 2074
+            "transit": 1894
         },
         "12": {
-            "driving": 1146,
-            "walking": 2746,
-            "transit": 1646
+            "driving": 1080,
+            "walking": 2730,
+            "transit": 2108
         },
         "13": {
-            "driving": 1526,
+            "driving": 1576,
             "walking": 6357,
             "transit": 2548
         },
         "14": {
-            "driving": 1048,
+            "driving": 1006,
             "walking": 2887,
-            "transit": 1887
+            "transit": 1767
         },
         "15": {
-            "driving": 1048,
+            "driving": 1006,
             "walking": 2887,
-            "transit": 1887
+            "transit": 1767
         },
         "16": {
-            "driving": 1030,
+            "driving": 882,
             "walking": 3444,
-            "transit": 1714
+            "transit": 1594
         },
         "17": {
-            "driving": 1645,
-            "walking": 8188,
-            "transit": 3362
+            "driving": 1827,
+            "walking": 8185,
+            "transit": 3451
         },
         "18": {
-            "driving": 432,
+            "driving": 437,
             "walking": 1263,
-            "transit": 1262
+            "transit": 1085
         },
         "19": {
-            "driving": 740,
+            "driving": 725,
             "walking": 2939,
-            "transit": 2225
+            "transit": 2254
         },
         "20": {
-            "driving": 1030,
+            "driving": 889,
             "walking": 2767,
             "transit": 1777
         },
         "21": {
-            "driving": 2011,
+            "driving": 2017,
             "walking": 9059,
-            "transit": 3419
+            "transit": 3266
         },
         "22": {
-            "driving": 1060,
+            "driving": 835,
             "walking": 2910,
-            "transit": 1893
+            "transit": 2115
         },
         "23": {
-            "driving": 1263,
+            "driving": 1264,
             "walking": 4307,
             "transit": 1960
         },
         "24": {
-            "driving": 1410,
+            "driving": 1402,
             "walking": 5124,
             "transit": 1959
         },
         "25": {
-            "driving": 1131,
-            "walking": 5811,
-            "transit": 2312
+            "driving": 1142,
+            "walking": 5813,
+            "transit": 1973
         },
         "26": {
-            "driving": 483,
+            "driving": 461,
             "walking": 1518,
-            "transit": 1084
+            "transit": 1024
         },
         "27": {
             "driving": 0,
@@ -4348,166 +4348,166 @@
             "transit": 0
         },
         "28": {
-            "driving": 922,
-            "walking": 3800,
-            "transit": 2347
+            "driving": 935,
+            "walking": 3796,
+            "transit": 2376
         },
         "29": {
-            "driving": 1067,
-            "walking": 5392,
-            "transit": 3487
+            "driving": 1073,
+            "walking": 5393,
+            "transit": 3316
         },
         "30": {
-            "driving": 1318,
-            "walking": 5950,
-            "transit": 2644
+            "driving": 1325,
+            "walking": 5954,
+            "transit": 2793
         },
         "31": {
-            "driving": 1374,
+            "driving": 1377,
             "walking": 5640,
-            "transit": 3071
+            "transit": 2581
         },
         "32": {
-            "driving": 1160,
+            "driving": 1161,
             "walking": 6569,
-            "transit": 3157
+            "transit": 3124
         }
     },
     "28": {
         "1": {
-            "driving": 980,
+            "driving": 948,
             "walking": 3291,
             "transit": 860
         },
         "2": {
-            "driving": 1188,
+            "driving": 1157,
             "walking": 4006,
-            "transit": 2633
+            "transit": 1992
         },
         "3": {
-            "driving": 1012,
+            "driving": 988,
             "walking": 3155,
             "transit": 1219
         },
         "4": {
-            "driving": 1044,
+            "driving": 1018,
             "walking": 2898,
-            "transit": 1681
+            "transit": 1561
         },
         "5": {
-            "driving": 932,
+            "driving": 902,
             "walking": 2772,
             "transit": 789
         },
         "6": {
-            "driving": 779,
+            "driving": 752,
             "walking": 2425,
             "transit": 863
         },
         "7": {
-            "driving": 1738,
+            "driving": 1710,
             "walking": 8666,
-            "transit": 3695
+            "transit": 3619
         },
         "8": {
-            "driving": 733,
+            "driving": 709,
             "walking": 2748,
-            "transit": 1198
+            "transit": 1078
         },
         "9": {
-            "driving": 1373,
-            "walking": 10287,
+            "driving": 1347,
+            "walking": 10279,
             "transit": 2471
         },
         "10": {
-            "driving": 1244,
+            "driving": 1212,
             "walking": 4609,
-            "transit": 2083
+            "transit": 2100
         },
         "11": {
-            "driving": 441,
+            "driving": 412,
             "walking": 1349,
             "transit": 847
         },
         "12": {
-            "driving": 477,
+            "driving": 457,
             "walking": 1683,
             "transit": 800
         },
         "13": {
-            "driving": 1187,
-            "walking": 4975,
-            "transit": 2275
+            "driving": 1153,
+            "walking": 4974,
+            "transit": 2155
         },
         "14": {
-            "driving": 953,
+            "driving": 928,
             "walking": 3146,
             "transit": 1357
         },
         "15": {
-            "driving": 953,
+            "driving": 928,
             "walking": 3146,
             "transit": 1357
         },
         "16": {
-            "driving": 844,
-            "walking": 3332,
-            "transit": 1600
+            "driving": 820,
+            "walking": 3333,
+            "transit": 1420
         },
         "17": {
-            "driving": 1206,
+            "driving": 1188,
             "walking": 5340,
-            "transit": 2576
+            "transit": 2456
         },
         "18": {
-            "driving": 1119,
-            "walking": 4125,
-            "transit": 1145
+            "driving": 1087,
+            "walking": 4129,
+            "transit": 1205
         },
         "19": {
-            "driving": 552,
+            "driving": 505,
             "walking": 1046,
-            "transit": 982
+            "transit": 838
         },
         "20": {
-            "driving": 901,
+            "driving": 872,
             "walking": 2791,
             "transit": 1172
         },
         "21": {
-            "driving": 1754,
+            "driving": 1648,
             "walking": 8533,
-            "transit": 3293
+            "transit": 3113
         },
         "22": {
-            "driving": 797,
+            "driving": 773,
             "walking": 2907,
             "transit": 1307
         },
         "23": {
-            "driving": 1136,
-            "walking": 2800,
+            "driving": 1096,
+            "walking": 2799,
             "transit": 1660
         },
         "24": {
-            "driving": 803,
-            "walking": 3416,
-            "transit": 1686
+            "driving": 763,
+            "walking": 3415,
+            "transit": 1566
         },
         "25": {
-            "driving": 1419,
-            "walking": 8288,
+            "driving": 1390,
+            "walking": 8290,
             "transit": 1926
         },
         "26": {
-            "driving": 759,
-            "walking": 2847,
-            "transit": 1664
+            "driving": 738,
+            "walking": 2851,
+            "transit": 1604
         },
         "27": {
-            "driving": 910,
-            "walking": 3532,
-            "transit": 2081
+            "driving": 887,
+            "walking": 3536,
+            "transit": 2055
         },
         "28": {
             "driving": 0,
@@ -4515,164 +4515,164 @@
             "transit": 0
         },
         "29": {
-            "driving": 556,
-            "walking": 2334,
-            "transit": 1856
+            "driving": 626,
+            "walking": 2335,
+            "transit": 1917
         },
         "30": {
-            "driving": 711,
-            "walking": 3218,
-            "transit": 1858
+            "driving": 672,
+            "walking": 3217,
+            "transit": 1798
         },
         "31": {
-            "driving": 1103,
+            "driving": 1066,
             "walking": 5174,
-            "transit": 2405
+            "transit": 2345
         },
         "32": {
-            "driving": 1092,
-            "walking": 5470,
-            "transit": 2633
+            "driving": 1156,
+            "walking": 5469,
+            "transit": 2574
         }
     },
     "29": {
         "1": {
-            "driving": 1321,
-            "walking": 4968,
-            "transit": 2403
+            "driving": 1315,
+            "walking": 4963,
+            "transit": 2496
         },
         "2": {
-            "driving": 1753,
-            "walking": 6040,
-            "transit": 3316
+            "driving": 1778,
+            "walking": 6042,
+            "transit": 3260
         },
         "3": {
             "driving": 1458,
-            "walking": 5028,
-            "transit": 2783
+            "walking": 5023,
+            "transit": 3066
         },
         "4": {
-            "driving": 1531,
-            "walking": 5025,
-            "transit": 3414
+            "driving": 1525,
+            "walking": 5024,
+            "transit": 3091
         },
         "5": {
-            "driving": 1273,
-            "walking": 4645,
-            "transit": 2332
+            "driving": 1269,
+            "walking": 4640,
+            "transit": 2425
         },
         "6": {
-            "driving": 1229,
-            "walking": 4298,
-            "transit": 2559
+            "driving": 1263,
+            "walking": 4293,
+            "transit": 2503
         },
         "7": {
-            "driving": 2312,
-            "walking": 10704,
-            "transit": 4594
+            "driving": 2331,
+            "walking": 10699,
+            "transit": 5142
         },
         "8": {
-            "driving": 1220,
-            "walking": 4782,
-            "transit": 2703
+            "driving": 1216,
+            "walking": 4784,
+            "transit": 2657
         },
         "9": {
-            "driving": 1520,
+            "driving": 1511,
             "walking": 10707,
-            "transit": 3540
+            "transit": 3305
         },
         "10": {
-            "driving": 1759,
-            "walking": 6504,
-            "transit": 3663
+            "driving": 1833,
+            "walking": 6499,
+            "transit": 3443
         },
         "11": {
-            "driving": 700,
-            "walking": 2870,
-            "transit": 1967
+            "driving": 697,
+            "walking": 2865,
+            "transit": 1851
         },
         "12": {
-            "driving": 1024,
-            "walking": 3708,
-            "transit": 2362
+            "driving": 1010,
+            "walking": 3710,
+            "transit": 2306
         },
         "13": {
-            "driving": 1761,
+            "driving": 1774,
             "walking": 7008,
-            "transit": 3346
+            "transit": 3466
         },
         "14": {
-            "driving": 1399,
-            "walking": 5041,
-            "transit": 2801
+            "driving": 1398,
+            "walking": 5036,
+            "transit": 2982
         },
         "15": {
-            "driving": 1399,
-            "walking": 5041,
-            "transit": 2801
+            "driving": 1398,
+            "walking": 5036,
+            "transit": 2982
         },
         "16": {
             "driving": 1290,
-            "walking": 5251,
-            "transit": 2879
+            "walking": 5254,
+            "transit": 2823
         },
         "17": {
-            "driving": 1747,
+            "driving": 1809,
             "walking": 6977,
-            "transit": 3788
+            "transit": 3848
         },
         "18": {
-            "driving": 1217,
-            "walking": 5585,
-            "transit": 2688
+            "driving": 1212,
+            "walking": 5580,
+            "transit": 2841
         },
         "19": {
-            "driving": 649,
-            "walking": 2248,
-            "transit": 1702
+            "driving": 630,
+            "walking": 2243,
+            "transit": 1697
         },
         "20": {
-            "driving": 1351,
-            "walking": 4686,
-            "transit": 2761
+            "driving": 1383,
+            "walking": 4681,
+            "transit": 2927
         },
         "21": {
-            "driving": 2361,
-            "walking": 10567,
-            "transit": 4505
+            "driving": 2269,
+            "walking": 10569,
+            "transit": 4217
         },
         "22": {
             "driving": 1243,
-            "walking": 4802,
-            "transit": 2879
+            "walking": 4797,
+            "transit": 2807
         },
         "23": {
-            "driving": 1658,
-            "walking": 4953,
-            "transit": 2969
+            "driving": 1649,
+            "walking": 4952,
+            "transit": 2851
         },
         "24": {
-            "driving": 1377,
+            "driving": 1384,
             "walking": 5451,
-            "transit": 2590
+            "transit": 2530
         },
         "25": {
-            "driving": 1559,
-            "walking": 9972,
-            "transit": 2885
+            "driving": 1554,
+            "walking": 9969,
+            "transit": 3193
         },
         "26": {
-            "driving": 899,
-            "walking": 3927,
-            "transit": 2346
+            "driving": 902,
+            "walking": 3918,
+            "transit": 2228
         },
         "27": {
-            "driving": 1050,
-            "walking": 4992,
-            "transit": 3176
+            "driving": 1051,
+            "walking": 4987,
+            "transit": 3058
         },
         "28": {
-            "driving": 661,
+            "driving": 627,
             "walking": 2170,
             "transit": 1693
         },
@@ -4682,166 +4682,166 @@
             "transit": 0
         },
         "30": {
-            "driving": 1285,
+            "driving": 1293,
             "walking": 5132,
-            "transit": 3013
+            "transit": 3088
         },
         "31": {
-            "driving": 1677,
-            "walking": 7208,
-            "transit": 3917
+            "driving": 1687,
+            "walking": 7210,
+            "transit": 3808
         },
         "32": {
-            "driving": 848,
+            "driving": 834,
             "walking": 4080,
             "transit": 2683
         }
     },
     "30": {
         "1": {
-            "driving": 1210,
-            "walking": 4811,
+            "driving": 1317,
+            "walking": 4807,
             "transit": 1384
         },
         "2": {
-            "driving": 916,
+            "driving": 946,
             "walking": 4119,
             "transit": 1557
         },
         "3": {
-            "driving": 1155,
+            "driving": 1152,
             "walking": 4290,
             "transit": 1488
         },
         "4": {
-            "driving": 879,
+            "driving": 904,
             "walking": 3115,
-            "transit": 1721
+            "transit": 1421
         },
         "5": {
-            "driving": 1102,
-            "walking": 4105,
+            "driving": 1108,
+            "walking": 4101,
             "transit": 1459
         },
         "6": {
-            "driving": 922,
-            "walking": 3758,
+            "driving": 925,
+            "walking": 3754,
             "transit": 1416
         },
         "7": {
-            "driving": 1400,
+            "driving": 1394,
             "walking": 7272,
-            "transit": 3010
+            "transit": 3430
         },
         "8": {
-            "driving": 813,
+            "driving": 818,
             "walking": 3524,
             "transit": 1288
         },
         "9": {
-            "driving": 1745,
-            "walking": 12594,
-            "transit": 3718
+            "driving": 1726,
+            "walking": 12596,
+            "transit": 3538
         },
         "10": {
-            "driving": 972,
-            "walking": 4898,
+            "driving": 1001,
+            "walking": 4899,
             "transit": 1358
         },
         "11": {
-            "driving": 845,
+            "driving": 844,
             "walking": 3827,
-            "transit": 1887
+            "transit": 1992
         },
         "12": {
-            "driving": 822,
-            "walking": 3211,
+            "driving": 831,
+            "walking": 3207,
             "transit": 1347
         },
         "13": {
-            "driving": 661,
-            "walking": 2533,
-            "transit": 1271
+            "driving": 620,
+            "walking": 2531,
+            "transit": 1211
         },
         "14": {
-            "driving": 1096,
-            "walking": 4276,
+            "driving": 1092,
+            "walking": 4272,
             "transit": 1506
         },
         "15": {
-            "driving": 1096,
-            "walking": 4276,
+            "driving": 1092,
+            "walking": 4272,
             "transit": 1506
         },
         "16": {
-            "driving": 968,
+            "driving": 984,
             "walking": 4032,
-            "transit": 1745
+            "transit": 2083
         },
         "17": {
-            "driving": 639,
+            "driving": 641,
             "walking": 2245,
-            "transit": 1660
+            "transit": 1600
         },
         "18": {
-            "driving": 1349,
-            "walking": 5935,
-            "transit": 1969
+            "driving": 1352,
+            "walking": 5931,
+            "transit": 1995
         },
         "19": {
-            "driving": 916,
-            "walking": 4226,
-            "transit": 2124
+            "driving": 884,
+            "walking": 4230,
+            "transit": 2187
         },
         "20": {
-            "driving": 1044,
+            "driving": 1085,
             "walking": 3949,
             "transit": 1466
         },
         "21": {
-            "driving": 1157,
-            "walking": 6607,
-            "transit": 2500
+            "driving": 1159,
+            "walking": 6605,
+            "transit": 2800
         },
         "22": {
-            "driving": 921,
+            "driving": 937,
             "walking": 3829,
             "transit": 1584
         },
         "23": {
-            "driving": 864,
+            "driving": 885,
             "walking": 2536,
             "transit": 1336
         },
         "24": {
-            "driving": 531,
-            "walking": 1800,
+            "driving": 552,
+            "walking": 1770,
             "transit": 835
         },
         "25": {
-            "driving": 1805,
-            "walking": 9516,
+            "driving": 1650,
+            "walking": 9520,
             "transit": 1827
         },
         "26": {
-            "driving": 1124,
-            "walking": 5737,
+            "driving": 1117,
+            "walking": 5733,
             "transit": 2011
         },
         "27": {
-            "driving": 1361,
-            "walking": 5786,
+            "driving": 1266,
+            "walking": 5782,
             "transit": 2639
         },
         "28": {
-            "driving": 893,
+            "driving": 679,
             "walking": 3322,
-            "transit": 1911
+            "transit": 1791
         },
         "29": {
-            "driving": 1274,
+            "driving": 1195,
             "walking": 5407,
-            "transit": 2738
+            "transit": 3261
         },
         "30": {
             "driving": 0,
@@ -4849,166 +4849,166 @@
             "transit": 0
         },
         "31": {
-            "driving": 830,
+            "driving": 855,
             "walking": 3440,
-            "transit": 1792
+            "transit": 1984
         },
         "32": {
-            "driving": 1684,
-            "walking": 8528,
-            "transit": 3438
+            "driving": 1659,
+            "walking": 8527,
+            "transit": 3498
         }
     },
     "31": {
         "1": {
-            "driving": 926,
+            "driving": 923,
             "walking": 3752,
             "transit": 1624
         },
         "2": {
-            "driving": 484,
+            "driving": 486,
             "walking": 1661,
             "transit": 640
         },
         "3": {
-            "driving": 738,
+            "driving": 740,
             "walking": 2723,
             "transit": 1226
         },
         "4": {
-            "driving": 718,
+            "driving": 708,
             "walking": 2230,
-            "transit": 1262
+            "transit": 1552
         },
         "5": {
-            "driving": 1197,
+            "driving": 1193,
             "walking": 3240,
             "transit": 1762
         },
         "6": {
-            "driving": 1008,
+            "driving": 955,
             "walking": 3207,
             "transit": 1415
         },
         "7": {
-            "driving": 719,
+            "driving": 713,
             "walking": 3800,
-            "transit": 2065
+            "transit": 1885
         },
         "8": {
-            "driving": 835,
+            "driving": 839,
             "walking": 2314,
-            "transit": 1048
+            "transit": 1158
         },
         "9": {
-            "driving": 2180,
-            "walking": 11422,
-            "transit": 3681
+            "driving": 1805,
+            "walking": 11428,
+            "transit": 3501
         },
         "10": {
-            "driving": 540,
-            "walking": 2230,
+            "driving": 541,
+            "walking": 2231,
             "transit": 1330
         },
         "11": {
-            "driving": 1031,
+            "driving": 1036,
             "walking": 4492,
-            "transit": 2018
+            "transit": 1958
         },
         "12": {
-            "driving": 1020,
+            "driving": 1030,
             "walking": 3360,
-            "transit": 1651
+            "transit": 1650
         },
         "13": {
-            "driving": 423,
+            "driving": 424,
             "walking": 1710,
             "transit": 1071
         },
         "14": {
-            "driving": 808,
+            "driving": 811,
             "walking": 2615,
             "transit": 1142
         },
         "15": {
-            "driving": 808,
+            "driving": 811,
             "walking": 2615,
             "transit": 1142
         },
         "16": {
-            "driving": 699,
+            "driving": 703,
             "walking": 2251,
             "transit": 995
         },
         "17": {
             "driving": 1094,
-            "walking": 4100,
-            "transit": 2923
+            "walking": 4098,
+            "transit": 2913
         },
         "18": {
-            "driving": 1281,
+            "driving": 1251,
             "walking": 4833,
-            "transit": 1852
+            "transit": 1732
         },
         "19": {
-            "driving": 1357,
+            "driving": 1340,
             "walking": 5320,
-            "transit": 2615
+            "transit": 2555
         },
         "20": {
-            "driving": 802,
+            "driving": 804,
             "walking": 2801,
-            "transit": 1460
+            "transit": 1414
         },
         "21": {
-            "driving": 721,
+            "driving": 720,
             "walking": 3489,
-            "transit": 1613
+            "transit": 1383
         },
         "22": {
-            "driving": 837,
+            "driving": 841,
             "walking": 2744,
             "transit": 1370
         },
         "23": {
-            "driving": 764,
+            "driving": 765,
             "walking": 2444,
-            "transit": 1570
+            "transit": 1611
         },
         "24": {
-            "driving": 621,
+            "driving": 623,
             "walking": 2341,
             "transit": 1306
         },
         "25": {
-            "driving": 1351,
-            "walking": 6848,
+            "driving": 1189,
+            "walking": 6852,
             "transit": 1790
         },
         "26": {
-            "driving": 1459,
-            "walking": 5719,
-            "transit": 2274
+            "driving": 1344,
+            "walking": 5715,
+            "transit": 2214
         },
         "27": {
-            "driving": 1320,
+            "driving": 1269,
             "walking": 5373,
-            "transit": 2725
+            "transit": 2665
         },
         "28": {
-            "driving": 1447,
+            "driving": 1128,
             "walking": 5170,
-            "transit": 1997
+            "transit": 2057
         },
         "29": {
-            "driving": 1715,
-            "walking": 7357,
-            "transit": 3824
+            "driving": 1644,
+            "walking": 7358,
+            "transit": 3944
         },
         "30": {
-            "driving": 850,
+            "driving": 857,
             "walking": 3341,
-            "transit": 1571
+            "transit": 1961
         },
         "31": {
             "driving": 0,
@@ -5016,166 +5016,166 @@
             "transit": 0
         },
         "32": {
-            "driving": 2118,
+            "driving": 2108,
             "walking": 9840,
-            "transit": 4301
+            "transit": 3941
         }
     },
     "32": {
         "1": {
-            "driving": 1674,
+            "driving": 1694,
             "walking": 7138,
-            "transit": 2670
+            "transit": 2730
         },
         "2": {
-            "driving": 2111,
+            "driving": 2117,
             "walking": 8881,
-            "transit": 3697
+            "transit": 3817
         },
         "3": {
-            "driving": 1816,
+            "driving": 1823,
             "walking": 7597,
-            "transit": 2621
+            "transit": 2681
         },
         "4": {
-            "driving": 1888,
+            "driving": 1890,
             "walking": 8037,
-            "transit": 2906
+            "transit": 3348
         },
         "5": {
-            "driving": 1630,
+            "driving": 1635,
             "walking": 7156,
-            "transit": 2352
+            "transit": 2412
         },
         "6": {
-            "driving": 1626,
+            "driving": 1628,
             "walking": 6916,
             "transit": 2760
         },
         "7": {
-            "driving": 2762,
+            "driving": 2776,
             "walking": 13322,
-            "transit": 5999
+            "transit": 5399
         },
         "8": {
-            "driving": 1577,
+            "driving": 1581,
             "walking": 7624,
             "transit": 2914
         },
         "9": {
-            "driving": 1739,
-            "walking": 11270,
+            "driving": 1765,
+            "walking": 11268,
             "transit": 2908
         },
         "10": {
-            "driving": 2117,
+            "driving": 2072,
             "walking": 9122,
-            "transit": 3760
+            "transit": 3700
         },
         "11": {
-            "driving": 1137,
+            "driving": 1145,
             "walking": 5922,
             "transit": 2621
         },
         "12": {
-            "driving": 1492,
-            "walking": 6637,
+            "driving": 1510,
+            "walking": 6621,
             "transit": 2767
         },
         "13": {
-            "driving": 2211,
+            "driving": 2107,
             "walking": 10388,
-            "transit": 3395
+            "transit": 3575
         },
         "14": {
-            "driving": 1757,
+            "driving": 1763,
             "walking": 7659,
-            "transit": 2639
+            "transit": 2819
         },
         "15": {
-            "driving": 1757,
+            "driving": 1763,
             "walking": 7659,
-            "transit": 2639
+            "transit": 2819
         },
         "16": {
-            "driving": 1648,
+            "driving": 1696,
             "walking": 7978,
-            "transit": 3020
+            "transit": 3080
         },
         "17": {
-            "driving": 2170,
-            "walking": 10584,
-            "transit": 4656
+            "driving": 2176,
+            "walking": 10586,
+            "transit": 4836
         },
         "18": {
-            "driving": 1436,
+            "driving": 1466,
             "walking": 7418,
-            "transit": 3071
+            "transit": 3191
         },
         "19": {
-            "driving": 1081,
+            "driving": 1072,
             "walking": 5300,
             "transit": 2530
         },
         "20": {
-            "driving": 1751,
+            "driving": 1748,
             "walking": 7304,
-            "transit": 2599
+            "transit": 2779
         },
         "21": {
-            "driving": 2771,
+            "driving": 2714,
             "walking": 13409,
-            "transit": 4173
+            "transit": 4353
         },
         "22": {
-            "driving": 1601,
+            "driving": 1649,
             "walking": 7420,
-            "transit": 3004
+            "transit": 3064
         },
         "23": {
-            "driving": 2015,
+            "driving": 2014,
             "walking": 8252,
-            "transit": 2807
+            "transit": 2987
         },
         "24": {
-            "driving": 1827,
-            "walking": 8935,
-            "transit": 2806
+            "driving": 1829,
+            "walking": 8937,
+            "transit": 2986
         },
         "25": {
-            "driving": 1778,
-            "walking": 11991,
-            "transit": 3450
+            "driving": 1808,
+            "walking": 11996,
+            "transit": 3570
         },
         "26": {
-            "driving": 1017,
+            "driving": 1020,
             "walking": 5261,
-            "transit": 2184
+            "transit": 2364
         },
         "27": {
-            "driving": 1269,
+            "driving": 1305,
             "walking": 6501,
-            "transit": 3014
+            "transit": 3194
         },
         "28": {
-            "driving": 1170,
-            "walking": 5663,
-            "transit": 2681
+            "driving": 1211,
+            "walking": 5665,
+            "transit": 2621
         },
         "29": {
-            "driving": 818,
-            "walking": 4349,
+            "driving": 819,
+            "walking": 4348,
             "transit": 2894
         },
         "30": {
-            "driving": 1731,
-            "walking": 8616,
-            "transit": 3161
+            "driving": 1738,
+            "walking": 8618,
+            "transit": 4136
         },
         "31": {
-            "driving": 2127,
+            "driving": 2132,
             "walking": 10050,
-            "transit": 3918
+            "transit": 4026
         },
         "32": {
             "driving": 0,
