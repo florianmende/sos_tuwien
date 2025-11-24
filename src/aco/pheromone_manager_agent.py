@@ -1,5 +1,7 @@
 import asyncio
 import json
+from pathlib import Path
+from typing import Optional
 
 from spade.agent import Agent
 from spade.behaviour import CyclicBehaviour
@@ -13,16 +15,21 @@ class PheromoneManagerAgent(Agent):
     """
     
     def __init__(self, jid, password, num_locations, markets,
-                 initial_pheromone=1.0, decay=0.95, reward_multiplier=2.0):
+                 initial_pheromone=1.0, decay=0.95, reward_multiplier=2.0,
+                 output_dir: Optional[Path] = None, day: int = 1):
         super().__init__(jid, password)
         self.num_locations = num_locations
         self.decay_coefficient = decay
         self.markets = markets
         self.reward_multiplier = reward_multiplier
+        self.output_dir = output_dir
+        self.day = day
         
         # map market ids to indices in the pheromone matrix
         # needed because market ids are not necessarily sequential in the case of several days
         self.market_to_index = {int(key): idx+1 for idx, key in enumerate(markets.keys())}
+        # Reverse mapping: index (1-based) to market_id
+        self.index_to_market = {idx: market_id for market_id, idx in self.market_to_index.items()}
         
         self.pheromone = {}
         for i in range(1, num_locations + 1):
@@ -35,6 +42,66 @@ class PheromoneManagerAgent(Agent):
         self.iteration_tours = []  # Collect tours from all ants in iteration
         self.global_best_tour = None
         self.global_best_count = 0
+        self.pheromone_history = []  # Store pheromone matrices for each iteration
+    
+    def serialize_pheromone_matrix(self):
+        """
+        Serialize pheromone matrix to a format suitable for plotting.
+        Returns a dictionary mapping (from_market_id, to_market_id) -> pheromone_value
+        """
+        matrix = {}
+        for from_idx in range(1, self.num_locations + 1):
+            from_market_id = self.index_to_market[from_idx]
+            for to_idx in range(1, self.num_locations + 1):
+                to_market_id = self.index_to_market[to_idx]
+                matrix[f"{from_market_id}_{to_market_id}"] = self.pheromone[from_idx][to_idx]
+        return matrix
+    
+    def save_pheromone_matrix(self):
+        """Save current pheromone matrix to history and optionally to file"""
+        # Store in history
+        matrix_data = {
+            "iteration": self.iteration,
+            "matrix": self.serialize_pheromone_matrix(),
+            "global_best_count": self.global_best_count,
+            "global_best_tour": self.global_best_tour
+        }
+        self.pheromone_history.append(matrix_data)
+        
+        # Save to file if output_dir is provided
+        if self.output_dir:
+            output_file = self.output_dir / f"pheromone_matrices_day{self.day}.json"
+            
+            # Load existing data or create new
+            if output_file.exists():
+                with output_file.open("r", encoding="utf-8") as f:
+                    all_data = json.load(f)
+            else:
+                all_data = {
+                    "day": self.day,
+                    "num_locations": self.num_locations,
+                    "markets": {str(k): int(k) for k in self.markets.keys()},
+                    "market_to_index": {str(k): int(v) for k, v in self.market_to_index.items()},
+                    "index_to_market": {int(k): int(v) for k, v in self.index_to_market.items()},
+                    "iterations": []
+                }
+            
+            # Update or add this iteration's data
+            # Find if this iteration already exists and update it
+            existing_iter = None
+            for i, iter_data in enumerate(all_data["iterations"]):
+                if iter_data["iteration"] == self.iteration:
+                    existing_iter = i
+                    break
+            
+            if existing_iter is not None:
+                all_data["iterations"][existing_iter] = matrix_data
+            else:
+                all_data["iterations"].append(matrix_data)
+            
+            # Save back to file
+            with output_file.open("w", encoding="utf-8") as f:
+                json.dump(all_data, f, indent=2)
     
     async def setup(self):
         print(f"[PheromoneManager] Starting at {self.jid}")
@@ -71,32 +138,40 @@ class PheromoneManagerAgent(Agent):
             except asyncio.CancelledError:
                 return
             if msg:
-                data = json.loads(msg.body)
-                from_market_id = data["from"]
-                to_market_id = data["to"]
-                
-                # Map market IDs to indices in the pheromone matrix
                 try:
-                    from_loc = self.agent.market_to_index[from_market_id]
-                    to_loc = self.agent.market_to_index[to_market_id]
+                    data = json.loads(msg.body)
+                    from_market_id = data["from"]
+                    to_market_id = data["to"]
+                    correlation_id = data.get("correlation_id")
                     
-                    pheromone_level = self.agent.pheromone.get(
-                        from_loc, {}
-                    ).get(to_loc, 1.0)
-                except KeyError:
-                    # If market ID not in mapping, return default pheromone value
-                    print(f"Market ID not in mapping: {from_market_id} -> {to_market_id}")
-                    pheromone_level = 1.0
-                
-                response = msg.make_reply()
-                response.body = json.dumps({
-                    "from": from_market_id,
-                    "to": to_market_id,
-                    "pheromone": pheromone_level
-                })
-                response.set_metadata("performative", "pheromone_response")
-                
-                await self.send(response)
+                    # Map market IDs to indices in the pheromone matrix
+                    try:
+                        from_loc = self.agent.market_to_index[from_market_id]
+                        to_loc = self.agent.market_to_index[to_market_id]
+                        
+                        pheromone_level = self.agent.pheromone.get(
+                            from_loc, {}
+                        ).get(to_loc, 1.0)
+                    except KeyError:
+                        # If market ID not in mapping, return default pheromone value
+                        print(f"Market ID not in mapping: {from_market_id} -> {to_market_id}")
+                        pheromone_level = 1.0
+                    
+                    response = msg.make_reply()
+                    response.body = json.dumps({
+                        "from": from_market_id,
+                        "to": to_market_id,
+                        "pheromone": pheromone_level,
+                        "correlation_id": correlation_id
+                    })
+                    response.set_metadata("performative", "pheromone_response")
+                    if correlation_id:
+                        response.set_metadata("correlation_id", correlation_id)
+                    
+                    await self.send(response)
+                except (json.JSONDecodeError, KeyError) as e:
+                    # Invalid message, ignore
+                    print(f"Invalid pheromone query message: {e}")
     
     class PheromoneDepositBehavior(CyclicBehaviour):
         """Collects tour submissions from ants (no immediate update)"""
@@ -106,15 +181,23 @@ class PheromoneManagerAgent(Agent):
             except asyncio.CancelledError:
                 return
             if msg:
-                data = json.loads(msg.body)
-                tour = data["tour"]
-                num_visited = len(tour)
-                
-                # Store tour for batch update at iteration end
-                self.agent.iteration_tours.append({
-                    "tour": tour,
-                    "count": num_visited
-                })
+                try:
+                    data = json.loads(msg.body)
+                    tour = data["tour"]
+                    iteration_id = data.get("iteration_id", self.agent.iteration)
+                    ant_id = data.get("ant_id")
+                    num_visited = len(tour)
+                    
+                    # Store tour with its iteration_id (will be filtered during update)
+                    self.agent.iteration_tours.append({
+                        "tour": tour,
+                        "count": num_visited,
+                        "ant_id": ant_id,
+                        "iteration_id": iteration_id
+                    })
+                except (json.JSONDecodeError, KeyError) as e:
+                    # Invalid message, ignore
+                    print(f"Invalid tour deposit message: {e}")
     
     class IterationUpdateBehavior(CyclicBehaviour):
         """Updates pheromones after all ants complete iteration"""
@@ -124,17 +207,34 @@ class PheromoneManagerAgent(Agent):
             except asyncio.CancelledError:
                 return
             if msg:
-                self.agent.iteration += 1
+                try:
+                    data = json.loads(msg.body)
+                    iteration_id = data.get("iteration_id", self.agent.iteration + 1)
+                    # Update iteration if provided
+                    if iteration_id > self.agent.iteration:
+                        self.agent.iteration = iteration_id
+                    else:
+                        # If same or older iteration, just process current state
+                        pass
+                except (json.JSONDecodeError, KeyError):
+                    # No iteration ID in message, increment as before
+                    self.agent.iteration += 1
                 
                 # Apply evaporation to all edges
                 for i in self.agent.pheromone:
                     for j in self.agent.pheromone[i]:
                         self.agent.pheromone[i][j] *= self.agent.decay_coefficient
                 
+                # Filter tours for this iteration
+                iteration_tours = [
+                    tour for tour in self.agent.iteration_tours
+                    if tour.get("iteration_id") == self.agent.iteration
+                ]
+                
                 # Find best tour from this iteration
-                if self.agent.iteration_tours:
+                if iteration_tours:
                     iteration_best = max(
-                        self.agent.iteration_tours,
+                        iteration_tours,
                         key=lambda x: x["count"]
                     )
                     
@@ -161,12 +261,21 @@ class PheromoneManagerAgent(Agent):
                             # update pheromone matrix
                             self.agent.pheromone[from_loc][to_loc] += deposit_amount
                 
-                # Clear tours for next iteration
-                self.agent.iteration_tours = []
+                # Clear tours for the iteration we just processed (to avoid accumulation)
+                # Keep any tours from future iterations (shouldn't happen, but be safe)
+                self.agent.iteration_tours = [
+                    tour for tour in self.agent.iteration_tours
+                    if tour.get("iteration_id") != self.agent.iteration
+                ]
                 
-                # Send acknowledgment
+                # Save pheromone matrix for this iteration
+                self.agent.save_pheromone_matrix()
+                
+                # Send acknowledgment with iteration ID
                 response = msg.make_reply()
-                response.body = "{}"
+                response.body = json.dumps({
+                    "iteration_id": self.agent.iteration
+                })
                 response.set_metadata("performative", "iteration_updated")
                 await self.send(response)
     
@@ -178,19 +287,22 @@ class PheromoneManagerAgent(Agent):
             except asyncio.CancelledError:
                 return
             if msg:
-                response = msg.make_reply()
-                if self.agent.best_solutions:
-                    best = self.agent.best_solutions[-1]
-                    response.body = json.dumps({
-                        "best_count": best["count"],
-                        "best_tour": best["tour"],
-                        "iteration": best["iteration"]
-                    })
-                else:
-                    response.body = json.dumps({
-                        "best_count": self.agent.global_best_count,
-                        "best_tour": self.agent.global_best_tour if self.agent.global_best_tour else [],
-                        "iteration": self.agent.iteration
-                    })
-                response.set_metadata("performative", "best_solution_response")
-                await self.send(response)
+                try:
+                    response = msg.make_reply()
+                    if self.agent.best_solutions:
+                        best = self.agent.best_solutions[-1]
+                        response.body = json.dumps({
+                            "best_count": best["count"],
+                            "best_tour": best["tour"],
+                            "iteration": best["iteration"]
+                        })
+                    else:
+                        response.body = json.dumps({
+                            "best_count": self.agent.global_best_count,
+                            "best_tour": self.agent.global_best_tour if self.agent.global_best_tour else [],
+                            "iteration": self.agent.iteration
+                        })
+                    response.set_metadata("performative", "best_solution_response")
+                    await self.send(response)
+                except Exception as e:
+                    print(f"Error in best solution response: {e}")

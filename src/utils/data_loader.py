@@ -1,14 +1,14 @@
 import json
 
 
-def load_market_data(places_file, travel_times_file, mode="transit"):
+def load_market_data(places_file, travel_times_file, mode="fastest_public"):
     """
     Load and validate market and travel time data.
     
     Args:
         places_file: JSON file with market metadata
         travel_times_file: JSON with directed travel times
-        mode: "transit", "walking", or "driving"
+        mode: "transit", "walking", or "driving", "fastest_public"
     
     Returns:
         markets, travel_times: Processed data structures with integer keys
@@ -32,8 +32,8 @@ def load_market_data(places_file, travel_times_file, mode="transit"):
     # Convert nested string keys to integers for travel_times
     travel_times = {
         int(from_id): {
-            int(to_id): tt.get(mode, 0) // 60
-            for to_id, tt in destinations.items()
+            int(to_id): min(tt.get("walking"), tt.get("transit")) if mode == "fastest_public" else tt.get(mode, 0) // 60
+                for to_id, tt in destinations.items()
         }
         for from_id, destinations in travel_times_raw.items()
     }
