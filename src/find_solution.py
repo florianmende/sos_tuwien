@@ -128,8 +128,8 @@ async def run_ant_colony_optimization(markets, travel_times, service_time, days,
         "initial_pheromone": 1.0,
         "decay": 0.5,
         "alpha": 1.0,
-        "beta": 2.0,
-        "reward_multiplier": 2.0
+        "beta": 4.0,
+        "reward_multiplier": 5.0
     }
     
     # Merge with provided parameters

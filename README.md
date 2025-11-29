@@ -42,7 +42,7 @@ poetry env remove python3.11
 poetry install
 ```
 
-The run.sh script requires the XMPP server to be online, start it with run_xmpp_server.sh in a separate terminal
+The run_grid_search.sh and run.sh scripts requires the XMPP server to be online when using ACO, start it with run_xmpp_server.sh in a separate terminal
 
 ## Docker
 
