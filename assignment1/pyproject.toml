@@ -20,8 +20,3 @@ dependencies = [
     "pandas>=2.3.3",
     "requests (>=2.32.5,<3.0.0)",
 ]
-
-
-
-
-

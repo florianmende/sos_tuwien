@@ -50,7 +50,7 @@ class AntAgent(Agent):
                 msg = await self.receive(timeout=1)
             except asyncio.CancelledError:
                 return
-            if msg:  # Template already filtered for start_iteration
+            if msg: 
                 try:
                     data = json.loads(msg.body)
                     iteration_id = data.get("iteration_id")
@@ -129,7 +129,7 @@ class AntAgent(Agent):
             departure_time = arrival_time + self.agent.service_time
             if departure_time > close_time:
                 # Can't complete service before closing, skip this market
-                # This shouldn't happen if select_next_market() is correct, but add safety check
+                # This shouldn't happen but add safety check
                 self.tour_complete = True
                 await self.deposit_tour()
                 await self.notify_tour_complete()
@@ -258,7 +258,6 @@ class AntAgent(Agent):
                 # Not our message, continue waiting
         
         async def deposit_tour(self):
-            # No need to append end location - tour is complete as-is
             
             msg = Message(to=self.agent.manager_jid)
             

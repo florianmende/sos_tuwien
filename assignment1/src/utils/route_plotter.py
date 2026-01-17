@@ -16,9 +16,6 @@ def plot_route(
     Vizualizes all days in the same plot with different colors.
     """
     
-    # resolve route to markets:
-    # routes looks like this {1: [23, 4, 20, 15, 5, 12, 16, 22, 6, 14, 3, 10, 18, 27, 11, 19, 1]}
-    # we want a df with columns "day", "market_id", "lat", "lon", "name", "opens", "closes"
     rows = []
     for day, market_ids in tour.items():
         for market_id in market_ids:

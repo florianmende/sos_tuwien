@@ -262,7 +262,6 @@ class PheromoneManagerAgent(Agent):
                             self.agent.pheromone[from_loc][to_loc] += deposit_amount
                 
                 # Clear tours for the iteration we just processed (to avoid accumulation)
-                # Keep any tours from future iterations (shouldn't happen, but be safe)
                 self.agent.iteration_tours = [
                     tour for tour in self.agent.iteration_tours
                     if tour.get("iteration_id") != self.agent.iteration

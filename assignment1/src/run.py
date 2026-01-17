@@ -109,17 +109,13 @@ async def run_grid_search(args):
         if args.algorithm == "aco":
             await asyncio.sleep(0.1)
 
-    # ==========================================
-    # SAVING
-    # ==========================================
-
-    # 1. Save ALL results
+    # 1. Save all results
     full_path = output_dir / f"{args.algorithm}_all_results.json"
     with open(full_path, "w") as f:
         json.dump(results, f, indent=2)
     print(f"\nAll results saved to: {full_path}")
 
-    # 2. Save BEST result separately
+    # 2. Save best result separately
     successful_runs = [r for r in results if r["success"]]
     if successful_runs:
         best_run = max(successful_runs, key=lambda x: x['total_score'])

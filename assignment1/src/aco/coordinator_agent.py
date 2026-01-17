@@ -94,7 +94,7 @@ class CoordinatorAgent(Agent):
             })
             await self.send(msg)
             
-            # Wait for pheromone update acknowledgment (explicit wait)
+            # Wait for pheromone update acknowledgment
             # Manually filter for iteration_updated messages
             start_time = asyncio.get_event_loop().time()
             timeout = 5
