@@ -4,8 +4,8 @@ This Visualizer provides clustering algorithm on top of neurons grid.
 """
 
 import numpy as np
-from visualizations.iVisualization import VisualizationInterface
-from controls.controllers import ClusteringController
+from som_toolbox.visualizations.iVisualization import VisualizationInterface
+from som_toolbox.controls.controllers import ClusteringController
 from sklearn.cluster import KMeans, AgglomerativeClustering
 import panel as pn
 

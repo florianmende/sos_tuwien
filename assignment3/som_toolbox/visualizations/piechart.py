@@ -1,6 +1,6 @@
 import numpy as np
 from scipy.spatial import distance_matrix, distance
-from visualizations.iVisualization import VisualizationInterface
+from som_toolbox.visualizations.iVisualization import VisualizationInterface
 import panel as pn
 import holoviews as hv
 from bokeh.palettes import Category20c, Category20
@@ -73,6 +73,22 @@ class PieChart(VisualizationInterface):
             angle       = piechart[wedge]/total * 2 * np.pi
             angle_start = np.insert(angle[:-1], 0, 0, axis=0)
             angle_end   = np.cumsum(angle)
-            color       = np.array(Category20[len(wedge)])[wedge] #_COLOURS_93[np.where(wedge==True)]
+            # Fix: use wedge_n instead of len(wedge), and handle edge cases
+            # Category20 has keys for 3-20, so handle cases with fewer or more categories
+            try:
+                if wedge_n < 3:
+                    # Use Category20[3] and take only what we need
+                    colors_palette = Category20[3]
+                    color = np.array(colors_palette[:wedge_n])
+                elif wedge_n <= 20:
+                    colors_palette = Category20[wedge_n]
+                    color = np.array(colors_palette)
+                else:
+                    # More than 20 categories - repeat Category20[20]
+                    colors_palette = Category20[20]
+                    color = np.array([colors_palette[i % 20] for i in range(wedge_n)])
+            except (KeyError, TypeError):
+                # Fallback to _COLOURS_93 if Category20 access fails
+                color = _COLOURS_93[np.where(wedge==True)[0] % len(_COLOURS_93)]
             return np.array([x]*wedge_n), np.array([y]*wedge_n), color, np.array([total/max_size*PIE_CHART]*wedge_n), angle_start, angle_end, 
         return np.array([]), np.array([]), np.array([]), np.array([]), np.array([]), np.array([])

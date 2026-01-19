@@ -5,8 +5,8 @@ Visualization of some aspects of Quantization Error
 """
 
 import numpy as np
-from visualizations.iVisualization import VisualizationInterface
-from controls.controllers import QErrorController
+from som_toolbox.visualizations.iVisualization import VisualizationInterface
+from som_toolbox.controls.controllers import QErrorController
 import panel as pn
 from scipy.spatial import distance_matrix, distance
 

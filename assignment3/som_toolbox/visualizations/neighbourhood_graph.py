@@ -7,8 +7,8 @@ The first one uses knn-based distances, the second one radius-based distances.
 """
 
 import numpy as np
-from visualizations.iVisualization import VisualizationInterface
-from controls.controllers import NeighbourhoodGraphController
+from som_toolbox.visualizations.iVisualization import VisualizationInterface
+from som_toolbox.controls.controllers import NeighbourhoodGraphController
 import panel as pn
 
 class NeighbourhoodGraph(VisualizationInterface):

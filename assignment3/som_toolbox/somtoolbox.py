@@ -19,22 +19,22 @@ import holoviews as hv
 from holoviews import opts
 from holoviews.streams import Pipe, Buffer
 
-from controls.controllers import MainController
+from som_toolbox.controls.controllers import MainController
 hv.extension('bokeh')
 
-from visualizations.complane import ComponentPlane
-from visualizations.dmatrix import DMatrix
-from visualizations.hithistogram import HitHist
-from visualizations.sdh import SDH
-from visualizations.qerror import QError
-from visualizations.umatrix import UMatrix
-from visualizations.upmatrix import UStar_PMatrix
-from visualizations.neighbourhood_graph import NeighbourhoodGraph
-from visualizations.clustering import Clustering
-from visualizations.metromap import MetroMap
-from visualizations.piechart import PieChart
-from visualizations.chessboard import Chessboard
-from visualizations.time_series import TimeSeries
+from som_toolbox.visualizations.complane import ComponentPlane
+from som_toolbox.visualizations.dmatrix import DMatrix
+from som_toolbox.visualizations.hithistogram import HitHist
+from som_toolbox.visualizations.sdh import SDH
+from som_toolbox.visualizations.qerror import QError
+from som_toolbox.visualizations.umatrix import UMatrix
+from som_toolbox.visualizations.upmatrix import UStar_PMatrix
+from som_toolbox.visualizations.neighbourhood_graph import NeighbourhoodGraph
+from som_toolbox.visualizations.clustering import Clustering
+from som_toolbox.visualizations.metromap import MetroMap
+from som_toolbox.visualizations.piechart import PieChart
+from som_toolbox.visualizations.chessboard import Chessboard
+from som_toolbox.visualizations.time_series import TimeSeries
 from skimage.transform import resize
 
 OBJECTS_CLASSES = [ComponentPlane, HitHist, UMatrix, DMatrix, UStar_PMatrix, 

@@ -5,7 +5,7 @@ This Visualizer provides D-Matrix which is a special variant of U-Matrix.
 
 import numpy as np
 import panel as pn
-from visualizations.iVisualization import VisualizationInterface
+from som_toolbox.visualizations.iVisualization import VisualizationInterface
 
 class DMatrix(VisualizationInterface):
     
