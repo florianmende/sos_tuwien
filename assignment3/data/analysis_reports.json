@@ -1,0 +1,207 @@
+{
+  "data_size": {
+    "rows": 1000,
+    "columns": 21,
+    "total_cells": 21000
+  },
+  "attribute_types": {
+    "numerical_count": 7,
+    "categorical_count": 14,
+    "type_details": {
+      "checking_status": {
+        "type": "categorical",
+        "unique_values": 4
+      },
+      "duration": {
+        "type": "continuous",
+        "unique_values": 33
+      },
+      "credit_history": {
+        "type": "categorical",
+        "unique_values": 5
+      },
+      "purpose": {
+        "type": "categorical",
+        "unique_values": 10
+      },
+      "credit_amount": {
+        "type": "continuous",
+        "unique_values": 921
+      },
+      "savings_status": {
+        "type": "categorical",
+        "unique_values": 5
+      },
+      "employment": {
+        "type": "categorical",
+        "unique_values": 5
+      },
+      "installment_commitment": {
+        "type": "discrete",
+        "unique_values": 4
+      },
+      "personal_status": {
+        "type": "categorical",
+        "unique_values": 4
+      },
+      "other_parties": {
+        "type": "categorical",
+        "unique_values": 3
+      },
+      "residence_since": {
+        "type": "discrete",
+        "unique_values": 4
+      },
+      "property_magnitude": {
+        "type": "categorical",
+        "unique_values": 4
+      },
+      "age": {
+        "type": "continuous",
+        "unique_values": 53
+      },
+      "other_payment_plans": {
+        "type": "categorical",
+        "unique_values": 3
+      },
+      "housing": {
+        "type": "categorical",
+        "unique_values": 3
+      },
+      "existing_credits": {
+        "type": "discrete",
+        "unique_values": 4
+      },
+      "job": {
+        "type": "categorical",
+        "unique_values": 4
+      },
+      "num_dependents": {
+        "type": "discrete",
+        "unique_values": 2
+      },
+      "own_telephone": {
+        "type": "categorical",
+        "unique_values": 2
+      },
+      "foreign_worker": {
+        "type": "categorical",
+        "unique_values": 2
+      },
+      "class": {
+        "type": "categorical",
+        "unique_values": 2
+      }
+    }
+  },
+  "value_ranges": {
+    "duration": {
+      "min": 4.0,
+      "max": 72.0,
+      "range": 68.0,
+      "mean": 20.903,
+      "std": 12.058814452756375
+    },
+    "credit_amount": {
+      "min": 250.0,
+      "max": 18424.0,
+      "range": 18174.0,
+      "mean": 3271.258,
+      "std": 2822.7368759604406
+    },
+    "installment_commitment": {
+      "min": 1.0,
+      "max": 4.0,
+      "range": 3.0,
+      "mean": 2.973,
+      "std": 1.1187146743126786
+    },
+    "residence_since": {
+      "min": 1.0,
+      "max": 4.0,
+      "range": 3.0,
+      "mean": 2.845,
+      "std": 1.1037178956568536
+    },
+    "age": {
+      "min": 19.0,
+      "max": 75.0,
+      "range": 56.0,
+      "mean": 35.546,
+      "std": 11.375468574317512
+    },
+    "existing_credits": {
+      "min": 1.0,
+      "max": 4.0,
+      "range": 3.0,
+      "mean": 1.407,
+      "std": 0.5776544682461002
+    },
+    "num_dependents": {
+      "min": 1.0,
+      "max": 2.0,
+      "range": 1.0,
+      "mean": 1.155,
+      "std": 0.36208577175319395
+    }
+  },
+  "missing_values": {
+    "total_missing": 0,
+    "columns_with_missing": [],
+    "missing_percentages": {}
+  },
+  "outliers": {
+    "duration": {
+      "count": 70,
+      "percentage": 7.000000000000001,
+      "lower_bound": -6.0,
+      "upper_bound": 42.0
+    },
+    "credit_amount": {
+      "count": 72,
+      "percentage": 7.199999999999999,
+      "lower_bound": -2544.625,
+      "upper_bound": 7882.375
+    },
+    "age": {
+      "count": 23,
+      "percentage": 2.3,
+      "lower_bound": 4.5,
+      "upper_bound": 64.5
+    },
+    "existing_credits": {
+      "count": 6,
+      "percentage": 0.6,
+      "lower_bound": -0.5,
+      "upper_bound": 3.5
+    },
+    "num_dependents": {
+      "count": 155,
+      "percentage": 15.5,
+      "lower_bound": 1.0,
+      "upper_bound": 1.0
+    }
+  },
+  "correlations": {
+    "high_correlations": [
+      {
+        "feature1": "duration",
+        "feature2": "credit_amount",
+        "correlation": 0.6249841983009851
+      }
+    ],
+    "correlation_count": 1
+  },
+  "class_distribution": {
+    "classes": {
+      "good": 700,
+      "bad": 300
+    },
+    "percentages": {
+      "good": 70.0,
+      "bad": 30.0
+    },
+    "imbalance_ratio": 2.3333333333333335,
+    "is_imbalanced": true
+  }
+}

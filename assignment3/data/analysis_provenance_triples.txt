@@ -1,0 +1,214 @@
+:data_analysis_phase rdf:type prov:Activity .
+:data_analysis_phase rdfs:label "Data Analysis Phase" .
+:data_analysis_phase rdfs:comment "Comprehensive analysis of the German Credit dataset characteristics" .
+:check_size rdf:type prov:Activity .
+:check_size sc:isPartOf :data_analysis_phase .
+:check_size rdfs:comment "Check data size" .
+:check_size rdfs:comment "Inspect the shape of the loaded dataset to determine the number of records and features." .
+:check_size prov:startedAtTime "2026-01-25T12:26:41.207Z"^^xsd:dateTime .
+:check_size prov:endedAtTime "2026-01-25T12:26:41.207Z"^^xsd:dateTime .
+:check_size prov:qualifiedAssociation :9f0dc14f-b18c-462c-97d0-e7582aaf19db .
+:9f0dc14f-b18c-462c-97d0-e7582aaf19db prov:agent :stud-id_12017067 .
+:9f0dc14f-b18c-462c-97d0-e7582aaf19db rdf:type prov:Association .
+:9f0dc14f-b18c-462c-97d0-e7582aaf19db prov:hadRole :code_executor .
+:check_size prov:qualifiedAssociation :66f0171b-eef4-4a71-b878-b28fea0a0133 .
+:66f0171b-eef4-4a71-b878-b28fea0a0133 prov:agent :stud-id_12017067 .
+:66f0171b-eef4-4a71-b878-b28fea0a0133 rdf:type prov:Association .
+:66f0171b-eef4-4a71-b878-b28fea0a0133 prov:hadRole :code_writer .
+:check_size prov:used :raw_data .
+:check_size_report rdf:type prov:Entity .
+:check_size_report rdfs:comment "Dataset contains 1000 rows and 21 columns" .
+:check_size_report prov:wasGeneratedBy :check_size .
+:inspect_size_report rdf:type prov:Activity .
+:inspect_size_report rdfs:comment "Inspect the dataset size" .
+:inspect_size_report rdfs:comment "The dataset contains 1000 rows and 21 dimensions of which one is the target variable. Dataset size is manageable for SOM training without subsampling." .
+:inspect_size_report prov:startedAtTime "2026-01-25T12:26:41.207Z"^^xsd:dateTime .
+:inspect_size_report prov:endedAtTime "2026-01-25T12:26:41.207Z"^^xsd:dateTime .
+:inspect_size_report prov:qualifiedAssociation :d3f5e1b3-4f3a-4e2e-9a1b-8c4f2c3b5e6f .
+:d3f5e1b3-4f3a-4e2e-9a1b-8c4f2c3b5e6f prov:agent :stud-id_12017067 .
+:d3f5e1b3-4f3a-4e2e-9a1b-8c4f2c3b5e6f rdf:type prov:Association .
+:d3f5e1b3-4f3a-4e2e-9a1b-8c4f2c3b5e6f prov:hadRole :code_executor .
+:inspect_size_report prov:used :check_size_report .
+:check_attribute_types rdf:type prov:Activity .
+:check_attribute_types sc:isPartOf :data_analysis_phase .
+:check_attribute_types rdfs:comment "Analyze attribute types" .
+:check_attribute_types rdfs:comment "Classify each feature as numerical (continuous/discrete) or categorical to understand data structure." .
+:check_attribute_types prov:startedAtTime "2026-01-25T12:26:41.207Z"^^xsd:dateTime .
+:check_attribute_types prov:endedAtTime "2026-01-25T12:26:41.208Z"^^xsd:dateTime .
+:check_attribute_types prov:qualifiedAssociation :a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d .
+:a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d prov:agent :stud-id_12017067 .
+:a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d rdf:type prov:Association .
+:a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d prov:hadRole :code_executor .
+:check_attribute_types prov:qualifiedAssociation :b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e .
+:b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e prov:agent :stud-id_12017067 .
+:b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e rdf:type prov:Association .
+:b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e prov:hadRole :code_writer .
+:check_attribute_types prov:used :raw_data .
+:attribute_types_report rdf:type prov:Entity .
+:attribute_types_report rdfs:comment "Found 7 numerical and 14 categorical attributes" .
+:attribute_types_report prov:wasGeneratedBy :check_attribute_types .
+:inspect_attribute_types rdf:type prov:Activity .
+:inspect_attribute_types rdfs:comment "Inspect attribute types distribution" .
+:inspect_attribute_types rdfs:comment "Dataset has mixed types with 7 numerical and 14 categorical features. Categorical features will require encoding for SOM training." .
+:inspect_attribute_types prov:startedAtTime "2026-01-25T12:26:41.207Z"^^xsd:dateTime .
+:inspect_attribute_types prov:endedAtTime "2026-01-25T12:26:41.208Z"^^xsd:dateTime .
+:inspect_attribute_types prov:qualifiedAssociation :c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f .
+:c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f prov:agent :stud-id_12017067 .
+:c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f rdf:type prov:Association .
+:c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f prov:hadRole :code_executor .
+:inspect_attribute_types prov:used :attribute_types_report .
+:decision_encode_categorical rdf:type prov:Entity .
+:decision_encode_categorical rdfs:comment "Decision: Apply ordinal encoding to categorical variables preserving meaningful order where applicable" .
+:decision_encode_categorical prov:wasGeneratedBy :inspect_attribute_types .
+:check_value_ranges rdf:type prov:Activity .
+:check_value_ranges sc:isPartOf :data_analysis_phase .
+:check_value_ranges rdfs:comment "Analyze value ranges" .
+:check_value_ranges rdfs:comment "Determine min, max, and range for numerical features to understand data distribution and scaling needs." .
+:check_value_ranges prov:startedAtTime "2026-01-25T12:26:41.208Z"^^xsd:dateTime .
+:check_value_ranges prov:endedAtTime "2026-01-25T12:26:41.209Z"^^xsd:dateTime .
+:check_value_ranges prov:qualifiedAssociation :d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a .
+:d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a prov:agent :stud-id_12017067 .
+:d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a rdf:type prov:Association .
+:d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a prov:hadRole :code_executor .
+:check_value_ranges prov:qualifiedAssociation :e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b .
+:e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b prov:agent :stud-id_12017067 .
+:e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b rdf:type prov:Association .
+:e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b prov:hadRole :code_writer .
+:check_value_ranges prov:used :raw_data .
+:value_ranges_report rdf:type prov:Entity .
+:value_ranges_report rdfs:comment "Analyzed ranges for 7 numerical features with varying scales" .
+:value_ranges_report prov:wasGeneratedBy :check_value_ranges .
+:inspect_value_ranges rdf:type prov:Activity .
+:inspect_value_ranges rdfs:comment "Inspect value ranges" .
+:inspect_value_ranges rdfs:comment "Features have different scales (e.g., age 19-75, credit_amount 250-18424, duration 4-72). Different scales require normalization for SOM training to prevent features with larger ranges from dominating distance calculations." .
+:inspect_value_ranges prov:startedAtTime "2026-01-25T12:26:41.208Z"^^xsd:dateTime .
+:inspect_value_ranges prov:endedAtTime "2026-01-25T12:26:41.209Z"^^xsd:dateTime .
+:inspect_value_ranges prov:qualifiedAssociation :f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c .
+:f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c prov:agent :stud-id_12017067 .
+:f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c rdf:type prov:Association .
+:f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c prov:hadRole :code_executor .
+:inspect_value_ranges prov:used :value_ranges_report .
+:decision_normalize_data rdf:type prov:Entity .
+:decision_normalize_data rdfs:comment "Decision: Apply MinMax scaling to normalize all features to [0,1] range for fair distance computation in SOM" .
+:decision_normalize_data prov:wasGeneratedBy :inspect_value_ranges .
+:check_missing_values rdf:type prov:Activity .
+:check_missing_values sc:isPartOf :data_analysis_phase .
+:check_missing_values rdfs:comment "Check for missing values" .
+:check_missing_values rdfs:comment "Identify any missing or null values in the dataset that may require imputation or removal." .
+:check_missing_values prov:startedAtTime "2026-01-25T12:26:41.209Z"^^xsd:dateTime .
+:check_missing_values prov:endedAtTime "2026-01-25T12:26:41.210Z"^^xsd:dateTime .
+:check_missing_values prov:qualifiedAssociation :a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d .
+:a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d prov:agent :stud-id_12017067 .
+:a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d rdf:type prov:Association .
+:a7b8c9d0-e1f2-4a3b-4c5d-6e7f8a9b0c1d prov:hadRole :code_executor .
+:check_missing_values prov:qualifiedAssociation :b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e .
+:b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e prov:agent :stud-id_12017067 .
+:b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e rdf:type prov:Association .
+:b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e prov:hadRole :code_writer .
+:check_missing_values prov:used :raw_data .
+:missing_values_report rdf:type prov:Entity .
+:missing_values_report rdfs:comment "Found 0 missing values in dataset" .
+:missing_values_report prov:wasGeneratedBy :check_missing_values .
+:inspect_missing_values rdf:type prov:Activity .
+:inspect_missing_values rdfs:comment "Inspect missing values" .
+:inspect_missing_values rdfs:comment "No missing values detected in the dataset. Data is complete and ready for analysis without imputation." .
+:inspect_missing_values prov:startedAtTime "2026-01-25T12:26:41.209Z"^^xsd:dateTime .
+:inspect_missing_values prov:endedAtTime "2026-01-25T12:26:41.210Z"^^xsd:dateTime .
+:inspect_missing_values prov:qualifiedAssociation :c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f .
+:c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f prov:agent :stud-id_12017067 .
+:c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f rdf:type prov:Association .
+:c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f prov:hadRole :code_executor .
+:inspect_missing_values prov:used :missing_values_report .
+:check_outliers rdf:type prov:Activity .
+:check_outliers sc:isPartOf :data_analysis_phase .
+:check_outliers rdfs:comment "Detect outliers using IQR method" .
+:check_outliers rdfs:comment "Apply IQR-based outlier detection to identify anomalous values that may affect SOM training." .
+:check_outliers prov:startedAtTime "2026-01-25T12:26:41.210Z"^^xsd:dateTime .
+:check_outliers prov:endedAtTime "2026-01-25T12:26:41.213Z"^^xsd:dateTime .
+:check_outliers prov:qualifiedAssociation :d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a .
+:d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a prov:agent :stud-id_12017067 .
+:d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a rdf:type prov:Association .
+:d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a prov:hadRole :code_executor .
+:check_outliers prov:qualifiedAssociation :e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b .
+:e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b prov:agent :stud-id_12017067 .
+:e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b rdf:type prov:Association .
+:e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b prov:hadRole :code_writer .
+:check_outliers prov:used :raw_data .
+:outliers_report rdf:type prov:Entity .
+:outliers_report rdfs:comment "Detected outliers in 5 features using IQR method" .
+:outliers_report prov:wasGeneratedBy :check_outliers .
+:inspect_outliers rdf:type prov:Activity .
+:inspect_outliers rdfs:comment "Inspect outlier detection results" .
+:inspect_outliers rdfs:comment "Outliers detected in several features. For credit risk data, these may represent legitimate extreme cases (e.g., very high credit amounts, long durations). SOMs are relatively robust to outliers as they perform vector quantization. Decision: Keep outliers as they may represent important edge cases in credit assessment." .
+:inspect_outliers prov:startedAtTime "2026-01-25T12:26:41.210Z"^^xsd:dateTime .
+:inspect_outliers prov:endedAtTime "2026-01-25T12:26:41.213Z"^^xsd:dateTime .
+:inspect_outliers prov:qualifiedAssociation :f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c .
+:f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c prov:agent :stud-id_12017067 .
+:f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c rdf:type prov:Association .
+:f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c prov:hadRole :code_executor .
+:inspect_outliers prov:used :outliers_report .
+:decision_keep_outliers rdf:type prov:Entity .
+:decision_keep_outliers rdfs:comment "Decision: Retain outliers as they may represent valid extreme cases in credit risk assessment" .
+:decision_keep_outliers prov:wasGeneratedBy :inspect_outliers .
+:check_correlations rdf:type prov:Activity .
+:check_correlations sc:isPartOf :data_analysis_phase .
+:check_correlations rdfs:comment "Analyze feature correlations" .
+:check_correlations rdfs:comment "Compute pairwise correlations between numerical features to identify redundant or highly related features." .
+:check_correlations prov:startedAtTime "2026-01-25T12:26:41.213Z"^^xsd:dateTime .
+:check_correlations prov:endedAtTime "2026-01-25T12:26:41.214Z"^^xsd:dateTime .
+:check_correlations prov:qualifiedAssociation :a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d .
+:a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d prov:agent :stud-id_12017067 .
+:a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d rdf:type prov:Association .
+:a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d prov:hadRole :code_executor .
+:check_correlations prov:qualifiedAssociation :b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e .
+:b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e prov:agent :stud-id_12017067 .
+:b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e rdf:type prov:Association .
+:b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e prov:hadRole :code_writer .
+:check_correlations prov:used :raw_data .
+:correlations_report rdf:type prov:Entity .
+:correlations_report rdfs:comment "Found 1 high correlations (|r| > 0.5) between numerical features" .
+:correlations_report prov:wasGeneratedBy :check_correlations .
+:inspect_correlations rdf:type prov:Activity .
+:inspect_correlations rdfs:comment "Inspect correlation analysis results" .
+:inspect_correlations rdfs:comment "Found 1 high correlations. For SOM analysis, we retain all features as SOMs can handle correlated features and the visualization may reveal interesting relationships. Feature reduction would be considered only if computational constraints arise." .
+:inspect_correlations prov:startedAtTime "2026-01-25T12:26:41.213Z"^^xsd:dateTime .
+:inspect_correlations prov:endedAtTime "2026-01-25T12:26:41.214Z"^^xsd:dateTime .
+:inspect_correlations prov:qualifiedAssociation :c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f .
+:c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f prov:agent :stud-id_12017067 .
+:c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f rdf:type prov:Association .
+:c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f prov:hadRole :code_executor .
+:inspect_correlations prov:used :correlations_report .
+:decision_keep_all_features rdf:type prov:Entity .
+:decision_keep_all_features rdfs:comment "Decision: Retain all features for SOM training as SOMs can visualize feature relationships effectively" .
+:decision_keep_all_features prov:wasGeneratedBy :inspect_correlations .
+:check_class_distribution rdf:type prov:Activity .
+:check_class_distribution sc:isPartOf :data_analysis_phase .
+:check_class_distribution rdfs:comment "Analyze target class distribution" .
+:check_class_distribution rdfs:comment "Examine the balance between good and bad credit risk classes to identify potential class imbalance issues." .
+:check_class_distribution prov:startedAtTime "2026-01-25T12:26:41.214Z"^^xsd:dateTime .
+:check_class_distribution prov:endedAtTime "2026-01-25T12:26:41.214Z"^^xsd:dateTime .
+:check_class_distribution prov:qualifiedAssociation :d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a .
+:d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a prov:agent :stud-id_12017067 .
+:d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a rdf:type prov:Association .
+:d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a prov:hadRole :code_executor .
+:check_class_distribution prov:qualifiedAssociation :e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b .
+:e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b prov:agent :stud-id_12017067 .
+:e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b rdf:type prov:Association .
+:e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b prov:hadRole :code_writer .
+:check_class_distribution prov:used :raw_data .
+:class_distribution_report rdf:type prov:Entity .
+:class_distribution_report rdfs:comment "Class imbalance ratio: 2.33:1" .
+:class_distribution_report prov:wasGeneratedBy :check_class_distribution .
+:inspect_class_distribution rdf:type prov:Activity .
+:inspect_class_distribution rdfs:comment "Inspect class distribution" .
+:inspect_class_distribution rdfs:comment "Dataset shows class imbalance with ratio 2.33:1. The majority class (good credit) represents about 70.0% of samples. For SOM analysis, this imbalance will be visible in class distribution visualizations and may affect cluster purity." .
+:inspect_class_distribution prov:startedAtTime "2026-01-25T12:26:41.214Z"^^xsd:dateTime .
+:inspect_class_distribution prov:endedAtTime "2026-01-25T12:26:41.214Z"^^xsd:dateTime .
+:inspect_class_distribution prov:qualifiedAssociation :f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c .
+:f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c prov:agent :stud-id_12017067 .
+:f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c rdf:type prov:Association .
+:f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c prov:hadRole :code_executor .
+:inspect_class_distribution prov:used :class_distribution_report .
+:hypothesis_cluster_structure rdf:type prov:Entity .
+:hypothesis_cluster_structure rdfs:comment "Hypothesis: Expect to see majority class dominating most SOM units with minority class potentially forming smaller, more concentrated clusters. Class overlap may indicate inherent difficulty in credit risk prediction." .
+:hypothesis_cluster_structure prov:wasGeneratedBy :inspect_class_distribution .
