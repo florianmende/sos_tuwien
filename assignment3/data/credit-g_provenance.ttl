@@ -1,0 +1,234 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <https://schema.org/> .
+@prefix cr: <http://mlcommons.org/croissant/> .
+@prefix : <http://example.org/credit-g/> .
+
+# The Dataset Entity (using Croissant schema)
+:credit-g-dataset a prov:Entity, schema:Dataset, cr:Dataset ;
+    schema:name "credit-g" ;
+    dct:title "German Credit Dataset (credit-g)"@en ;
+    schema:description """Classification dataset for credit risk assessment. Classifies people described by a set of attributes as good or bad credit risks. Contains 20 features including checking account status, credit history, loan purpose, credit amount, savings, employment, personal status, age, and other financial indicators."""@en ;
+    dct:identifier "credit-g" ;
+    schema:license "Public" ;
+    schema:version "1" ;
+    schema:inLanguage "en" ;
+    schema:url <https://www.openml.org/d/31> ;
+    schema:sameAs <https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)> ;
+    schema:isAccessibleForFree true ;
+    dct:conformsTo <http://mlcommons.org/croissant/1.0> ;
+    cr:citeAs <https://dl.acm.org/doi/abs/10.1145/967900.968104> ;
+    schema:dateCreated "2014-04-06T23:21:47"^^xsd:dateTime ;
+    schema:datePublished "1994-11-17T00:00:00"^^xsd:dateTime ;
+    prov:wasGeneratedBy :dataset-creation-activity ;
+    prov:wasAttributedTo :dr-hans-hofmann ;
+    prov:wasDerivedFrom :uci-ml-repository ;
+    prov:generatedAtTime "1994-11-17T00:00:00"^^xsd:dateTime .
+
+# The Creator Agent
+:dr-hans-hofmann a prov:Agent, foaf:Person, schema:Person ;
+    foaf:name "Dr. Hans Hofmann" ;
+    schema:name "Dr. Hans Hofmann" .
+
+# The Source Repository
+:uci-ml-repository a prov:Entity, schema:DataCatalog ;
+    schema:name "UCI Machine Learning Repository" ;
+    schema:url <https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)> ;
+    dct:description "Source repository containing the original German Credit dataset" .
+
+# Dataset Creation Activity
+:dataset-creation-activity a prov:Activity ;
+    prov:startedAtTime "1994-11-17T00:00:00"^^xsd:dateTime ;
+    prov:endedAtTime "1994-11-17T00:00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith :dr-hans-hofmann ;
+    prov:used :uci-ml-repository ;
+    dct:description "Original creation and collection of German credit risk data" .
+
+# OpenML Curation Activity
+:openml-curation-activity a prov:Activity ;
+    prov:startedAtTime "2014-04-06T23:21:47"^^xsd:dateTime ;
+    prov:wasAssociatedWith :openml-platform ;
+    prov:used :credit-g-dataset ;
+    dct:description "Curation and publication of dataset on OpenML platform with Croissant metadata" .
+
+# OpenML Platform as Agent
+:openml-platform a prov:Agent, prov:Organization, schema:Organization ;
+    foaf:name "OpenML" ;
+    schema:name "OpenML" ;
+    schema:url <https://www.openml.org/> .
+
+# Current Distribution Entity (Croissant FileObject)
+:credit-g-parquet-file a prov:Entity, schema:DataDownload, cr:FileObject ;
+    schema:name "data-file" ;
+    dct:title "credit-g dataset file (Parquet format)" ;
+    schema:description "Data file belonging to the dataset." ;
+    schema:contentUrl <https://data.openml.org/datasets/0000/0031/dataset_31.pq> ;
+    schema:encodingFormat "application/x-parquet" ;
+    cr:format "Parquet" ;
+    cr:md5 "f20f4f62ce92921ab932b78312ff68d1" ;
+    prov:wasGeneratedBy :openml-curation-activity ;
+    prov:wasDerivedFrom :credit-g-dataset ;
+    prov:generatedAtTime "2014-04-06T23:21:47"^^xsd:dateTime .
+
+# Dataset Characteristics and Record Sets
+:credit-g-dataset 
+    schema:keywords "credit_scoring", "Data Science", "Economics", "finance_problem", "Statistics", "uci", "OpenML100" ;
+    dct:subject "Credit Risk Assessment", "Financial Analysis", "Binary Classification" ;
+    schema:variableMeasured :checking_status, :duration, :credit_history, :purpose, :credit_amount, 
+                            :savings_status, :employment, :installment_commitment, :personal_status,
+                            :other_parties, :residence_since, :property_magnitude, :age,
+                            :other_payment_plans, :housing, :existing_credits, :job,
+                            :num_dependents, :own_telephone, :foreign_worker, :class ;
+    cr:recordSet :data-file-recordset ;
+    schema:distribution :credit-g-parquet-file .
+
+# Main Record Set (Croissant RecordSet)
+:data-file-recordset a cr:RecordSet ;
+    schema:name "data-file-description" ;
+    schema:description "Listing the fields of the data with 20 features and 1 target class" ;
+    cr:field :field-checking_status, :field-duration, :field-credit_history, :field-purpose,
+             :field-credit_amount, :field-savings_status, :field-employment, 
+             :field-installment_commitment, :field-personal_status, :field-other_parties,
+             :field-residence_since, :field-property_magnitude, :field-age,
+             :field-other_payment_plans, :field-housing, :field-existing_credits,
+             :field-job, :field-num_dependents, :field-own_telephone, :field-foreign_worker,
+             :field-class .
+
+# Key Features (Croissant Fields with examples)
+:field-checking_status a cr:Field ;
+    schema:name "checking_status" ;
+    schema:description "Status of existing checking account, in Deutsche Mark" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-duration a cr:Field ;
+    schema:name "duration" ;
+    schema:description "Duration in months" ;
+    cr:dataType schema:Integer, schema:Float ;
+    cr:source :credit-g-parquet-file .
+
+:field-credit_history a cr:Field ;
+    schema:name "credit_history" ;
+    schema:description "Credit history (credits taken, paid back duly, delays, critical accounts)" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-purpose a cr:Field ;
+    schema:name "purpose" ;
+    schema:description "Purpose of the credit (car, television, education, etc.)" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-credit_amount a cr:Field ;
+    schema:name "credit_amount" ;
+    schema:description "Credit amount in Deutsche Mark" ;
+    cr:dataType schema:Integer, schema:Float ;
+    cr:source :credit-g-parquet-file .
+
+:field-savings_status a cr:Field ;
+    schema:name "savings_status" ;
+    schema:description "Status of savings account/bonds, in Deutsche Mark" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-employment a cr:Field ;
+    schema:name "employment" ;
+    schema:description "Present employment, in number of years" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-installment_commitment a cr:Field ;
+    schema:name "installment_commitment" ;
+    schema:description "Installment rate in percentage of disposable income" ;
+    cr:dataType schema:Integer, schema:Float ;
+    cr:source :credit-g-parquet-file .
+
+:field-personal_status a cr:Field ;
+    schema:name "personal_status" ;
+    schema:description "Personal status (married, single, etc.) and sex" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-other_parties a cr:Field ;
+    schema:name "other_parties" ;
+    schema:description "Other debtors / guarantors" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-residence_since a cr:Field ;
+    schema:name "residence_since" ;
+    schema:description "Present residence since X years" ;
+    cr:dataType schema:Integer, schema:Float ;
+    cr:source :credit-g-parquet-file .
+
+:field-property_magnitude a cr:Field ;
+    schema:name "property_magnitude" ;
+    schema:description "Property (e.g. real estate, car, life insurance)" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-age a cr:Field ;
+    schema:name "age" ;
+    schema:description "Age in years" ;
+    cr:dataType schema:Integer, schema:Float ;
+    cr:source :credit-g-parquet-file .
+
+:field-other_payment_plans a cr:Field ;
+    schema:name "other_payment_plans" ;
+    schema:description "Other installment plans (banks, stores)" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-housing a cr:Field ;
+    schema:name "housing" ;
+    schema:description "Housing (rent, own, for free)" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-existing_credits a cr:Field ;
+    schema:name "existing_credits" ;
+    schema:description "Number of existing credits at this bank" ;
+    cr:dataType schema:Integer, schema:Float ;
+    cr:source :credit-g-parquet-file .
+
+:field-job a cr:Field ;
+    schema:name "job" ;
+    schema:description "Job status and qualification level" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-num_dependents a cr:Field ;
+    schema:name "num_dependents" ;
+    schema:description "Number of people being liable to provide maintenance for" ;
+    cr:dataType schema:Integer, schema:Float ;
+    cr:source :credit-g-parquet-file .
+
+:field-own_telephone a cr:Field ;
+    schema:name "own_telephone" ;
+    schema:description "Telephone (yes, no)" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-foreign_worker a cr:Field ;
+    schema:name "foreign_worker" ;
+    schema:description "Foreign worker (yes, no)" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+:field-class a cr:Field ;
+    schema:name "class" ;
+    schema:description "Target classification: good or bad credit risk" ;
+    cr:dataType schema:Text ;
+    cr:source :credit-g-parquet-file .
+
+# Citation Information
+:credit-g-dataset 
+    dct:bibliographicCitation <https://dl.acm.org/doi/abs/10.1145/967900.968104> ;
+    prov:hadPrimarySource :uci-ml-repository .
+
+# Provenance Relationships
+:credit-g-parquet-file prov:alternateOf :credit-g-dataset .
+:credit-g-dataset prov:wasAttributedTo :dr-hans-hofmann ;
+                  prov:wasInfluencedBy :uci-ml-repository .
